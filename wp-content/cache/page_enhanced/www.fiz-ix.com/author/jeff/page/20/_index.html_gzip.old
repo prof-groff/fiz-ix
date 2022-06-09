@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+						Fiz-ix&nbsp;|&nbsp;Author Archives													</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Posts by Jeff Feed" href="http://www.fiz-ix.com/author/jeff/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li ><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/tips-for-college-physics-success/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/tips-for-college-physics-success/" rel="bookmark" title="Permanent Link to Tips for College Physics Success">Tips for College Physics Success</a></h2>
+					<div class="meta">Posted August 19th, 2011. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/physics/" rel="category tag">Physics</a> <a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" rel="category tag">Physics Tips</a></div>
+				</div>
+				<div class="entry">
+					<p>1)    Learning physics is not about memorizing facts and equations. It’s about developing problem solving skills that will be a part of your thought processes long after facts like the kinematic equations of motion fade away.</p>
+<p>2)    Attend all lectures and read the material BEFORE, DURING, and AFTER it is covered in class. You are wasting a lot of energy in class if you are coming unprepared.</p>
+<p>3)    Cramming and pulling all-nighters are horrible ways to study physics. It is best to do a little physics every day. Schedule time to study or work problems during the hours of the day you are most acute mentally.</p>
+<p>4)    Try verbalizing the ways you solve problems with friends, relatives, pets, or your bedroom wall. Putting thoughts into words is a great way to gain clarity. If you are verbalizing to people like classmates who can give you feedback, this is even better.</p>
+<p>5)    Watching people solve problems is not enough. You have to be able to do it all by yourself. When stuck, seek help and then try to advance a little further. Eventually you will break through a wall.</p>
+<p>6)    Think positively. Don’t let intimidated or discouragement be your default mode of thought. Instead, know that problem solving can be an intrinsically rewarding and pleasurable experience for humans. The reward is often greater the harder the problem solving effort becomes.</p>
+<p>7)    Miscellaneous Problems Solving Strategies: Visualize problems by drawing diagrams; break problems into manageable parts, often these parts can be identified by considering natural temporal or spatial divisions.</p>
+<p>8)    Don’t panic during an exam. Start by getting a grasp of the exam’s scope by looking over the entire exam. Start with problem one. If you get stuck, put it aside and calmly move on to problem two. If you get stuck on problem two, calmly move on to problem 3. Your brain will “buffer” problems one and two and something you see somewhere else on the test may inspire solutions.</p>
+<p>9)    When you get homework and exams back, carefully review the questions of parts of questions that you got wrong. Learn from your mistakes.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/solar-energy-and-sun-facts/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/solar-energy-and-sun-facts/" rel="bookmark" title="Permanent Link to Solar Energy and Sun Facts">Solar Energy and Sun Facts</a></h2>
+					<div class="meta">Posted August 5th, 2011. Filed under <a href="http://www.fiz-ix.com/category/infographics/" rel="category tag">Infographics</a></div>
+				</div>
+				<div class="entry">
+					<p>I stumbled on this infographic at <a href="http://1BOG.org" target="_blank">1BOG.org</a>, a website that specializes in disseminating information about solar power. It is full of fun facts about our sun and solar energy, although I haven&#8217;t checked the accuracy of all the claims. An earlier version made the very Copernican statement that the sun sits at the center of the universe but it seems this misstatement has been corrected in the current version. Click on the image below to redirect to the large-format original.</p>
+<p><a href="http://1bog.org/blog/fascinating-facts-about-the-sun/" target="_blank"><img src="http://www.fiz-ix.com/wp-content/uploads/2011/08/facts-about-the-sun-small.jpg" alt="" title="facts-about-the-sun-small" width="520" height="1192" class="alignnone size-full wp-image-172" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/dimensional-analysis-a-powerful-tool-for-physics-and-the-mcat-physical-sciences-exam/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/dimensional-analysis-a-powerful-tool-for-physics-and-the-mcat-physical-sciences-exam/" rel="bookmark" title="Permanent Link to Dimensional Analysis: A Powerful Tool for Physics and the MCAT Physical Sciences Exam">Dimensional Analysis: A Powerful Tool for Physics and the MCAT Physical Sciences Exam</a></h2>
+					<div class="meta">Posted August 4th, 2011. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" rel="category tag">MCAT Preparation</a> <a href="http://www.fiz-ix.com/category/guides/physics/" rel="category tag">Physics</a></div>
+				</div>
+				<div class="entry">
+					<div id="attachment_157" style="width: 448px" class="wp-caption alignnone"><a href="http://xkcd.com/687"><img class="size-full wp-image-157" title="dimensional_analysis" src="http://www.fiz-ix.com/wp-content/uploads/2011/08/dimensional_analysis.png" alt="" width="438" height="422" srcset="http://www.fiz-ix.com/wp-content/uploads/2011/08/dimensional_analysis-300x289.png 300w, http://www.fiz-ix.com/wp-content/uploads/2011/08/dimensional_analysis.png 438w" sizes="(max-width: 438px) 100vw, 438px" /></a><p class="wp-caption-text">A dimensional analysis comic from xkcd.com (click image to view)</p></div>
+<p>In physics, dimensional analysis is a powerful tool for checking relationships between physical quantities. The foundation of the technique is consideration of the dimensions of physical quantities. What exactly do I mean by dimensions? Here the word does not mean the same thing as it does in Euclidean geometry. As a simple example lets consider the physical quantity of speed. As you drive down the highway your speedometer may report a speed of 55 miles/hour or equivalently 88.5 kilometers/hour. These two measurements of your vehicle&#8217;s speed have different units (miles/hour versus kilometers/hour) but they have equivalent dimensions, that is, both measurements are ratios of two base dimensions, distance (or length) over time. All physical quantities, if not already represented by base dimensions, are derived from a relatively small number of base dimensions. The table below summarized seven base dimensions encountered in physics, their common abbreviations, the SI units for physical quantities of each dimension, and some alternative non-SI units commonly encountered.</p>
+<table border="1">
+<tbody>
+<tr>
+<td><strong>Dimension</strong></td>
+<td><strong>Dimension Symbol</strong></td>
+<td><strong>SI Unit</strong></td>
+<td><strong>Alternative Units</strong></td>
+</tr>
+<tr>
+<td>Length</td>
+<td>[L]</td>
+<td>meter (m)</td>
+<td>inch, mile, kilometer</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>[T]</td>
+<td>second (s)</td>
+<td>minute, hour, year</td>
+</tr>
+<tr>
+<td>Mass</td>
+<td>[M]</td>
+<td>kilogram (kg)</td>
+<td>gram, slug</td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td>[Θ]</td>
+<td>kelvin (K)</td>
+<td>celsius, fahrenheit</td>
+</tr>
+<tr>
+<td>Current</td>
+<td>[I]</td>
+<td>ampere (A)</td>
+<td></td>
+</tr>
+<tr>
+<td>Luminous Intensity</td>
+<td>[J]</td>
+<td>candela (cd)</td>
+<td></td>
+</tr>
+<tr>
+<td>Amount of a Substance</td>
+<td>[N]</td>
+<td>mole (mol)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>In order to use dimensional analysis as a tool, it is important to understand the difference between the dimensions of a physical quantity and its units. Dimensions relate to the kind of physical quantity being measurement (speed, energy, force, etc.) while units communicate the system of measurement being used (e.g., kilometers/hour, Joules, Newtons, etc. in the SI system). To prevent confusion, dimensions are always represented using the bracket notation shown above. Take a minute to practice. Use the table above and your physics textbook to write the dimensions of the following quantities (answers at the bottom of the page).</p>
+<p><strong>1) 9.8 m/s<sup>2</sup></strong><br />
+<strong> 2) 100 N</strong><br />
+<strong> 3) 5 V</strong></p>
+<p>Now that we have thoroughly defined what dimensions are, let&#8217;s illustrate how using dimensional analysis can help you succeed on a physics exam or the MCAT physical sciences exam. Consider the following MCAT-like question.</p>
+<p><strong>4) A particularly dramatic form of mass wasting at Zion Canyon National Park occurs when strata of rock more resistant to erosion exist above strata more susceptible to erosion. The underlying rock erodes more rapidly leading to overhanging cliffs composed of the upper more resistant strata. The resistant rock eventually succumbs to gravity and calves away from the cliff falling freely to the valley floor below. Consider a boulder of mass m that falls a distance h from a cliff to the bottom of Zion Canyon. Which of the following most accurately describes the velocity of this boulder the instant before hitting the ground. The acceleration due to gravity is g.</strong></p>
+<p><strong>A) (gh)<sup>1/2</sup></strong><br />
+<strong> B) 2gh</strong><br />
+<strong> C) (2gh)<sup>1/2</sup></strong><br />
+<strong> D) mgh</strong></p>
+<p>Invoking conservation of mechanical energy, the kinetic energy of the boulder the instant before hitting the ground is equal to the gravitational potential energy of the boulder before it breaks away from the cliff, mgh = (1/2)mv<sup>2</sup>. Therefore, after rearranging this equation we see that the velocity of the boulder the instant before hitting the ground is equal to option C. But what if you forgot the formulas for potential and kinetic energy? This is where dimensional analysis may help. First, determine the dimensions of the answer. Here the question concerns velocity which has dimensions of [L]/[T]. The key is recognizing that the dimensions of the correct answer must be the same. This is the essence of dimensional analysis as it applies to a question like this. Let&#8217;s determine the dimensions of the possible answers. Since g is an acceleration with dimensions of [L]/[T]<sup>2</sup>, option A through D have dimensions of [L]/[T], [L]<sup>2</sup>/[T]<sup>2</sup>, [L]/[T], and [M][L]<sup>2</sup>/[T]<sup>2</sup>, respectively. Therefore, we can eliminate options B and D from consideration because they lack the required dimensions. In this case, dimensional analysis has not provided the solution but it has increased your chance of guessing the correct answer from 25% to 50%.</p>
+<p>Another and perhaps more powerful use of dimensional analysis is helping you to remember formulas during the exam. Consider the following MCAT-like question.</p>
+<p><strong>5) The capacitance (C) of an air filled parallel plate capacitor is related to the area of the plates (A) and the distance between the plates (d), C = ε<sub>0</sub>(A/d), where ε<sub>0</sub>=8.85 x 10<sup>-12</sup> s<sup>4</sup>A<sup>2</sup>/(m<sup>3</sup>kg) is the permittivity of free space. Consider a capacitor with plates of area 0.00001 m<sup>2</sup> and separated by a distance of 0.02 m. When fully charged by a 9 V battery, how much charge is stored on each plate?</strong></p>
+<p>Oh no, you can easily calculate the capacitance of the capacitor using the information given but you forget how to get charge from capacitance. You know it depends on voltage but was it Q=C/V? Q=V/C? Don&#8217;t panic, try using dimensional analysis. First use the relation giving the capacitance of a parallel plate capacitor to determine the dimensions of capacitance. The dimensions of ε<sub>0</sub> are [T]<sup>4</sup>[I]<sup>2</sup>/([L]<sup>3</sup>[M]), the dimensions of area are [L]<sup>2</sup>, and the dimensions of distance are [L]. Put these all together and the dimensions of capacitance are [T]<sup>4</sup>[I]<sup>2</sup>/([L]<sup>2</sup>[M]). From the definition of current (charge per unit time), charge has dimension of [I][T]. Voltage (see question 3 above) has dimensions of [M][L]<sup>2</sup>/([I][T]<sup>3</sup>). Low and behold, one gets the dimensions of charge when the dimensions of capacitance are multiplied by the dimensions of voltage. Therefore, the correct relationship between the charge on the capacitor, voltage, and capacitance is Q = CV. Now you can solve the problem.</p>
+<p>This may all seem too complicated to rely on during an exam. But it isn&#8217;t, it just takes practice to achieve mastery, and mastery of dimensional analysis will pay huge dividends in ways not even mentioned here. When you start to think of physical quantities in terms of their underlying dimensions, you will start to understand that physical formulas summarize the linkages between physical quantities. Then, you will start to have better conceptual understanding of physics. If you are currently in a physics course, practice dimensional analysis when you study for exams and practice when you do your physics homework. In time, you will add a powerful new tool to your physics problem solving arsenal.</p>
+<p><strong>Answers:</strong></p>
+<p>1) [L]/[T]<sup>2</sup><br />
+2) A Newton is a kg m/s<sup>2</sup> (refer to Newton&#8217;s Second Law, F=ma) so its dimensions are [M][L]/[T]<sup>2</sup><br />
+3) Voltage is electric potential energy per unit charge so 1 V = 1 J/C = 1 Nm/C = 1 kg m<sup>2</sup> / (C s<sup>2</sup>) = 1 kg m<sup>2</sup> / (A s<sup>3</sup>) so its dimensions are [M][L]<sup>2</sup>/([I][T]<sup>3</sup>)</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/manga-guide-to-physics/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/manga-guide-to-physics/" rel="bookmark" title="Permanent Link to The Manga Guide to Physics: Learning Physics From Comics">The Manga Guide to Physics: Learning Physics From Comics</a></h2>
+					<div class="meta">Posted August 3rd, 2011. Filed under <a href="http://www.fiz-ix.com/category/books/" rel="category tag">Books</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.amazon.com/gp/product/1593271964/ref=as_li_ss_tl?ie=UTF8&#038;tag=zaphu-20&#038;linkCode=as2&#038;camp=217145&#038;creative=399369&#038;creativeASIN=1593271964">The Manga Guide to Physics</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=1593271964&#038;camp=217145&#038;creative=399369" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> is a comic-based primer to introductory classical mechanics. It follows the story of Megumi, an all-star tennis player who is going to need some help to pass her next physics exam. Lucky for her (and you) her friend Ryota, a physics wiz, is glad to teach her about Newton&#8217;s three laws of motion, momentum, kinetic energy, conservation laws, vector algebra, and much more using real-world examples. Maybe her new knowledge of physics will also improve her tennis game. If you are looking for a little extra college physics help, this entertaining primer is worth a look. Click the image below (a page from the book) to pick up a copy from Amazon. Below the image is a excerpt from the Prologue and Chapter 1 from the book, or click <a href="http://www.scribd.com/fullscreen/15060407?access_key=key-qblhcxgbzo62glowrat" target="_blank">here</a> for a fullscreen preview.</p>
+<p><a href="http://www.amazon.com/gp/product/1593271964/ref=as_li_ss_tl?ie=UTF8&#038;tag=zaphu-20&#038;linkCode=as2&#038;camp=217145&#038;creative=399369&#038;creativeASIN=1593271964"><img src="http://www.fiz-ix.com/wp-content/uploads/2011/07/manga_physics.jpg" alt="" title="manga_physics" width="520" height="576" class="alignnone size-full wp-image-54" /></a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=1593271964&#038;camp=217145&#038;creative=399369" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a title="View The Manga Guide to Physics (Excerpt) on Scribd" href="http://www.scribd.com/doc/15060407/The-Manga-Guide-to-Physics-Excerpt" style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;">The Manga Guide to Physics (Excerpt)</a><iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/15060407/content?start_page=1&#038;view_mode=list&#038;access_key=key-qblhcxgbzo62glowrat" data-auto-height="true" data-aspect-ratio="0.756489493201483" scrolling="no" id="doc_70201" width="100%" height="600" frameborder="0"></iframe><script type="text/javascript">(function() { var scribd = document.createElement("script"); scribd.type = "text/javascript"; scribd.async = true; scribd.src = "http://www.scribd.com/javascripts/embed_code/inject.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/the-physics-of-wall-es-spacewalk/#comments">1</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/the-physics-of-wall-es-spacewalk/" rel="bookmark" title="Permanent Link to The Physics of WALL-E&#8217;s Spacewalk">The Physics of WALL-E&#8217;s Spacewalk</a></h2>
+					<div class="meta">Posted August 2nd, 2011. Filed under <a href="http://www.fiz-ix.com/category/everyday-physics/" rel="category tag">Everyday Physics</a></div>
+				</div>
+				<div class="entry">
+					<p>This <a href="http://www.youtube.com/watch?v=pVRgfDSAGOA">video clip</a> from WALL-E shows everybody&#8217;s favorite trash compactor robot flying through space in an escape capsule and engaging in a fire-extinguisher powered dance with his robot girlfriend. Watch the video and pay attention to the physics of the animation. In terms of Newton&#8217;s three laws, the animators got some things right and some things wrong. Can you identify the physics &#8220;mistakes&#8221;. Comment below.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2011/08/walle.jpg"><img src="http://www.fiz-ix.com/wp-content/uploads/2011/08/walle.jpg" alt="" title="walle" width="520" height="339" class="alignnone size-full wp-image-128" srcset="http://www.fiz-ix.com/wp-content/uploads/2011/08/walle-300x195.jpg 300w, http://www.fiz-ix.com/wp-content/uploads/2011/08/walle.jpg 520w" sizes="(max-width: 520px) 100vw, 520px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/author/jeff/page/21/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/author/jeff/page/19/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-31 22:39:12 by W3 Total Cache -->

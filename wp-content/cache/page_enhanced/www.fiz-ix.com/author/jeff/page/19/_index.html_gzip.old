@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+						Fiz-ix&nbsp;|&nbsp;Author Archives													</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Posts by Jeff Feed" href="http://www.fiz-ix.com/author/jeff/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li ><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/an-introduction-to-matlab-for-beginners/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/an-introduction-to-matlab-for-beginners/" rel="bookmark" title="Permanent Link to An Introduction to MATLAB for Beginners">An Introduction to MATLAB for Beginners</a></h2>
+					<div class="meta">Posted January 17th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/matlab/" rel="category tag">MATLAB</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>Purpose: This exercise is a brief introduction to MATLAB for students who want to use MATLAB for research projects. You will familiarize yourself with the MATLAB command line and editor. You will learn the difference between a script and a function. Some programming elements such as loops and conditional statements are introduced as well as how to generate plots and obtain help within MATLAB.</p>
+<p>&nbsp;</p>
+<h2>The Command Line</h2>
+<p>Perform the follow tasks and note the output in the Command Window.</p>
+<p>1] Assign values to variables and perform basic arithmetic by typing the following in the Command Window.<br />
+<code><br />
+>> a = 5<br />
+>> b = -3<br />
+>> c = a*b – (a+b)<br />
+</code></p>
+<p>What happens if you include semicolons at the end of each command? </p>
+<p>2] Create two vectors and calculate the inner product.<br />
+<code><br />
+>> a = [1 2 3 4]<br />
+>> b = [1; 2; 3; 4]<br />
+>> c = a*b<br />
+</code></p>
+<p>What is the purpose of the semicolons inside of the vector definition?</p>
+<p>3] Create two matrices and find the matrix product and matrix inverse.</p>
+<p><code><br />
+>> A = [1 2; 3 4]<br />
+>> B = [5 6; 7 8]<br />
+>> C = A*B<br />
+>> D = A.*B<br />
+>> E = inv(A)<br />
+</code></p>
+<p>What is the difference between how C and D are calculated? What does the .* notation indicate should be done?</p>
+<p>&nbsp;</p>
+<h2>The Editor and Writing a Script</h2>
+<p>1] Open the MATLAB editor by typing the following in the Command Window.<br />
+<code><br />
+>> edit<br />
+</code></p>
+<p>2] Type the following into a blank file and save it as myfirstscript.m<br />
+<code><br />
+A = [1 2 3; 2 2 4; 5 4 6]<br />
+B = [1; 4; 2]<br />
+x = inv(A)*B<br />
+</code></p>
+<p>3] Click the button that looks like a green play button on the editor toolbar and note the output in the Command Window. </p>
+<p>4] Type myfirstscript in the Command Window and press return and note the output. Make sure that the Current Directory drop down box is pointing to the directory where myfirstscript.m is saved.</p>
+<p>&nbsp;</p>
+<h3>Writing and Calling a Function</h3>
+<p>1] Open the MATLAB editor.<br />
+<code><br />
+>> edit<br />
+</code></p>
+<p>2] Type the following into a blank file and save it as calcPi.m<br />
+<code><br />
+function [x, error] = calcPi(n)</p>
+<p>% The percent sign is used to add comments to a script of function.<br />
+%<br />
+% This function takes one input argument, n, and produces two outputs. All three % scalars.<br />
+%<br />
+% The function estimates the value of pi using the random number generator.<br />
+% Two random numbers uniformly distributed from zero to one are generated.<br />
+% These numbers represent the coordinates of a point in quadrant one of a<br />
+% Cartesian axis. If this point falls within the unit circle then iterate n1 and n2. If<br />
+% not then iterate only n2. The ratio n1/n2 converges to A1/A2 for large n where<br />
+% A1 is the area of the quarter unit circle in quadrant one and A2 is the area of a<br />
+% 1-by-1 square in quadrant one. This ratio is proportional to pi. The<br />
+% convergence gets better as n, the number of iteration used to estimate<br />
+% A1/A2, gets large. The percent error (error) between the estimate and the<br />
+% actual value of pi is calculated too.</p>
+<p>n1 = 0;<br />
+n2 = 0;<br />
+for ii = 1:n<br />
+	a = rand(1);<br />
+	b = rand(1);<br />
+	if sqrt(a^2 + b^2) < 1
+		n1 = n1+1;
+		n2 = n2+1;
+	else
+		n2 = n2+1;
+	end
+end
+x = 4*n1/n2; % estimate of pi
+error = (pi – x)/(pi);
+
+return
+</code></p>
+<p>3] Type the following in the Command Window and press return and note the output. Make sure that the Current Directory drop down box is pointing to the directory where calcPi.m is saved.</p>
+<p><code><br />
+>> calcPi(4)<br />
+>> [x, y] = calcPi(100);<br />
+>> x<br />
+>> y<br />
+</code></p>
+<p>Does x converge to the actual value of pi as the input argument n gets large?</p>
+<p>&nbsp;</p>
+<h2>Using Plotting Commands</h2>
+<p>1] Type the following at the command prompt.<br />
+<code><br />
+>> x = -5:0.1:5;<br />
+>> y = exp(x);<br />
+>> plot(x,y);<br />
+>> plot(x,y,’-k’);<br />
+>> plot(x,y,’ok’);<br />
+>> plot(x,y,’:k’);<br />
+</code></p>
+<p>What does the ‘k’, ‘o’, and ‘:’ options do in the plot command?<br />
+What does the colon notation in the definition of x do?<br />
+<code><br />
+>> y2 = sin(x);<br />
+>> figure(1);<br />
+>> plot(x,y);<br />
+>> figure(2);<br />
+>> plot(x,y2);<br />
+>> figure(1);<br />
+>> hold on;<br />
+>> plot(x,y2,’r’);<br />
+</code></p>
+<p>What does the figure command do?<br />
+What does the hold on command do?</p>
+<p>&nbsp;</p>
+<h2>Activities</h2>
+<p>1] MATLAB contains extensive help files. At the command prompt type:<br />
+<code><br />
+ >> help while<br />
+</code></p>
+<p>What is the syntax to write a while loop? Write a script that uses a while loop to spit out in the Command Window all of the elements of the Fibonacci sequence less then 1,000,000. The Fibonacci sequence is</p>
+<p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, …,</p>
+<p>where each element (after the first two) is the sum of the two preceding elements.</p>
+<p>There is also an HTML based repository of help documentation in MATLAB. This can be searched using keywords. </p>
+<p>2] Write a script that uses the calcPi function your wrote to estimate pi for increasing values of n. The script should also plot on the same axes the estimated values of pi and the percent errors as a function of n. Add a title, axis labels, and a legend to your plot.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/entropy-and-the-arrow-of-time/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/entropy-and-the-arrow-of-time/" rel="bookmark" title="Permanent Link to Entropy and The Arrow of Time">Entropy and The Arrow of Time</a></h2>
+					<div class="meta">Posted January 11th, 2012. Filed under <a href="http://www.fiz-ix.com/category/everyday-physics/" rel="category tag">Everyday Physics</a></div>
+				</div>
+				<div class="entry">
+					<p>This is a very creative video dealing with the second law of thermodynamics I found on <a href="http://arstechnica.com" target="_blank">Ars Technica</a>.</p>
+<p><object id="flashObj" width="530" height="298" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&#038;isUI=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=658537027001&#038;playerID=653175093001&#038;playerKey=AQ~~,AAAAlDCBGhk~,VcmqiTAueko5dVQ8XdV26frDg4G6mZc1&#038;domain=embed&#038;dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&#038;isUI=1" bgcolor="#FFFFFF" flashVars="videoId=658537027001&#038;playerID=653175093001&#038;playerKey=AQ~~,AAAAlDCBGhk~,VcmqiTAueko5dVQ8XdV26frDg4G6mZc1&#038;domain=embed&#038;dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="530" height="298" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" allowScriptAccess="always" swLiveConnect="true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/09/evelyn-marjorie-groff-day-one/#comments">3</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/09/evelyn-marjorie-groff-day-one/" rel="bookmark" title="Permanent Link to Evelyn Marjorie Groff &#8211; Day One">Evelyn Marjorie Groff &#8211; Day One</a></h2>
+					<div class="meta">Posted September 12th, 2011. Filed under <a href="http://www.fiz-ix.com/category/personal/" rel="category tag">Personal</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2011/09/20110912-085441.jpg"><img src="http://www.fiz-ix.com/wp-content/uploads/2011/09/20110912-085441.jpg" alt="20110912-085441.jpg" class="alignnone size-full" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/cats-paws-and-catapults/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/cats-paws-and-catapults/" rel="bookmark" title="Permanent Link to Cats&#8217; Paws and Catapults">Cats&#8217; Paws and Catapults</a></h2>
+					<div class="meta">Posted August 26th, 2011. Filed under <a href="http://www.fiz-ix.com/category/books/" rel="category tag">Books</a></div>
+				</div>
+				<div class="entry">
+					<p>Below is a preview of Cats&#8217; Paws and Catapults: Mechanical Worlds of Nature and People, curtesy of Google Books. A larger version can be found <a href="http://books.google.com/books?id=fdihsss71tAC&#038;lpg=PP1&#038;pg=PP1#v=onepage&#038;q&#038;f=false" target="_blank">here</a>.<br />
+<iframe frameborder="0" scrolling="no" style="border:0px" src="http://books.google.com/books?id=fdihsss71tAC&#038;lpg=PP1&#038;pg=PA31&#038;output=embed" width=500 height=500></iframe></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2011/08/are-the-physics-of-the-farmers-insurance-commercial-correct/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2011/08/are-the-physics-of-the-farmers-insurance-commercial-correct/" rel="bookmark" title="Permanent Link to Are the Physics of the Farmers Insurance Commercial Correct?">Are the Physics of the Farmers Insurance Commercial Correct?</a></h2>
+					<div class="meta">Posted August 20th, 2011. Filed under <a href="http://www.fiz-ix.com/category/everyday-physics/" rel="category tag">Everyday Physics</a></div>
+				</div>
+				<div class="entry">
+					<p>One of the recent Farmers Insurance commercials featuring the Farmers Insurance University shows a professor and students considering hypothetical trajectories drawn on a blackboard of a cow sent flying by a tornado. Here is a picture.<br />
+<img class="alignnone size-full wp-image-196" title="farmers_math" src="http://www.fiz-ix.com/wp-content/uploads/2011/08/farmers_math.jpg" alt="" width="484" height="368" srcset="http://www.fiz-ix.com/wp-content/uploads/2011/08/farmers_math-300x228.jpg 300w, http://www.fiz-ix.com/wp-content/uploads/2011/08/farmers_math.jpg 484w" sizes="(max-width: 484px) 100vw, 484px" /></p>
+<p>As physics students with knowledge of projectile motion, you are equipped with the tools to assess the accuracy of this drawing. Take some time to study the picture and make a list of things that are correct and things that are incorrect. I&#8217;ve made my own list. It is hidden in the space below this paragraph but will be highlighted if you use your cursor to select it.</p>
+<p><span style="color: #ffffff;">Correct:</span><br />
+<span style="color: #ffffff;"> 1) The cow follows a parabolic path, consistent with projectile motion.</span><br />
+<span style="color: #ffffff;"> 2) The cow travels farther and higher (and thus, although it isn&#8217;t stated, stays in the air for a longer time) as the initial velocity increases.</span></p>
+<p><span style="color: #ffffff;">Incorrect:</span><br />
+<span style="color: #ffffff;"> 1) The units for distance are m not m/s as is shown for the middle trajectory. The rest of the units are correct.</span><br />
+<span style="color: #ffffff;"> 2) Assuming negligible air resistance, the horizontal ranges are incorrect. My calculations using the horizontal range equation, R = (v<sub>0</sub><sup>2</sup>/g) sin(2θ), yield s = 116 m, 127 m, and 151 m for v<sub>0</sub> = 42 m/s, 44 m/s, and 48 m/s, respectively.</span></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/author/jeff/page/20/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/author/jeff/page/18/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-26 08:54:41 by W3 Total Cache -->

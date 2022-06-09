@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<meta charset="UTF-8" />
+<title>Measuring Signal Frequency with Arduino &#8211; Fiz-ix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drop Shipping 1.0.5" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Measuring Signal Frequency with Arduino Comments Feed" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/feed/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<link rel='stylesheet' id='hybrid-one-five-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/one-five.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/gallery.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/css/font-awesome.css?ver=4.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Enphase Microinverter-Based Solar PV System Electrical Warning Signs' href='http://www.fiz-ix.com/2012/10/solar-pv-system-electrical-warning-signs/' />
+<link rel='next' title='Low-Power Arduino Using the Watchdog Timer' href='http://www.fiz-ix.com/2012/11/low-power-arduino-using-the-watchdog-timer/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/" />
+<link rel='shortlink' href='http://www.fiz-ix.com/?p=528' />
+<link rel="alternate" type="application/json+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F11%2Fmeasuring-signal-frequency-with-arduino%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F11%2Fmeasuring-signal-frequency-with-arduino%2F&#038;format=xml" />
+    <style type="text/css">
+        #sidebar-primary ul li:before, a { color: #000000;}
+
+         #searchnavi input, #top-bar { background: #ffffff; }
+         h2.entry-title a:hover, #menu-primary li a:hover, li.current-menu-item > a, body.custom-header #site-title a:hover, a:hover { color: #1e73be; }
+       h2.entry-title a, #site-description, .sidebar, .credit { color: #1e73be; }
+    </style>
+    
+<style type="text/css" id="custom-header-css">body.custom-header #site-title a { color: #000000; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background: #ffffff; }</style>
+</head>
+
+<body class="wordpress ltr en en-us parent-theme y2016 m08 d09 h13 tuesday logged-out custom-background custom-header display-header-text singular singular-post singular-post-528 post-format- layout-2c-l" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	<div id="top-bar">
+	<div id="top-container">
+		<div id="searchnavi">
+			<form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form>		</div>	
+	
+
+	<nav id="menu-secondary"></nav>
+</div>
+</div>
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+
+		<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+			
+				<div id="branding" class="site-branding">
+					<h1 id="site-title" class="site-title" itemprop="headline"><a href="http://www.fiz-ix.com" rel="home">Fiz-ix</a></h1>					<h2 id="site-description" class="site-description" itemprop="description">(Physics)</h2>				</div><!-- #branding -->
+
+			
+				<div id="header-widget"></div>
+		</header><!-- #header -->
+
+		<nav id="main-menu">
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+<nav id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text"></button>
+		</nav><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1531"><a href="http://www.fiz-ix.com">Home</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://www.fiz-ix.com/about/">About</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"><a href="http://www.fiz-ix.com/guides/">Guides</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://www.fiz-ix.com/labs/">Labs</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://www.fiz-ix.com/notebooks/">Notebooks</a></li>
+</ul></div>
+	</nav><!-- #menu-primary -->
+
+		
+		</nav>
+
+				<div id="main-containter">
+			<div id="breadcrumbs-container">
+	<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><h2 class="trail-browse">You are here:</h2><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="4" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="http://www.fiz-ix.com" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/"><span itemprop="name">2012</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/11/"><span itemprop="name">November</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">Measuring Signal Frequency with Arduino</span><meta itemprop="position" content="4" /></li></ul></nav><div id="social"> 
+		
+		
+		
+		
+		
+				
+		
+	</div>
+</div>
+		<div id="main" class="main">
+
+			
+
+
+<main id="content" class="content" role="main">
+
+	
+	 
+
+	
+		
+			
+			
+		
+	<article id="post-528" class="entry author-jeff post-528 post type-post status-publish format-standard category-arduino category-electronics category-guides tag-arduino tag-electronics tag-guides" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		
+		<header class="entry-header">
+
+			<time class="entry-published updated" datetime="2012-Nov-17T18:24:03-04:00" itemprop="datePublished" title="Saturday, Nov 17, 2012, 6:24 pm">November 17, 2012</time>
+			by			<span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="http://www.fiz-ix.com/author/jeff/" title="Posts by Jeff" rel="author" class="url fn n" itemprop="url"><span itemprop="name">Jeff</span></a></span>
+			<h1 class="entry-title" itemprop="headline">Measuring Signal Frequency with Arduino</h1>
+			
+
+			<div class="entry-byline">
+				
+			</div><!-- .entry-byline -->
+
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="articleBody">
+			<p>For a recent project I used a a TSL235R light-to-frequency converter that outputs a square-wave signal with a frequency that increases the amount of light hitting the sensor also increases. There are several Arduino packages out there for using the ATmega328 to measure frequency but I decided to write my own code in order to have complete control over the results. This is what I came up with. My results were very accurate, even more accurate then my DSO when averaging over many (approximately 1000) cycles.</p>
+<pre><code>// This code measure the frequency of an incoming 
+// square-wave signal using Timer/Counter 1 and the onboard 
+// comparator. The signal I am measuring has a duty-cycle of 
+// 50% but the code should work regardless of the duty-cycle.
+// It should also work for non-square-wave signals so long as
+// the signal voltage drops below the bandgap voltage of the
+// onboard comparator (approximately 1.1 V) and is sufficiently
+// clean to prevent bouncing. 
+
+// A variable to keep track of the number of overflows on 
+// Timer/Counter 1.
+volatile unsigned int overflows = 0; 
+
+// A variable to keep track of how many rising edges of the 
+// signal have been counted.
+volatile unsigned long edges = 0; 
+
+// A variable to keep track of the count on Timer/Counter 1
+// when I start counting the edges of the signal.
+volatile unsigned long tstart = 0;
+
+// A variable to keep track of the count on Timer/Counter 1
+// when I stop counting the edges of the signal.
+volatile unsigned long tstop = 0;
+
+// A variable to store temporarily store the count on 
+// Timer/Counter 1.
+volatile unsigned long tnow = 0;
+
+// This specifies how many cycles over which I want to 
+// average the frequency.
+const unsigned long cycles = 1000; 
+
+// A variable to store the currently measured frequency
+float frequency = 0;
+
+void setup(void) {
+pinMode(7,INPUT); // This is the analog comparator negative input.
+// This is where the input signal enters the Arduino.
+
+SREG = SREG | B10000000; // Enable gobal interrupts. They should 
+// already be enabled but I like to do this out of good measure.
+
+Serial.begin(9600); // For printing the frequency to the terminal
+}
+
+void loop(void) {
+delay(500);
+measureFreq();
+Serial.println(frequency);
+delay(500);
+}
+
+void measureFreq(void) {
+edges = 0;
+
+ACSR = ACSR | B01000010; // enable analog comparator interrupt 
+// on failing edge (bit 1) which would actually capture a rising
+// edge of the signal and use the internal bandgap reference
+// voltage as the positive input (bit 6).
+delay(5); // A short wait for bandgap voltage to stabilize.
+
+overflows = 0;
+
+TCCR1A = B00000000; // Set Timer/Counter 1 in normal mode where 
+// it will count to 0xFFFF then repeat.
+TIMSK1 = TIMSK1 | B00000001; // Turn on Timer/Counter 1 overflow 
+// interrupt (bit 0).
+
+// Turn on the counter with no prescaler.
+TCCR1B = TCCR1B | B00000001;
+
+ACSR = ACSR | B00001000; // Enable analog comparator interrupt 
+// (bit 3).
+
+while (edges &lt; (cycles+1)) {
+// Do nothing.
+}
+
+// Calculate the frequency.
+frequency = (float)16000000*(float)cycles/(float)(tstop - tstart);
+
+}
+
+ISR(TIMER1_OVF_vect)
+{
+overflows += 1;
+}
+
+ISR(ANALOG_COMP_vect)
+{
+tnow = TCNT1; // current time
+edges += 1;
+if (edges == 1) { // Start counting edges.
+tstart = overflows*65536 + tnow;
+}
+else if (edges == cycles + 1) { // Stop counting edges.
+tstop = overflows*65536 + tnow;
+// Turn off Timer/Counter 1 and the comparator.
+ACSR = 0;
+TCCR1B = 0;
+}
+}
+
+</code></pre>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">				
+					
+				<br /><span class="entry-terms category" itemprop="articleSection">Categories:	 <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="tag">Guides</a></span>			<br /><span class="entry-terms post_tag" itemprop="keywords">Taggs:	 <a href="http://www.fiz-ix.com/tag/arduino/" rel="tag">Arduino</a> <a href="http://www.fiz-ix.com/tag/electronics/" rel="tag">Electronics</a> <a href="http://www.fiz-ix.com/tag/guides/" rel="tag">Guides</a></span>		</footer><!-- .entry-footer -->
+	</article>	
+	
+	
+</article><!-- .entry -->
+
+						
+	<div class="loop-nav">
+		<div class="prev">Previous Post: <a href="http://www.fiz-ix.com/2012/10/solar-pv-system-electrical-warning-signs/" rel="prev">Enphase Microinverter-Based Solar PV System Electrical Warning Signs</a></div>		<div class="next">Next Post: <a href="http://www.fiz-ix.com/2012/11/low-power-arduino-using-the-watchdog-timer/" rel="next">Low-Power Arduino Using the Watchdog Timer</a></div>	</div><!-- .loop-nav -->
+
+
+			
+<section id="comments-template">
+
+	
+		<div id="comments">
+
+			<h3 id="comments-number">9 Comments</h3>
+
+			<ol class="comment-list">
+				<li id="comment-1379" class="comment even thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/690fdb64da2cf26266d10357744bc12c?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/690fdb64da2cf26266d10357744bc12c?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Marco Mauro</cite><br />
+			<time class="comment-published" datetime="2013-04-05T10:06:05-04:00" title="Friday, April 5, 2013, 10:06 am" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1379" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1379#respond' onclick='return addComment.moveForm( "comment-1379", "1379", "respond", "528" )' aria-label='Reply to Marco Mauro'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>It is very powerful code to measure frequency.<br />
+I&#8217;ve a problem: How can I modify your code to work with   atmega32u4 ?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1384" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2013-04-07T14:00:01-04:00" title="Sunday, April 7, 2013, 2:00 pm" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1384" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1384#respond' onclick='return addComment.moveForm( "comment-1384", "1384", "respond", "528" )' aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I&#8217;m glad you like the code. I know the Atmega32u4 is used on the Arduino Leonardo board and has four timers (one 8-bit, two 16-bit, and one 10-bit). Therefore the code can be modified to work with the Arduino Leonardo if the correct special function registers are modified. But, I don&#8217;t know what these registers are because I don&#8217;t have a Leonardo yet. I plan to get a Leonardo and a Due soon but right now I can&#8217;t answer your question. In the mean time, take a look at the Atmega32u4 datasheet. I find the Atmega datasheets to be incredibly helpful.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1401" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/17b1028b86f34df5fb995e491a8ac174?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/17b1028b86f34df5fb995e491a8ac174?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Matt</cite><br />
+			<time class="comment-published" datetime="2013-04-13T23:35:02-04:00" title="Saturday, April 13, 2013, 11:35 pm" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1401" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1401#respond' onclick='return addComment.moveForm( "comment-1401", "1401", "respond", "528" )' aria-label='Reply to Matt'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hey there</p>
+<p>I was wondering if I could use this code to measure the frequency of a function generator I created for a physics lab project. You would receive attribution for it.</p>
+<p>Thanks for posting this, it&#8217;s very helpful.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1436" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2013-05-15T09:57:05-04:00" title="Wednesday, May 15, 2013, 9:57 am" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1436" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1436#respond' onclick='return addComment.moveForm( "comment-1436", "1436", "respond", "528" )' aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Sorry for the delay getting back to you. Sure you can use the code. Please let me know when the project is complete. I would love to see the final report.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1479" class="comment even thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/1150d425adcf74b30607a46aca3a0362?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1150d425adcf74b30607a46aca3a0362?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Teja</cite><br />
+			<time class="comment-published" datetime="2013-10-22T02:03:17-04:00" title="Tuesday, October 22, 2013, 2:03 am" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1479" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1479#respond' onclick='return addComment.moveForm( "comment-1479", "1479", "respond", "528" )' aria-label='Reply to Teja'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi thank you very much for the code.<br />
+Can I use this code for measuring the heart rate? The maximum frequency the conditioned square wave can reach is 2Hz. Will there be any compromise on the resolution of the measured frrequency?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1506" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2014-02-03T13:30:37-04:00" title="Monday, February 3, 2014, 1:30 pm" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1506" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1506#respond' onclick='return addComment.moveForm( "comment-1506", "1506", "respond", "528" )' aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>A 2 Hz heart beat in Arduino Uno land is 8,000,000 clock cycles per beat. You should be able to measure such a low frequency so long as the variable keeping track of timer overflows between beats is of a data type large enough to keep track of the number of overflows (which might be quite large). An unsigned long might be wise to be safe.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1635" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/696731798f4ef0ea8ed651120d9f56a2?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/696731798f4ef0ea8ed651120d9f56a2?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Travis</cite><br />
+			<time class="comment-published" datetime="2014-12-22T04:00:23-04:00" title="Monday, December 22, 2014, 4:00 am" itemprop="datePublished">2 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1635" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1635#respond' onclick='return addComment.moveForm( "comment-1635", "1635", "respond", "528" )' aria-label='Reply to Travis'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi thanks for this code. Currently I&#8217;m working on a project that measures fuel quantity and the frequency changes as the fuel level changes which is quite similar to your project. Can I ask if this code works with Arduino Uno?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1648" class="comment odd alt thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/481d472b8b169bb84a64f64d051a6b4d?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/481d472b8b169bb84a64f64d051a6b4d?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Wen</cite><br />
+			<time class="comment-published" datetime="2015-04-22T14:26:33-04:00" title="Wednesday, April 22, 2015, 2:26 pm" itemprop="datePublished">1 year ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1648" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1648#respond' onclick='return addComment.moveForm( "comment-1648", "1648", "respond", "528" )' aria-label='Reply to Wen'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>what about the circuit? can you share? thanks</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1685" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/12a2ad23b1215a4c0786f66cd0d31f34?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/12a2ad23b1215a4c0786f66cd0d31f34?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Dhaval</cite><br />
+			<time class="comment-published" datetime="2016-02-11T21:09:38-04:00" title="Thursday, February 11, 2016, 9:09 pm" itemprop="datePublished">6 months ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/#comment-1685" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/11/measuring-signal-frequency-with-arduino/?replytocom=1685#respond' onclick='return addComment.moveForm( "comment-1685", "1685", "respond", "528" )' aria-label='Reply to Dhaval'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>hey thank u very much for code..<br />
+but please can u tell me what changes would i have to make if i want to measure frequency of another wave at same time</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment -->			</ol><!-- .comment-list -->
+
+			
+		</div><!-- #comments-->
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/11/measuring-signal-frequency-with-arduino/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.fiz-ix.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='528' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1a6b14cba5" /></p>				</form>
+					</div><!-- #respond -->
+		
+</section><!-- #comments-template -->
+			
+		
+
+		</main><!-- #content -->
+	
+
+
+			
+
+		</div><!-- #main -->
+		
+		
+
+	<aside class="sidebar sidebar-primary" role="complementary" id="sidebar-primary" aria-label="Primary Sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+		
+			<section id="search-3" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form></section><section id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</section><section id="categories-3" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</section><section id="linkcat-6" class="widget widget_links"><h3 class="widget-title"><span>Links</span></h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</section>
+
+		
+	</aside><!-- #sidebar-primary -->
+
+		
+	</div> <!--#main-containter -->
+		
+		</div><!-- #container -->
+		<nav id="footer-navigation"> </nav>
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		
+			<p class="credit">
+				Copyright &#169; 2016 <a class="site-link" href="http://www.fiz-ix.com" rel="home">Fiz-ix</a>. Powered by <a class="wp-link" target="_blank" href="http://wordpress.org">WordPress</a> and <a class="theme-link" target="_blank" href="http://fireincome.com/drop-shipping">Drop Shipping</a>.			</p><!-- .credit -->
+
+		</footer><!-- #footer -->
+
+	
+
+	<script type='text/javascript' src='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/js/mobile-toggle.min.js?ver=20130528'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/comment-reply.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 13:00:35 by W3 Total Cache -->

@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2016/04/breadboard-wiring-diagram/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2016/04/breadboard-wiring-diagram/" rel="bookmark" title="Permanent Link to Breadboard Wiring Diagram">Breadboard Wiring Diagram</a></h2>
+					<div class="meta">Posted April 7th, 2016. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/basics/" rel="category tag">Basics</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2016/04/breadboardIllustration.png" rel="attachment wp-att-1527"><img src="http://www.fiz-ix.com/wp-content/uploads/2016/04/breadboardIllustration-818x1024.png" alt="breadboardIllustration" width="818" height="1024" class="aligncenter size-large wp-image-1527" srcset="http://www.fiz-ix.com/wp-content/uploads/2016/04/breadboardIllustration-240x300.png 240w, http://www.fiz-ix.com/wp-content/uploads/2016/04/breadboardIllustration-768x962.png 768w, http://www.fiz-ix.com/wp-content/uploads/2016/04/breadboardIllustration-818x1024.png 818w, http://www.fiz-ix.com/wp-content/uploads/2016/04/breadboardIllustration.png 1083w" sizes="(max-width: 818px) 100vw, 818px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2016/03/heat-engines-and-heat-pump-videos/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2016/03/heat-engines-and-heat-pump-videos/" rel="bookmark" title="Permanent Link to Heat Engines and Heat Pump Videos">Heat Engines and Heat Pump Videos</a></h2>
+					<div class="meta">Posted March 7th, 2016. Filed under <a href="http://www.fiz-ix.com/category/notebooks/energy/" rel="category tag">Energy</a> <a href="http://www.fiz-ix.com/category/everyday-physics/" rel="category tag">Everyday Physics</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p>The following animations are good videos showing animations of how heat engines and heat pumps work.</p>
+<p>The Otto Cycle and internal combustion engines.<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fNcZDrfT498" frameborder="0" allowfullscreen></iframe></p>
+<p>The Diesel engine.<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2WGFELXPNg" frameborder="0" allowfullscreen></iframe></p>
+<p>A split-system air-source heat pump.<br />
+<iframe width="420" height="315" src="https://www.youtube.com/embed/14MmsNPtn6U" frameborder="0" allowfullscreen></iframe></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2014/01/brownian-motion-javascript-simulations/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2014/01/brownian-motion-javascript-simulations/" rel="bookmark" title="Permanent Link to Brownian Motion Javascript Simulations">Brownian Motion Javascript Simulations</a></h2>
+					<div class="meta">Posted January 27th, 2014. Filed under <a href="http://www.fiz-ix.com/category/labs/" rel="category tag">Labs</a> <a href="http://www.fiz-ix.com/category/labs/physics-labs/" rel="category tag">Physics Labs</a></div>
+				</div>
+				<div class="entry">
+					<p>In order to run the following simulations you need a web browser capable of running javascript and of interpreting HTML5. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2014/01/brownianParticles2DPeriodicBoundaries.html">Brownian Particle Simulation in 2D</a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2014/01/brownianParticles2DWithDXOutput.html">A Simulated Time-Lapse Video of Brownian Particles in 2D</a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2014/01/making-a-pdf-of-a-microsoft-word-document/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2014/01/making-a-pdf-of-a-microsoft-word-document/" rel="bookmark" title="Permanent Link to Making a PDF of a Microsoft Word Document">Making a PDF of a Microsoft Word Document</a></h2>
+					<div class="meta">Posted January 14th, 2014. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/microsoft-office/" rel="category tag">Microsoft Office</a></div>
+				</div>
+				<div class="entry">
+					<h3>Mac OS X</h3>
+<p>Select File &gt; Print …<br />
+Click PDF &gt; Save as PDF …<br />
+Specify Save Location and Click Save</p>
+<h3>Windows</h3>
+<p>Click the Office Button<br />
+Select Save As<br />
+Select PDF or XPS<br />
+Select Save Location and Save as Type &gt; PDF and Click Publish </p>
+<p></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/04/simple-electret-microphone-and-band-pass-amplifier-circuit/#comments">1</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/04/simple-electret-microphone-and-band-pass-amplifier-circuit/" rel="bookmark" title="Permanent Link to Simple Electret Microphone and Band-Pass Amplifier Circuit">Simple Electret Microphone and Band-Pass Amplifier Circuit</a></h2>
+					<div class="meta">Posted April 7th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/basics/" rel="category tag">Basics</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>If you are working on a project that responds to sounds, your circuit will require some type of microphone to transduce the sound into a modulated voltage and, most likely, some type of amplification of this modulated voltage. I like to use electret microphones to transduce sound because they require relatively simple circuits. For example, the circuit below passes the output of an electret microphone (hooked up according to its datasheet) through a band-pass amplifier based on an LM358 operational amplifier. This circuit is suitable for a 5-V system. The op-amp circuit has both a high-pass portion (R1 and C1) and a low-pass portion (R2 and C2). Thus, the circuit attenuates frequencies below f = 1/(2&#960;R1C1) = 5.9 Hz and frequencies above f = 1/(2&#960;R2C2) = 15915 Hz. The op-amp acts like an inverting amplifier with a gain of -R2/R1=37. The voltage divider (R4 and R5) is used to give the output about a 1.6 V DC offset. This allows both the positive and negative portions of the input to be amplified and present in the output. After building this circuit, I discovered a very similar circuit is implemented by <a href="https://www.sparkfun.com/products/9964" title="electret breakout board" target="_blank">SparkFun&#8217;s electret microphone breakout board</a> but different resistor and capacitor values are used yielding a different gain and different band-pass characteristics, a different op amp is used, and a capacitor is placed in parallel with R4 presumably to stabilize the voltage to the non-inverting input of the op-amp. This additional capacitor may be a good idea, but I actually think my circuit is superior in that the voltage divider introduces a smaller DC offset that more closely matches the midpoint of the op-amp&#8217;s dynamic range when powered by 5 volts. Just my opinion.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/04/MicAndAmp.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/04/MicAndAmp.png" alt="" title="MicAndAmp" width="500" height="269" class="aligncenter size-full wp-image-1465" srcset="http://www.fiz-ix.com/wp-content/uploads/2013/04/MicAndAmp-300x161.png 300w, http://www.fiz-ix.com/wp-content/uploads/2013/04/MicAndAmp.png 500w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/2/" >&laquo; Older Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: mww.fiz-ix.com @ 2016-07-27 08:49:36 by W3 Total Cache -->

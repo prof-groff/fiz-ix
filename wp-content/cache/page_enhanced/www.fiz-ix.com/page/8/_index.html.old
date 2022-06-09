@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/samsung-galaxy-reverb-review-virgin-mobile/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/samsung-galaxy-reverb-review-virgin-mobile/" rel="bookmark" title="Permanent Link to Samsung Galaxy Reverb Review (Virgin Mobile)">Samsung Galaxy Reverb Review (Virgin Mobile)</a></h2>
+					<div class="meta">Posted December 8th, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a> <a href="http://www.fiz-ix.com/category/notebooks/reviews/" rel="category tag">Reviews</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://shop.upromise.com/click.do?olmid=VMOBIL001&#038;olmpos=2.1|olm|mall/merchant/virginmobile|300000|300001|300075|300000|300021|0|300062|1/1|1/1|||+&#038;olmsrc=Q"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/samsung-reverb-300x300.jpg" alt="" title="samsung reverb" width="300" height="300" class="aligncenter size-medium wp-image-1079" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/12/samsung-reverb-150x150.jpg 150w, http://www.fiz-ix.com/wp-content/uploads/2012/12/samsung-reverb-300x300.jpg 300w, http://www.fiz-ix.com/wp-content/uploads/2012/12/samsung-reverb.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /></a>I have owned a Samsung Galaxy Reverb for about two weeks now with service provided by Virgin Mobile. My impression thus far is that this is the best value smartphone on the market right now. My wife has an HTC One V also from Virgin Mobile and my Reverb has a larger screen, a faster processor, and the Samsung Android-powered interface is much more intuitive then the HTC sense interface. </p>
+<p>I bought my Reverb for $100 during the Virgin Mobile black friday sale and paired it with their $35/month beyond talk plan. The phone takes very nice pictures on a 5 MP rear facing camera and also has a 1.3 MP front-facing camera for video chat. It is powered by a single core 1.4 GHz Qualcomm Snapdragon S2 processor. Finger gestures are fluid and games and video play smoothly and vividly on a 4 inch glass touch-screen. The Reverb is running Android 4.0 and connects to Sprint&#8217;s 3G network which is the fastest service available in my town. I get about the same download and upload speeds (1 Mbps/400 kbps) when connected to 3G as I get with my DSL connection. Battery life is acceptable and comparable to other value smart phones. With heavy use, I must recharge every day or two. </p>
+<p>It is really a great phone and I would recommend it to any of my friends. Click the image links above or below to be taken to Virgin Mobile USA for more details.</p>
+<p><a href="http://shop.upromise.com/click.do?olmid=VMOBIL001&#038;olmpos=2.1|olm|mall/merchant/virginmobile|300000|300001|300075|300000|300021|0|300062|1/1|1/1|||+&#038;olmsrc=Q"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/viginmobile.png" alt="" title="viginmobile" width="170" height="170" class="aligncenter size-full wp-image-1078" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/12/viginmobile-150x150.png 150w, http://www.fiz-ix.com/wp-content/uploads/2012/12/viginmobile.png 170w" sizes="(max-width: 170px) 100vw, 170px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/binary-to-decimal-converter/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/binary-to-decimal-converter/" rel="bookmark" title="Permanent Link to Binary to Decimal Converter">Binary to Decimal Converter</a></h2>
+					<div class="meta">Posted December 7th, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/calculators/" rel="category tag">Calculators</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p><script type='text/javascript'></script>function bin_to_dec() {<br />
+var calc=document.getElementById(&#8216;deccalc&#8217;);<br />
+var bin=new String(&#8220;&#8221;);<br />
+bin=bin+calc.bin.value;<br />
+var dec=0;<br />
+var flag=0;<br />
+var bl=bin.length;<br />
+if (bl>64) {<br />
+calc.dec.value = &#8220;Binary Number Entered is Too Large&#8221;;<br />
+}<br />
+else<br />
+{<br />
+var curDigStr=new String(&#8220;&#8221;);<br />
+var curDigNum=0;<br />
+for(var ii=0;ii<bl;ii++) {
+curDigStr=bin.substring(ii,ii+1); // MSB first
+curDigNum=parseInt(curDigStr);
+if (curDigNum>1 || curDigNum<0) { // not a valid entry
+flag=1;
+}
+dec=dec+curDigNum*Math.pow(2,bl-1-ii);
+}
+if (flag == 1) {
+calc.dec.value="Binary Number Entered in Not Valid";
+}
+else {
+calc.dec.value=dec;
+}
+}
+return false;
+}[/js]
+
+This calculator will take a binary number up to 64 bits and convert it to its decimal equivalent. 
+&nbsp;
+
+<form id="deccalc" action="#">
+<table border="1" align="center">
+<tbody>
+<tr>
+<td align="right">Binary Number:</td>
+<td align="left"><input type="text" name="bin" size="64" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input onclick="bin_to_dec()" type="button" value="Calculate" /></td>
+</tr>
+<tr>
+<td align="right">Decimal Number:</td>
+<td><input type="text" name="dec" readonly="readonly" size="64" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>&nbsp;</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/#comments">5</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" rel="bookmark" title="Permanent Link to Using Avahi in Ubuntu to Broadcast Services to Macs with Bonjour">Using Avahi in Ubuntu to Broadcast Services to Macs with Bonjour</a></h2>
+					<div class="meta">Posted December 7th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="category tag">Ubuntu</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>If you followed <a href="http://www.fiz-ix.com/2012/12/apple-filing-protocol-afp-file-server-on-ubuntu-using-netatalk/" target="_blank" >this guide</a>, your Ubuntu machine can now serve files to Macs on your local area network (LAN) using AFP. It would be nice if this Ubuntu/Netatalk Apple file server was discovered automatically by your Macs. This can be accomplished by installing Avahi, an implementation of Zeroconf similar to Apple&#8217;s Bonjour that allows services running on your Ubuntu machine to be broadcast on the LAN. The following guide will get you started with the installation. When you are finished, the Ubuntu/Netatalk Apple file server will appear in Finder on your Macs connected to your LAN. </p>
+<p>Install the Avahi daemon using the <code>apt-get</code> package management software included with Ubuntu. Open a terminal and type the following command:</p>
+<pre><code>sudo apt-get install avahi-daemon</code></pre>
+<p>I&#8217;ve noticed that Avahi may already be installed by default if you are using a newer version of Ubuntu. The Avahi service should start automatically when your machine boots but to make sure type the following command:</p>
+<pre><code>sudo update-rc.d avahi-daemon defaults</code></pre>
+<p>Next, create a file that will specify information about the AppleShare file server (i.e. Netatalk server) running on your Ubuntu machine.</p>
+<pre><code>sudo vim /etc/avahi/services/afpd.service</code></pre>
+<p>Copy and paste the following XML code into this file.</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&#39;no&#39;?&gt;&lt;!&#45;&#45;*&#45;nxml&#45;*&#45;&#45;&gt;
+&lt;!DOCTYPE service-group SYSTEM &quot;avahi-service.dtd&quot;&gt;
+&lt;service-group&gt;
+&lt;name replace-wildcards=&quot;yes&quot;&gt;%h&lt;/name&gt;
+&lt;service&gt;
+&lt;type&gt;_afpovertcp._tcp&lt;/type&gt;
+&lt;port&gt;548&lt;/port&gt;
+&lt;/service&gt;
+&lt;/service&#45;group&gt;</code></pre>
+<p>Then, restart Avahi.</p>
+<pre><code>sudo /etc/init.d/avahi-daemon restart</code></pre>
+<p>That&#8217;s it. After a few minutes your AFP server running on you Ubuntu machine should show up in Finder on your Mac.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/apple-filing-protocol-afp-file-server-on-ubuntu-using-netatalk/#comments">11</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/apple-filing-protocol-afp-file-server-on-ubuntu-using-netatalk/" rel="bookmark" title="Permanent Link to Apple Filing Protocol (AFP) File Server on Ubuntu Using Netatalk">Apple Filing Protocol (AFP) File Server on Ubuntu Using Netatalk</a></h2>
+					<div class="meta">Posted December 7th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="category tag">Ubuntu</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>Apple computers communicate with one another using the Apple Filing Protocol (AFP). Using the freely-available implementation of this protocol called Netatalk, Ubuntu can interface with Mac OS X and you can set up a AppleShare file server on a Ubuntu machine that is accessible to Macs on your local area network (LAN). To install Netatalk you have two options. Both are outlined below, but I recommend the second method for security reasons.</p>
+<h3>Installation Option One &#8211; Clear Text Passwords</h3>
+<p>Netatalk can be installed from the Ubuntu package repositories by simply using the <code>apt-get</code> package management program. To do so, execute the following commands in the terminal. (This may require that the Ubuntu install disk is in the CD drive.)</p>
+<pre><code>sudo apt-get update
+sudo apt-get install netatalk</code></pre>
+<p>Unfortunately, this pre-compiled package only allows the use of clear text passwords (instead of encrypted passwords) due to legal reasons. This is fine for the purposes of file sharing on a LAN behind a firewall. However, there are a few things to keep in mind. First, clear text passwords may only be 8 or fewer characters in length and, thus, all users that intend to login in to and use the Netatalk AppleShare file server must have such a password. Second, if you are using OS X, clear text passwords are not permitted by default.  However, it is easy to enable clear text passwords by executing the following command in a terminal on your Mac. (Note: Due to the page width, the command is wrapped below. But, it should be typed all on one line.)</p>
+<pre><code>
+defaults write com.apple.AppleShareClient afp_cleartext_allow 
+-bool true</code></pre>
+<h3>Installation Option Two &#8211; Encrypted Passwords</h3>
+<p>In order to install Netatalk so that it works natively with OS X-that is, allows encrypted passwords-the program must be recompiled using the appropriate SSL libraries. First we need to install some developer packages, which may require that the Ubuntu install disk be in the CD drive. At the command prompt type:</p>
+<pre><code>sudo apt-get update
+sudo apt-get install devscripts dpkg-dev</code></pre>
+<p>Next, install some password checker and SSL libraries.</p>
+<pre><code>sudo apt-get install cracklib2-dev libssl-dev</code></pre>
+<p>Make a directory to hold the Netatalk source code, move to it, and download the code.</p>
+<pre><code>mkdir netatalk
+cd netatalk
+apt-get source netatalk</code></pre>
+<p>Now, move to the source code directory (the version number may change), switch to the root user, resolve and install the build dependencies for Netatalk, and build with the SSL option enabled (I&#8217;ve included several build options to suppress some error messages that arise because the build is not signed). The last commands below install the build and exit the root user.</p>
+<pre><code>cd netatalk-2.2
+sudo su
+apt-get build-dep netatalk
+DEB_BUILD_OPTIONS=ssl debuild -i -us -uc -b
+debi
+exit</code></pre>
+<h3>Finishing Up</h3>
+<p>If you used installation method two above (the custom build) then execute the following command to finish up. This command suppress updates of your custom Netatalk build. The program will break if Ubuntu tries to update it.</p>
+<pre><code>echo &quot;netatalk hold&quot; | sudo dpkg &#45;&#45;set-selections</code></pre>
+<p>That&#8217;s it. Now you can connect to the Ubuntu AFP server by using <code>Go &gt; Connect to Server...</code> in Finder on your Mac and entering your Ubuntu user name and password. By default your home directory on the Ubuntu machine will be served. To serve other directories you will have to modify the <code>/etc/netatalk/AppleVolumes.default</code> file. This file is well commented to guide you. One thing I wanted to do was to have a shared directory where anyone using my LAN could drop or retrieve files. The easiest way to do this (in order to get all the permissions correct) is to simply create a shared user on the Ubuntu machine in whose home directory shared content can be stored.</p>
+<p>Congratulations, now your Ubuntu machine can serve files to Macs running OS X on the LAN. But it would be nice if your new Ubuntu Apple File Server broadcast its presence on the network and showed up in Finder on your Macs. This can be done using a program called Avahi which discovers and broadcasts services just like Bonjour. I show you how to install and configure Avahi in <a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" target=_blank>this post</a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/capacitor-code-calculator/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/capacitor-code-calculator/" rel="bookmark" title="Permanent Link to Capacitor Code Calculator">Capacitor Code Calculator</a></h2>
+					<div class="meta">Posted December 6th, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/calculators/" rel="category tag">Calculators</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p>Enter the two or three digit number on a capacitor and the capacitance value is calculated.</p>
+<p><script type='text/javascript'></script>function cap_calc(){<br />
+var calc=document.getElementById(&#8216;capform&#8217;);<br />
+var capnum=calc.capnum.value;<br />
+var capval=new String(&#8220;&#8221;);</p>
+<p>if (capnum<100) {
+var capval=capnum.toString()+" pF"
+}
+if (capnum>=1000) {<br />
+var capval=&#8221;Invalid Number Code Entered&#8221;;<br />
+}<br />
+else {<br />
+var prefix = Math.floor(capnum/10)<br />
+var suffix = capnum-10*prefix;</p>
+<p>if (suffix<=1) {
+var capval = (prefix*Math.pow(10,suffix)).toString()+" pF";
+}
+else if (suffix<=4) {
+var capval=(prefix*Math.pow(10,suffix-3)).toString()+" nF";
+}
+else if (suffix<=7) {
+var capval=(prefix*Math.pow(10,suffix-6)).toString()+" microF";
+}
+else if (suffix<=9) {
+var capval=(prefix*Math.pow(10,suffix-9)).toString()+" mF";
+}
+else {
+var capval="Invalid Number Code Entered";
+}
+
+}
+
+calc.capval.value=capval;
+
+return false;
+}[/js]
+
+
+<form id="capform" action="#">
+<table align="center" border="1"">
+<tr>
+<td align="right">Capacitor Number: </td>
+<td align="left"><input type="text" name="capnum" size="30" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="button" value="Calculate" onclick="cap_calc();" /></td>
+</tr>
+<tr>
+<td align="right">Capacitor Value: </td>
+<td alig="left"><input type="text" name="capval" size="30" readonly="readonly" /></td>
+</tr>
+</table>
+</form>
+<p>&nbsp;</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/9/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/page/7/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-23 08:12:55 by W3 Total Cache -->

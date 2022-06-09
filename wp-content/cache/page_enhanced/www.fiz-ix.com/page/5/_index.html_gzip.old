@@ -1,0 +1,694 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/mount-and-share-a-usb-hard-drive-from-ubuntu-to-macs-using-netatalk/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/mount-and-share-a-usb-hard-drive-from-ubuntu-to-macs-using-netatalk/" rel="bookmark" title="Permanent Link to Mount and Share a USB Hard Drive from Ubuntu to Macs Using Netatalk">Mount and Share a USB Hard Drive from Ubuntu to Macs Using Netatalk</a></h2>
+					<div class="meta">Posted December 18th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="category tag">Ubuntu</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>At home, I&#8217;ve installed a Netatalk Apple Filing Protocol (AFP) file server on a machine running Ubuntu so that I can easily share files between my Macs and the Ubuntu machine (see <a href="http://www.fiz-ix.com/2012/12/apple-filing-protocol-afp-file-server-on-ubuntu-using-netatalk/" target="_blank" >this post</a> for details). Using an open source network service discovery protocol similar to Apple&#8217;s Bonjour called Avahi (see <a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" target="_blank" >this post</a> for a setup guide), this file server is advertised to Macs on my local area network (LAN).  The Netatalk file server works great, but I wanted to configure Netatalk to share an external USB hard drive connected to my Ubuntu file server. I wanted to use the USB hard drive to backup the data on my Macs so that in the event of an emergency I could easily grab my data. Here is the steps I took to do this.</p>
+<h3>Step 1: Find the USB Hard Drive&#8217;s Device Name</h3>
+<p>Before formating and partitioning your USB hard drive, you must first determine its device name. To do this, plug in the USB storage and let it auto mount. After it mounts, the following command will list details about all of the drives connected to your machine.</p>
+<pre><code>sudo fdisk -l</code></pre>
+<p>Scan the output. If you know the size of your USB hard drive you should be able to identify its details. Somewhere in the output corresponding to the USB drive there is a path that looks like <code>/dev/XXX:</code> where the <code>XXX</code> in this path is the USB drive&#8217;s device name (write this down). My USB hard drive has the device name <code>sdc</code>, which I use throughout the rest of this guide. </p>
+<h3>Step 2: Partition the USB Hard Drive</h3>
+<p>You have many options to partition your USB hard drive. I used a GUI based program <code>gparted</code> that can be installed and run using the following commands.</p>
+<pre><code>sudo apt-get update
+sudo apt-get install gparted
+sudo gparted</code></pre>
+<p>The program is very user friendly. There is a dialog box in the upper right corner where you can select the path to the device you want to partition. Referring to the device name you determined in Step 1, select the path to your USB hard drive. Make sure any existing partitions that appear in the partition list are unmounted by right clicking on each and selecting &#8220;Unmount&#8221;. After everything is unmounted, you can select, delete, resize, or format partitions at will. I created two partitions, one for each of the user that I wanted to grant access to the USB hard drive. I formated both partitions using the ext3 protocol. I recommend the same. After formating, write down the device name for each of the new partitions you created. These will be prefaced by the USB hard drive&#8217;s device name but will have trailing numbers. For example my partitions are named <code>sdc1</code> and <code>sdc2</code>.</p>
+<h3>Step 3: Set Mount Points and Configure Auto Mounting of the USB Storage in fstab</h3>
+<p>Next create a directory or directories where you want the partition(s) you just created to mount. Below I am creating two directories as mount points for each of the partitions I created above, one for <code>user1</code> and one for <code>user2</code> (or course feel free to modify the directory names).</p>
+<pre><code>sudo mkdir /media/user1backup
+sudo mkdir /media/user2backup</code></pre>
+<p>These directories are placed in the media directory, which is where you may have noticed external storage dynamically auto mounts by default. This step is important because in order to share the USB hard drive partitions on the network we need them to have static mount points. Next, make sure that the permission on the new directory or directories are set correctly so that <code>user1</code> and <code>user2</code> can access the USB storage. The commands to do this will be similar to those shown below with the substitution of your user and directory name(s).</p>
+<pre><code>sudo chown -R user1 /media/user1backup
+sudo chgrp -R user1 /media/user1backup
+sudo chown -R user2 /media/user2backup
+sudo chgrp -R user2 /media/user2backup</code></pre>
+<p>Next, we must open the <code>fstab</code> list and add a few lines to specify how the USB drive partitions will auto mount at system startup. Open <code>fstab</code>.</p>
+<pre><code>sudo gedit /etc/fstab</code></pre>
+<p>You will add a line for each partition on the USB hard drive to the end of this file. They will be similar to what is shown below with the substitution of your device and directory name(s).</p>
+<pre><code>/dev/sdc1  /media/user1backup  ext3  defaults  0  0
+/dev/sdc2  /media/user1backup  ext3  defaults  0  0</code></pre>
+<p>The first column is the path to each partition on the USB storage. Replace the device name(s) with the device name(s) for the partition(s) determined in Step 2. The second column specifies the directory or directories of the mount point(s) as created above. The third column specifies each partition&#8217;s format protocol. The final three columns set the default behavior for each partition; <code>default  0  0</code> will be sufficient for most applications.</p>
+<h3>Step 4: Configure Netatalk</h3>
+<p>The final step is to configure Netatalk to share the new external USB storage partitions. Open the Netatalk volumes configuration file.</p>
+<pre><code>sudo gedit AppleVolumes.default</code></pre>
+<p>At the end of this file you will add lines similar to those shown below with the substitution of your directory and user name(s).</p>
+<pre><code>/media/user1backup      "User1's Backup"      allow:user1
+/media/user2backup      "User2's Backup"      allow:user2</code></pre>
+<p>The first column specifies the path to each partition&#8217;s mount point as specified above. The second column is the name of the shared drive that will appear in Finder on the Macs connected to your LAN. the third column defines that only the specified user can access the partition listed in the first column. That&#8217;s it, after a system reboot your USB storage should be shared with the Macs on your LAN. After connecting to your Ubuntu machine in Finder, the shared directories should appear. For more tips on getting your Ubuntu machines to integrate with your Macs, check out the <a href="http://www.fiz-ix.com/category/guides/ubuntu/" target="_blank">Ubuntu</a> section.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/drawing-l-system-fractal-plants-with-processing/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/drawing-l-system-fractal-plants-with-processing/" rel="bookmark" title="Permanent Link to Drawing L-System Fractal Plants with Processing">Drawing L-System Fractal Plants with Processing</a></h2>
+					<div class="meta">Posted December 18th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/processing/" rel="category tag">Processing</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>The following Processing program uses a well-known L-System (see <a href="http://en.wikipedia.org/wiki/L-system" target=_blank >this Wikipedia page</a> for more information) to &#8220;grow&#8221; a realistic looking plant with fractal structure. Below is a video of the frames generated by the program followed by the code that created it.</p>
+<p><center><br />
+<iframe width="420" height="315" src="http://www.youtube.com/embed/fml80H8sI2s" frameborder="0" allowfullscreen></iframe></center></p>
+<pre><code>import java.util.Stack; // I use java Stack objects
+
+// written by Jeff - www.fiz-ix.com
+
+String wseq = "0"; // the starting string of the L-System
+
+Stack xSave = new Stack(); // a Stack to store x coordinates of plant
+Stack ySave = new Stack(); // a Stack to store y coordinates of plant
+Stack aSave = new Stack(); // a Stack to store angles of branches
+
+int height = 400; // height of output
+int width = 400; // width of output
+
+int zz = 0; // interation of L-System
+
+void setup() {
+  size(width,height);
+  background(200,224,255); // blue
+  frameRate(1);
+}
+
+
+void draw() {
+  zz++;
+  if (zz &gt; 7) { // start growing from scratch again
+    zz = 1;
+    wseq = "0";
+    background(200,224,255);
+  }
+  int treeLength = height/15;
+  int xStart = width/2;
+  int yStart = 0;
+  background(200,224,255);
+  drawPlant(zz, treeLength, xStart, yStart);
+  iteratePlant();
+  delay(3000);
+
+}
+
+
+void iteratePlant() { // a function to generate successive 
+ // iterations of the L-System
+ String wseq0 = wseq;
+ wseq = "";
+ for (int ii=0;ii &lt; wseq0.length();ii++) {
+   String cchar = wseq0.substring(ii,ii+1);
+   if (cchar.equals("0")) {  // replace 0 with following string
+     wseq = wseq + "1MLL0RP0RP1LP10RM0"; 
+   }
+   else if (cchar.equals("L")) {  // keep L
+     wseq = wseq + 'L';
+   }
+   else if (cchar.equals("R")) { // keep R
+     wseq = wseq + "R";
+   }
+   else if (cchar.equals("P")) { // keep P
+     wseq = wseq + "P";
+   }
+   else if (cchar.equals("M")) { // keep M
+     wseq = wseq + "M";
+   }
+   else if (cchar.equals("1")) { // replace 1 with 11
+     wseq = wseq + "11";
+   }
+ }
+}
+
+void drawPlant(int iteration, int treeLength, int xStart, int yStart) {
+  int lineLength = treeLength/iteration;
+  int nBNow = 0; // keep track of the number of branches in the plant
+  // initial parameters
+  color lc = color(0, 255, 0); // leaf color is green
+  color bc = color(117, 71, 25); // branch color is brown
+  int xNow = xStart;
+  int yNow = yStart;
+  double aNow = 1.57079632679; // 90 degrees
+  double aDelta = 0.436332313; // 25 degrees
+  
+  for (int ii=0;ii&lt;wseq.length();ii++) {
+   String cchar = wseq.substring(ii,ii+1); 
+   // the following are the rules for the "turtle" to draw the 
+   // L-System
+   if (cchar.equals("0")) {  
+     // do nothing
+   }
+   else if (cchar.equals("1")) { // draw a line segment
+     int xStop = xNow+(int)(lineLength*Math.cos(aNow));
+     int yStop = yNow+(int)(lineLength*Math.sin(aNow));
+     fill(bc);
+     stroke(bc);
+     strokeWeight(0.2*(zz*3-nBNow));
+     line(xNow,height-yNow,xStop,height-yStop);
+     xNow = xStop;
+     yNow = yStop;
+   }
+   else if (cchar.equals("M")) { // change direction by aDelta
+    aNow = aNow + aDelta; 
+   }
+   else if (cchar.equals("P")) { // change direction by -aDelta
+     aNow = aNow - aDelta;
+   }
+   else if (cchar.equals("L")) {  // push the current x and y 
+     // coordinates and angle to the Stacks
+     xSave.push(new Integer(xNow));
+     ySave.push(new Integer(yNow));
+     aSave.push(new Double(aNow));
+     nBNow++; // one more branch
+   }
+   else if (cchar.equals("R")) {  // draw a leaf and recover last 
+     // items from the Stacks
+     fill(lc);
+     stroke(lc);
+     strokeWeight(1);
+     ellipse(xNow,height-yNow,3+iteration,3+iteration); 
+     // draw a leaf
+     xNow = (Integer)xSave.pop(); // recover last saved x coordinate
+     yNow = (Integer)ySave.pop(); // recover last saved y coordinate
+     aNow = (Double)aSave.pop(); // recover last saved angle
+     nBNow--;
+   }
+  }
+  
+  
+}</code></pre>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/arduino-gps-and-ensuring-successful-gps-communication-when-using-software-serial/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/arduino-gps-and-ensuring-successful-gps-communication-when-using-software-serial/" rel="bookmark" title="Permanent Link to Arduino GPS and Ensuring Successful GPS Communication when Using Software Serial">Arduino GPS and Ensuring Successful GPS Communication when Using Software Serial</a></h2>
+					<div class="meta">Posted December 18th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>An Arduino project I am working on uses the TinyGPS library and an EM-406A GPS receiver to keep track of the date and time. This data is used by the rest of my program. When I was coding up this project, I ran in numerous bugs and believe the cause was derived from serial communication with the GPS module. I am using software serial to talk to a number of serial devices switching to the GPS module when needed (see <a href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/" target="_blank">this post</a> to learn about SoftwareSerial and multiple devices). In the first version of my program, I believe this switching was corrupting the bytes returning from the GPS module so valid GPS data wasn&#8217;t beeing received. To fix the problem I used a second while loop and a flag to force communication with the GPS to continue until a valid byte is received. Below is the relevent lines of code from my program. </p>
+<pre><code>#include &lt;SoftwareSerial.h&gt;
+#include &lt;TinyGPS.h&gt;
+
+#define RXPIN 2
+#define TXPIN 3
+
+TinyGPS gps;
+SoftwareSerial GPSSerial(RXPIN,TXPIN);
+
+void setup(void) {
+pinMode(TXPIN,OUTPUT);
+pinMode(RXPIN,INPUT);
+}
+
+void loop(void) {
+
+// DO OTHER STUFF
+
+// the SoftwareSerial channel for my GPS module is called GPSSerial
+GPSSerial.begin(4800); // the EM-406 works at this baud rate
+
+GPSFlag = 0; // a flag to control GPS communication
+
+while(GPSflag == 0) { // continue to talk to GPS until a valid 
+// byte is received
+
+while(GPSSerial.available()) { // while the GPS module is sending 
+// data
+
+byte c = GPSSerial.read(); // read in the bytes being sent by the GPS
+
+// if incoming byte is valid GPS data, process it
+if(gps.encode(c)){ // gps is the name of my TinyGPS object
+
+gps.get_datetime(&date, &time); // get the data and time from 
+// the GPS byte
+
+GPSflag = 1; // set the flag to one to indiccate that the GPS data 
+// was successfully received
+
+}
+
+}
+
+} 
+
+GPSSerial.end(); // disable the GPS module's SoftwareSerial channel
+
+// DO OTHER STUFF
+
+}</code></pre>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/javascript-and-html-onclick-versus-onkeyup-versus-onchange/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/javascript-and-html-onclick-versus-onkeyup-versus-onchange/" rel="bookmark" title="Permanent Link to Javascript and HTML onclick versus onkeyup versus onchange">Javascript and HTML onclick versus onkeyup versus onchange</a></h2>
+					<div class="meta">Posted December 17th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/javascript/" rel="category tag">Javascript</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<script type='text/javascript'>function processInput() { 
+var myVars=document.getElementById('myTable'); 
+var myInput=myVars.input.value; 
+if (isNaN(myInput)) { 
+myVars.output.value = "Not a valid input"; 
+} 
+else { 
+myVars.output.value = Math.pow(myInput,2); 
+} 
+return false; 
+} 
+function processInput2() { 
+var myVars=document.getElementById('myTable2'); 
+var myInput=myVars.input.value; 
+if (isNaN(myInput)) { 
+myVars.output.value = "Not a valid input"; 
+} 
+else { 
+myVars.output.value = Math.pow(myInput,2); 
+} 
+return false; 
+} 
+function processInput3() { 
+var myVars=document.getElementById('myTable3'); 
+var myInput=myVars.input.value; 
+if (isNaN(myInput)) { 
+myVars.output.value = "Not a valid input"; 
+} 
+else { 
+myVars.output.value = Math.pow(myInput,2); 
+} 
+return false; 
+} 
+</script>
+<p>There are several ways to call a javascript function from an HTML form to process user-supplied values and then return the results to the user including onclick, onchange, and onkeyup. Using a simple form that takes an input value and returns the square of this value to the user, I demonstrate these three methods below. </p>
+<p>First, let&#8217;s look at onclick. This method requires that a button be clicked by the user before the javascript is executed and the results are retuned.</p>
+<form id="myTable" action="#">
+<table border="1" align="center">
+<tbody>
+<tr>
+<td align="right">Input Number:</td>
+<td align="left"><input type="text" name="input" size="64" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input onclick="processInput()" type="button" value="Calculate" /></td>
+</tr>
+<tr>
+<td align="right">Input Squared:</td>
+<td><input type="text" name="output" readonly="readonly" size="64" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>&nbsp;</p>
+<p>The code the generate this table is as follows. The form includes a button that calls the javascript function when it is clicked. </p>
+<pre><code>&lt;script type='text/javascript'&gt;
+function processInput() {
+var myVars=document.getElementById('myTable');
+var myInput=myVars.input.value;
+if (isNaN(myInput)) {
+myVars.output.value = "Not a valid input";
+}
+else {
+myVars.output.value = Math.pow(myInput,2);
+}
+return false;
+}&lt;/script&gt;
+
+&lt;form id="myTable" action="#"&gt;
+&lt;table border="1" align="center"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Number:&lt;/td&gt;
+&lt;td align="left"&gt;&lt;input type="text" name="input" size="64" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2" align="center"&gt;&lt;input onclick="processInput()" 
+type="button" value="Calculate" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Squared:&lt;/td&gt;
+&lt;td&gt;&lt;input type="text" name="output" readonly="readonly" size="64" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/form&gt;</code></pre>
+<p>Next let&#8217;s look at onchange. This method calls the javascript function whenever the corresponding field of the form is changed. When the user enters a value then presses return or tab or clicks on another field, the javascript is executed.</p>
+<form id="myTable2" action="#">
+<table border="1" align="center">
+<tbody>
+<tr>
+<td align="right">Input Number:</td>
+<td align="left"><input type="text" name="input" size="64" onchange="processInput2()" /></td>
+</tr>
+<tr>
+<td align="right">Input Squared:</td>
+<td><input type="text" name="output" readonly="readonly" size="64" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>&nbsp;</p>
+<p>The javascript for the above example is exactly the same as the first example but the HTML code is slightly different. There is no button and the function is called from the input text field.</p>
+<pre><code>&lt;form id="myTable" action="#"&gt;
+&lt;table border="1" align="center"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Number:&lt;/td&gt;
+&lt;td align="left"&gt;&lt;input type="text" name="input" size="64"
+onchange="processInput()" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Squared:&lt;/td&gt;
+&lt;td&gt;&lt;input type="text" name="output" readonly="readonly" size="64" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/form&gt;</code></pre>
+<p>Finally, let&#8217;s look at onkeyup. This method calls the javascript anytime the user  releases a key on the keyboard. This method will update the output with every change supplied by the user.</p>
+<form id="myTable3" action="#">
+<table border="1" align="center">
+<tbody>
+<tr>
+<td align="right">Input Number:</td>
+<td align="left"><input type="text" name="input" size="64" onkeyup="processInput3()" /></td>
+</tr>
+<tr>
+<td align="right">Input Squared:</td>
+<td><input type="text" name="output" readonly="readonly" size="64" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>&nbsp;</p>
+<p>Again, the javascript for this form is the same as the first form but the HTML is a little different. The function is again called from the text field but this is done whenever a key is released by the user.</p>
+<pre><code>&lt;form id="myTable" action="#"&gt;
+&lt;table border="1" align="center"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Number:&lt;/td&gt;
+&lt;td align="left"&gt;&lt;input type="text" name="input" size="64"
+onkeyup="processInput()" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Squared:&lt;/td&gt;
+&lt;td&gt;&lt;input type="text" name="output" readonly="readonly" size="64" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/form&gt;</code></pre>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/using-netatalk-to-share-a-ubuntu-usb-printer-with-a-mac/#comments">3</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/using-netatalk-to-share-a-ubuntu-usb-printer-with-a-mac/" rel="bookmark" title="Permanent Link to Using Netatalk to Share an Ubuntu USB Printer with a Mac">Using Netatalk to Share an Ubuntu USB Printer with a Mac</a></h2>
+					<div class="meta">Posted December 17th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="category tag">Ubuntu</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>If you have installed Netatalk following <a href="http://www.fiz-ix.com/2012/12/apple-filing-protocol-afp-file-server-on-ubuntu-using-netatalk/" target="_blank" >this post</a> and Avahi following <a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" target="_blank" >this post</a>, it is fairly straightforward to share a USB printer connected to your Ubuntu machine with Macs on your local area network (LAN) via AppleTalk. By default, Netatalk installs and runs the print sharing service called <code>papd</code>. So, after the printer is installed on the Ubuntu machine in the customary fashion, sharing via Netatalk only requires some edits to the <code>papd</code> configuration file. This guide will get you started.</p>
+<p>Open the <code>papd.conf</code> file in the netatalk configuration directory (Here, I&#8217;m using vim to edit the file).</p>
+<pre><code>sudo vim /etc/netatalk/papd.conf</code></pre>
+<p>This file is well commented to guide you and, if you wish, it is possible to configure several shared printers. Below I show the lines I added to the end of this file to share an HP LaserJet 2200 that I have connected to my Ubuntu machine via USB. To help you figure out how to appropriately modify these lines to share your printer(s), I explain each line in the following paragraph.</p>
+<pre><code>LaserJet 2200:\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pr=|lpr -P HP_LaserJet_2200:\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pd=/etc/cups/ppd/HP_LaserJet_2200.ppd:</code></pre>
+<p><!--adsense--></p>
+<p>The first line specifies the name of the printer that will appear in the printer configuration window on Macs connected to your LAN. The second line specifies the printer name. Here I am using the <code>|</code> character so that print jobs gets piped through to the <code>lpr</code> command. The <code>-P</code> option specifies the printer to use (here <code>HP_LaserJet_2200</code>). This printer name is the one recognized by the <code>lpr</code> command on your Ubuntu machine. You can find the names of installed printers by executing the following command in a terminal.</p>
+<pre><code>lpstat -p</code></pre>
+<p>The third line give to path to the printer&#8217;s PPD file. Your PPD files are probably in the same directory as mine. Note that the syntax of the <code>papd.conf</code> file is very specific, for example, notice that colons separate the options and backslashes denote line breaks. I had a great deal of trouble getting my printer to work at first because I forgot a colon. After making changes to the <code>papd.conf</code> file, restart Netatalk and Avahi.</p>
+<pre><code>sudo /etc/init.d/netatalk restart
+sudo /etc/init.d/avahi-daemon restart</code></pre>
+<p>If everything is configured correctly, you should be able to add the newly shared printer using the <code>Add Printer...</code> option in your printer list on your Mac(s) and selecting the AppleTalk tab. Good luck and enjoy your newly shared printer.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/6/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/page/4/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-17 03:26:02 by W3 Total Cache -->

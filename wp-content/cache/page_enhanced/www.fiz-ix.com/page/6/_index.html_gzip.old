@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/stream-from-ubuntu-to-itunes-or-front-row-using-a-firefly-mt-daapd-media-server/#comments">1</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/stream-from-ubuntu-to-itunes-or-front-row-using-a-firefly-mt-daapd-media-server/" rel="bookmark" title="Permanent Link to Stream from Ubuntu to iTunes or Front Row Using a Firefly (mt-daapd) Media Server">Stream from Ubuntu to iTunes or Front Row Using a Firefly (mt-daapd) Media Server</a></h2>
+					<div class="meta">Posted December 17th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="category tag">Ubuntu</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>Using Firefly, your Ubuntu machine can host an iTunes media server which, with the help of Avahi installed as per <a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" target="_blank" >this post</a>, will show up in the iTunes &#8220;SHARED&#8221; list and will be accessible via Front Row. The following guide will get you started.</p>
+<p>Install Firefly (mt-daapd) using the <code>apt-get</code> package management software. Open a terminal on your Ubuntu machine and type the following command:</p>
+<pre><code>sudo apt-get install mt-daapd</code></pre>
+<p>Make sure that the ID3 tag reading libraries are also installed (Firefly uses these).</p>
+<pre><code>sudo apt-get install libid3tag0</code></pre>
+<p>After Firefly is installed, it must be configured to server media from a specific directory. It is helpful if you can connect to this directory remotely using Netatalk to deposit files. If Netatalk is not installed on your Ubuntu machine, then see <a href="http://www.fiz-ix.com/2012/12/apple-filing-protocol-afp-file-server-on-ubuntu-using-netatalk/" target="_blank" >this post</a> to do so. Since Netatalk by default serves the home directory of all users, the easiest thing to do is to create a new user and put the media directory in this users home directory. Below are the commands to make a new user (here called &#8220;media&#8221;), switch to this new user, make a music directory in the user&#8217;s home directory, and exit the new user.</p>
+<pre><code>sudo adduser media
+su media
+mkdir /home/media/music
+exit</code></pre>
+<p>If Netatlak is installed and running, you should now be able to connect to this new user on your Mac via Finder and copy songs to the music folder. Now you are ready to start the Firefly media server.</p>
+<pre><code>sudo /etc/init.d/mt-daapd start</code></pre>
+<p>Execute the following command to ensure that the Firefly server starts at boot.</p>
+<pre><code>sudo update-rc.d mt-daapd defaults</code></pre>
+<p>Now we must edit the Firefly configuration file to point to the media directory you just created. The easiest way to do this is by using the web interface although you can also open the configuration file and manually edit it. It is well commented and is called <code>/etc/mtdaap.conf</code>. To open the web interface type the following in your Mac or Ubuntu web browser substituting your Ubuntu machine&#8217;s IP address for mine which is <code>192.168.1.5</code> (If this doesn&#8217;t work, keep reading).</p>
+<pre><code>192.168.1.5:3689</code></pre>
+<p>This address specifies the connection is to be made through port 3689, the default Firefly port that can be changed manually in the configuration file. If you are attempting to open the web interface on the machine on which the Firefly server is running, this address may not work. It depends on your network configuration. If it doesn&#8217;t work try substituting <code>localhost</code> for the IP address. When prompted enter the default user name (mt-daapd) and password (also mt-daapd). Navigate to the configuration panel where you can change the server name, administrator password, music password (the password users have to enter via iTunes to access the shared music, I keep mine blank), the music folder (this should be changed to point to the directory created above), and database scan type and frequency. Music will not show up in iTunes or Front Row, even if it exists in the shared media directory, until the server scans the directory. You can force a scan by clicking the &#8220;Start Scan&#8221; button in the &#8220;server status&#8221; panel.  That&#8217;s it, enjoy the music.</p>
+<h3>Streaming Video Using Firefly</h3>
+<p>In addition to music files, Firefly is also able to serve video to iTunes. However this functionality seems to be buggy. For example, video files must have .mov or .m4v encoding in order for them to play. To discover video files in the media directory, add .mov and .m4v (comma separated) to the list of extensions in the configuration panel of the Firefly web configuration page and rescan the server for files. You can also play .mp4 files but you have to change the extension to .m4v. It seems that iTunes video playback via Firefly is also a little buggy. In order to see the video once a file was playing, I had to click on the &#8220;Now Playing&#8221; window in iTunes. Video does not seem to work at all in Front Row. Hopefully future releases of Firefly will fix some of these problems.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/ubuntu-to-mac-os-x-screen-sharing-with-vinagre/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/ubuntu-to-mac-os-x-screen-sharing-with-vinagre/" rel="bookmark" title="Permanent Link to Ubuntu to Mac OS X Screen Sharing with Vinagre">Ubuntu to Mac OS X Screen Sharing with Vinagre</a></h2>
+					<div class="meta">Posted December 17th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="category tag">Ubuntu</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>After installing Avahi following <a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" target="_blank" >this post</a> and are running Ubuntu, it is easy to configure Ubuntu to use Vinagre (a VNC client) to remotely share the desktop with machines running OS X on your local area network (LAN) via the <code>Share Screen...</code> button in Finder. The following guide will gets you started. (Note: In order to share the Ubuntu screen, the following configuration requires you to be logged into a Ubuntu session. Remaining logged into Ubuntu while you are away from the machine is not secure, but for my purposes and perhaps yours it is acceptable. I have yet to figure out how to enable resumable sessions that grant access to the Ubuntu login screen.) </p>
+<p>To share your Ubuntu desktop with OS X, a few Vinagre preferences must be set so that it will accept connections from your Mac. Open the Vinagre preferences panel using the following terminal command.</p>
+<pre><code>vino-preferences</code></pre>
+<p>In the general tab check <strong>&#8220;Allow other users to view your desktop&#8221;</strong>, <strong>&#8220;Allow other users to control your desktop&#8221;</strong>, and <strong>&#8220;Require the user to enter this password&#8221;</strong>. Uncheck <strong>&#8220;Ask you for confirmation&#8221;</strong> and then enter a password where indicated. It can be the same password as the one associated with your user account on the Ubuntu machine. In the advanced tab, ensure that everything is uncheck except for <strong>&#8220;Use an alternative port&#8221;</strong>. Specify port 5901 in the box next to this option. In may be tempting to check the <strong>&#8220;Require encryption&#8221;</strong> option, but for some reason when this is enabled, OS X can not connect to Vinagre. Close the preferences panel.</p>
+<p>To advertise the VNC client to Macs on your LAN, a few changes must be made to the Avahi configuration. If you have not installed Avahi, do so now following <a href="http://www.fiz-ix.com/2012/12/using-avahi-in-ubuntu-to-broadcast-services-to-macs-with-bonjour/" target="_blank" >this post</a>. Create a file to specify information about the VNC server.</p>
+<pre><code>sudo vim /etc/avahi/services/rfb.service</code></pre>
+<p>Copy and paste the following XML into this file.</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&#39;no&#39;?&gt;&lt;!&#45;&#45;*&#45;nxml&#45;*&#45;&#45;&gt;
+&lt;!DOCTYPE service-group SYSTEM &quot;avahi-service.dtd&quot;&gt;
+&lt;service-group&gt;
+&lt;name replace-wildcards=&quot;yes&quot;&gt;%h&lt;/name&gt;
+&lt;service&gt;
+&lt;type&gt;_rfb._tcp&lt;/type&gt;
+&lt;port&gt;5901&lt;/port&gt;
+&lt;/service&gt;
+&lt;/service&#45;group&gt;</code></pre>
+<p>Then, restart Avahi.</p>
+<pre><code>sudo /etc/init.d/avahi-daemon restart</code></pre>
+<p>At this point, the <code>Share Screen...</code> button should appear on your Mac running OS X when you select the Ubuntu machine running Vinagre in Finder. As long as you are logged into a session on the Ubuntu machine, you will now be about to view the Ubuntu screen by clicking this button and entering the password that you specified in the Vinagre preferences panel. Note that OS X will throw a warning when you try to connect because the connection is not secure, but the connection will work. If anyone figures out how to configure encrypted screen sharing, please leave a comment below.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/calling_a_javascript_function_from_an_html_tabl/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/calling_a_javascript_function_from_an_html_tabl/" rel="bookmark" title="Permanent Link to Calling a Javascript Function from an HTML Form">Calling a Javascript Function from an HTML Form</a></h2>
+					<div class="meta">Posted December 16th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/javascript/" rel="category tag">Javascript</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<script type='text/javascript'>function processInput() { 
+var myVars=document.getElementById('myTable'); 
+var myInput=myVars.input.value; 
+if (isNaN(myInput)) { 
+myVars.output.value = "Not a valid input"; 
+} 
+else { 
+myVars.output.value = Math.pow(myInput,2); 
+} 
+return false; 
+}</script>
+<p>The HTML and javascript code below demonstrates how to use a value entered into an HTML form to perform a calculation and return the result. This example simply squares the input value. Some simple checking is performed to ensure that the input value is a number. The following form demonstrates the code in action.<br />
+&nbsp;</p>
+<form id="myTable" action="#">
+<table border="1" align="center">
+<tbody>
+<tr>
+<td align="right">Input Number:</td>
+<td align="left"><input type="text" name="input" size="64" onkeyup="processInput()" /></td>
+</tr>
+<tr>
+<td align="right">Input Squared:</td>
+<td><input type="text" name="output" readonly="readonly" size="64" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>&nbsp;</p>
+<p>Here is the code.</p>
+<pre><code>&lt;script type='text/javascript'&gt;
+function processInput() {
+var myVars=document.getElementById('myTable');
+var myInput=myVars.input.value;
+if (isNaN(myInput)) {
+myVars.output.value = "Not a valid input";
+}
+else {
+myVars.output.value = Math.pow(myInput,2);
+}
+return false;
+}&lt;/script&gt;
+
+&lt;form id="myTable" action="#"&gt;
+&lt;table border="1" align="center"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Number:&lt;/td&gt;
+&lt;td align="left"&gt;&lt;input type="text" name="input" size="64"
+onkeyup="processInput()" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;Input Squared:&lt;/td&gt;
+&lt;td&gt;&lt;input type="text" name="output" readonly="readonly" size="64" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/form&gt;</code></pre>
+<p>&nbsp;</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/capacitors-and-rc-filters/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/capacitors-and-rc-filters/" rel="bookmark" title="Permanent Link to Capacitors and RC Filters">Capacitors and RC Filters</a></h2>
+					<div class="meta">Posted December 10th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/labs/" rel="category tag">Labs</a> <a href="http://www.fiz-ix.com/category/labs/physical-computing/" rel="category tag">Physical Computing</a></div>
+				</div>
+				<div class="entry">
+					<p>Capacitors are electronic devices that can store electric charge. The amount of charge (<code>Q</code>) a capacitor can hold per volt (<code>V</code>) is called the capacitor&#8217;s capacitance (<code>C</code>) and has SI units of farads. </p>
+<pre><code>C = Q/V</code></pre>
+<p>Capacitors are used for myriad reasons. You will find capacitors in timing circuits, filter circuits, AC to DC conversion circuits, amplifier circuits, voltage regulation circuits, and many other types of circuits. In this lab you will explore some of the many uses for capacitors by building two filter circuits.</p>
+<h3>High-Pass Filter</h3>
+<p>Build the following circuit on a breadboard using a 1000 kOhm resistor and a 0.1 microFarad capacitor. Note that the power supply is an AC voltage source.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-High-Pass.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-High-Pass.png" alt="" title="RC Filters High Pass" width="513" height="238" class="aligncenter size-full wp-image-1157" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-High-Pass-300x139.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-High-Pass.png 513w" sizes="(max-width: 513px) 100vw, 513px" /></a></p>
+<p>Connect channel one of an oscilloscope to measure the input voltage and channel two to measure the output voltage across the resistor. Vary the frequency of the AC voltage source and monitor the input and output waveforms on the oscilloscope.</p>
+<p>What happens to the amplitude of the output as the frequency of the input increases/decreases?</p>
+<p>What you have built is a passive analog high-pass filter. Such a device only allows sufficiently high frequency components of the input waveform to pass to the ouput. </p>
+<p>Gather data to construct a plot showing <code>V<sub>out</sub>/V<sub>in</sub></code> as a fuction of frequency. This frequency response curve is called a Bode plot.</p>
+<p>Estimate the frequency at which the amplitude of the output is exactly half the amplitude of the input.</p>
+<p>The theory of RC (Resistor/Capacitor) filters is well defined but requires knowledge of complex numbers and is thus largely beyond the scope of this course. However, it can be shown that passive analog high-pass filters like the one built here have a cut-off frequency in Hz equal to </p>
+<pre><code> f<sub>cut-off</sub> = 1/(2&#960;RC)</code></pre>
+<p>This means that an ideal high-pass filter would allow any frequency above this cut off to pass unattenuated while eliminating signal frequencies below this cut off. In the real word, as your Bode plot shows, the cut off frquency is not a sudden all-or-nothing threshold but the middle of a gradual sloping transition from frequencies that are completely attenuated to freqencies that are completely transmitted.</p>
+<p>How does the theoretical cut-off frequency for your circuit compare to the experimental value obtained from your Bode plot?</p>
+<p>Another property of analog filters is the propensity to cause a phase shift in the output relative to the input. In other words, the peaks and valleys of the input and output do not line up.</p>
+<p>Make a plot of the phase shift (in radians) of the output relative to the input as a function of frequency.</p>
+<p>Does the high-pass filter cause the output to be delayed (peaks in output happen after peaks in input) or advanced (peaks in output happen before peaks in input) in time?</p>
+<h3>Low-Pass Filter</h3>
+<p>Build the following circuit by changing the position of the resistor and capacitor in the circuit you built above.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-Low-Pass.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-Low-Pass.png" alt="" title="RC Filters Low Pass" width="511" height="217" class="aligncenter size-full wp-image-1159" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-Low-Pass-300x127.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/12/RC-Filters-Low-Pass.png 511w" sizes="(max-width: 511px) 100vw, 511px" /></a></p>
+<p>This is a low-pass filter.</p>
+<p>Construct a Bode plot for this circuit&#8217;s output relative to its input.</p>
+<p>Estimate the frequency at which the amplitude of the output is exactly half the amplitude of the input.</p>
+<p>The theoretical cut-off frequency for this low-pass filter is also</p>
+<pre><code> f<sub>cut-off</sub> = 1/(2&#960;RC)</code></pre>
+<p>An ideal low-pass filter would allow any frequency below this cut off to pass unattenuated while eliminating signal frequencies above this cut off. </p>
+<p>How does the theoretical cut-off frequency for your circuit compare to the experimental value obtained from your Bode plot?</p>
+<p>Make a phase shift plot for the low-pass filter&#8217;s output relative to its input as a function of frequency.</p>
+<p>Does the low-pass filter cause the output to be delayed (peaks in output happen after peaks in input) or advanced (peaks in output happen before peaks in input) in time?</p>
+<h3>Assignment</h3>
+<p>Turn in a Bode plot and phase shift plot for each of your circuits indicating on the Bode plots the theoretical cut-off frequency for your circuits. </p>
+<p>Experiment with differnt capacitor and resistor values that yield the same cut-off frequency. How does the slope of the Bode plot in the cut-off region depend on the values of the capacitor and resitor used?</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/the-collatz-conjecture-and-the-hailstone-sequence/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/the-collatz-conjecture-and-the-hailstone-sequence/" rel="bookmark" title="Permanent Link to The Collatz Conjecture and the Hailstone Sequence">The Collatz Conjecture and the Hailstone Sequence</a></h2>
+					<div class="meta">Posted December 10th, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/art/" rel="category tag">Art</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<h1>Stopping Times of the Hailstone Sequence</h1>
+<p><a href="http://www.fiz-ix.com/sciart/collatz/collatz.html" target="_blank">Click here to see a graph of the hailstone sequence stopping times.</a></p>
+<p>The Collatz conjecture is named after Lothar Collatz who first proposed it in 1937. This conjecture states that the hailstone sequence for any positive integer always converges to one. The hailstone sequence is a series of numbers generated using the following simple rules. The next number in the series is calculated by dividing the current number by two if the current number is even or multiplying by three and adding one if the current number is odd. For example, the hailstone sequence for 17 is 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1. The Collatz conjecture has never been proven.</p>
+<p><a href="http://www.fiz-ix.com/sciart/collatz/collatz.html" target="_blank">This javascript-generated graphic</a> plots the total stopping times (vertical axis scaled 1 to 300) for the hailstone sequence generated for the first 10000 positive integers (horizontal axis). The total stopping time is defined as the number of elements in the hailstone sequence before it converges to one. For example, the total stopping time for 17 is 13. </p>
+<p>While the Collatz conjecture has never been proven, to me the real mystery lies in the patterns evident in the total stopping time plot. Why are there periodic horizontal striations? What is special about the numbers yielding large outliers? Why are there so many irregularities in the midst of so much regularity? Why are the horizontal striations staggered vertically forming interweaving bands?</p>
+<p><a href="http://www.fiz-ix.com/sciart/collatz/collatz.html" target="_blank">Click here to learn more.</a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/7/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/page/5/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 07:00:36 by W3 Total Cache -->

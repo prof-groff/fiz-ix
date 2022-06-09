@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/02/using-bytes-and-bitmasks-to-control-multiple-arduino-digital-outputs/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/02/using-bytes-and-bitmasks-to-control-multiple-arduino-digital-outputs/" rel="bookmark" title="Permanent Link to Using Bytes and Bitmasks to Control Multiple Arduino Digital Outputs">Using Bytes and Bitmasks to Control Multiple Arduino Digital Outputs</a></h2>
+					<div class="meta">Posted February 4th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>A fine way to compactly control multiple Arduino digital output pins is to use a byte in conjunction with a bitmap. The byte provides the structure (eight bits) to compactly specify which digital pins are turned on and which are turned off. Let&#8217;s consider an example. Suppose you have eight digital output pins to control, Arduiono pins 2, 3, 4, 5, 6, 7, 8, and 9 for example. More specifically, let&#8217;s say you want pins 2, 3, 5, and 8 to be turned on (high) and pins 4, 6, 7, and 9 to be turned off (low). The following code will accomplish this.</p>
+<pre><code>int myPins[] = {2, 3, 4, 5, 6, 7, 8, 9};
+int onPins = B11010010; 
+
+void setup() {
+   for (int ii = 0; ii <= 7; ii++) {
+      pinMode(myPins[ii],OUTPUT);
+      digitalWrite(myPins[ii],LOW);
+   }
+}
+
+void loop() {
+   for (int ii = 0; ii <= 7; ii++) {
+      if (onPins &#038; (B10000000 >> ii)) {
+         digitalWrite(myPins[ii],HIGH);
+      }
+      else {
+         digitalWrite(myPins[ii],LOW);
+      }
+   }
+}</code></pre>
+<p>The <code>B10000000 >> ii</code> portion of the code uses a right bit shift operator to shift each bit in <code>B10000000</code> exactly <code>ii</code> places to the right. For each rightward shift, the least significant bit falls off and the most significant bit is replaced by a zero. For example <code>B10000000 >> 4</code> would yield <code>B00001000</code>.</p>
+<p>The conditional part of the <code>if</code> statement uses the bitwise <code>AND</code> compare. Each bit of the byte contained by <code>onPins</code> is compared to the corresponding bit of the byte resulting after the bit shift operator (what is often referred to as the bitmask). If any of the bitwise compares evaluates true then the entire <code>if</code> statement evaluates true and the <code>if</code> statement code is executed. If none of the bitwise compares evaluate true then the <code>if</code> statement evaluates false and the code in the <code>else</code> statement is executed. </p>
+<p>Note that the result of the bitmask is to turn on all of the pins corresponding to the <code>1</code>s in <code>onPins</code> and turn off all the other pins.</p>
+<p>I hope you found this quick tutorial helpful. Happy programming. </p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/01/mapping-arduino-analog-to-digital-converter-adc-output-to-voltage/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/01/mapping-arduino-analog-to-digital-converter-adc-output-to-voltage/" rel="bookmark" title="Permanent Link to Mapping Arduino Analog-to-Digital Converter (ADC) Output to Voltage">Mapping Arduino Analog-to-Digital Converter (ADC) Output to Voltage</a></h2>
+					<div class="meta">Posted January 16th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>The Arduino Uno is a digital device, but it has an analog-to-digital converter (ADC) to allow us to probe the analog signals that permeating our analog world. The ADC is a 10-bit device that can map an analog signal consisting of a voltage ranging from 0 to 5 volts to a decimal value between 0 and 1023 (2<sup>10</sup>-1). The sketch below prototypes how to take the decimal value supplied by the ADC and map it back to voltage. Conceptually, the idea of mapping a number from one range to another involves selecting the number on the destination range that has the same location relative to the end points as the original number had to the end points on the original range. If that sentence makes no sense to you, let me give a simple example. If I gave you the number 7 on the range 0 to 10 and told you to map the 7 to a number on the range 0 to 1000, you should pick 700 because 700 has the same position relative to 1000 as 7 has relative to 10. In other words, 7 is to 10 as 700 is to 1000. With a little thought, you can convince yourself that if both the original and destination ranges start at zero, then the mapping is accomplished as follows.</p>
+<pre><code>newNumber = orignialNumber*maxValueOnNewRange/maxValueOnOriginalRange</code></pre>
+<p>The following is the prototype Arduino sketch promised above. </p>
+<pre><code>int analogValue; // a place to hold the decimal value produced by 
+// the ADC
+float analogVolts; // a place to hold the analogValue mapped back 
+// to voltage
+byte analogPin = 5; // the analog pin connected to the analog 
+// signal we wish to read (pin A5)
+
+void setup() {
+// nothing
+}
+
+void loop() {
+analogValue = analogRead(analogPin);
+analogVolts = (float)analogValue*5/1023; // must convert int to float 
+// to perform floating point math
+}</code></pre>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/01/finding-standard-error-of-slope-and-y-intercept-using-linest-in-excel-linear-regression-in-physics-lab/#comments">1</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/01/finding-standard-error-of-slope-and-y-intercept-using-linest-in-excel-linear-regression-in-physics-lab/" rel="bookmark" title="Permanent Link to Finding Standard Error of Slope and Y-Intercept using LINEST in Excel (Linear Regression in Physics Lab)">Finding Standard Error of Slope and Y-Intercept using LINEST in Excel (Linear Regression in Physics Lab)</a></h2>
+					<div class="meta">Posted January 4th, 2013. Filed under <a href="http://www.fiz-ix.com/category/labs/" rel="category tag">Labs</a> <a href="http://www.fiz-ix.com/category/labs/physics-labs/" rel="category tag">Physics Labs</a></div>
+				</div>
+				<div class="entry">
+					<p>In Excel, you can apply a line-of-best fit to any scatterplot. The equation for the fit can be displayed but the standard error of the slope and y-intercept are not give. To find these statistics, use the LINEST function instead. The LINEST function performs linear regression calculations and is an array function, which means that it returns more than one value. Let&#8217;s do an example to see how it works.</p>
+<p>Let&#8217;s say you did an experiment to measure the spring constant of a spring. You systematically varied the force exerted on the spring (F) and measured the amount the spring stretched (s). Hooke&#8217;s law states the F=-ks (let&#8217;s ignore the negative sign since it only tells us that the direction of F is opposite the direction of s). Because linear regression aims to minimize the total squared error in the vertical direction, it assumes that all of the error is in the y-variable. Let&#8217;s assume that since you control the force used, there is no error in this quantity. That makes F the independent value and it should be plotted on the x-axis. Therefore, s is the dependent variable and should be plotted on the y-axis. Notice that the slope of the fit will be equal to 1/k and we expect the y-intercept to be zero. (As an aside, in physics we would rarely force the y-intercept to be zero in the fit even if we expect it to be zero because if the y-intercept is not zero, it may reveal a systematic error in our experiment.)</p>
+<p>The images below and the following text summarize the mechanics of using LINEST in Excel. Since it is an array function, select 6 cells (2 columns, 3 rows). You can select up to 5 rows (10 cells) and get even more statistics, but we usually only need the first six. Hit the equal sign key to tell Excel you are about to enter a function. Type <code>LINEST(</code>, use the mouse to select your y-data, type a comma, use the mouse to select your x-data, type another comma, then type <code>true</code> twice separated by a comma and close the parentheses. <strong>DON&#8217;T HIT ENTER</strong>. Instead, <strong>hold down shift and control and then press enter</strong>. This is the way to execute an array function. The second image below shows the results of the function. From left to right, the first row displays the slope and y-intercept, the second row displays the standard error of the slope and y-intercept. The first element in the third row displays the correlation coefficient. I actually don&#8217;t know what the second element is. Look it up if you are interested. By the way, you might wonder what the <code>true</code> arguments do. The first <code>true</code> tells LINEST not to force the y-intercept to be zero and the second <code>true</code> tells LINEST to return additional regression stats besides just the slope and y-intercept.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/01/LINEST1.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/01/LINEST1.png" alt="" title="LINEST1" width="392" height="175" class="aligncenter size-full wp-image-1368" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/01/LINEST2.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/01/LINEST2.png" alt="" title="LINEST2" width="355" height="156" class="aligncenter size-full wp-image-1369" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/01/making-a-movie-in-matlab/#comments">2</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/01/making-a-movie-in-matlab/" rel="bookmark" title="Permanent Link to Making a Movie in MATLAB">Making a Movie in MATLAB</a></h2>
+					<div class="meta">Posted January 3rd, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/matlab/" rel="category tag">MATLAB</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>Although it creates bulky AVI files, MATLAB can relatively easily make movies of animated figures. The code below prototypes how this is done.</p>
+<pre><code>% define the number of frames in your movie
+numberOfFrames = 1200;
+% use a loop to generate frames of the movie
+for ii = 1:numberOfFrames
+    % insert code to update data to be plotted
+    % plot data
+    figure(1); clf;
+    plot(x,y);
+    % insert code to format plot any way you want
+    drawnow; % force the plot to be displayed
+    M(ii) = getframe(1); % save figure 1 as an element of
+    % a movie object called M
+end
+
+% use the movie2avi function to save the movie
+% there are several parameters you can specify
+% the only one usually worth messing with is 
+% frames per second (fps)
+% 20 fps will make this 1200 frame movie 60 s long
+movie2avi(M, 'filename', 'fps', 20);</code></pre>
+<p>I hope this helps. The AVI will probably be over a GB in size. Use handbrake or ffmpeg to convert the movie made by MATLAB to a more compressed format like MP4.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/explanation-of-insulation-r-value/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/explanation-of-insulation-r-value/" rel="bookmark" title="Permanent Link to Explanation of Insulation R-Value">Explanation of Insulation R-Value</a></h2>
+					<div class="meta">Posted December 28th, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/energy/" rel="category tag">Energy</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p>The second laws of thermodynamics states that heat spontaneously flows from bodies at higher temperature to bodies at lower temperature. Thus, it is an inevitable outcome of all systems left to their own devices to eventually reach thermal equilibrium. The purpose of insulation is to reduce the speed at which equilibrium is reached. Insulation reduces the rate at which heat is conducted between two bodies. The &#8220;quality&#8221; of insulation is often rated using a ratio called R-value which is defined as the ratio of the temperature difference between the bodies between which the insulation is placed over the rate of heat flow across the insulation per unit area. More compactly,</p>
+<pre><code>R = &#916;T/[(dQ/dt)/A]</code></pre>
+<p>where <code>T</code> is temperature, <code>Q</code> is heat, <code>t</code> is time, and <code>A</code> is surface area. The SI units for <code>R</code> are <code>K m<sup>2</sup> s/J</code> or <code>K m<sup>2</sup>/W</code> however, most insulations sold in the US use the convoluted units of <code><sup>o</sup>F ft<sup>2</sup> h/BTU</code>. </p>
+<p>The larger an insulations R-value, the better it is at slowing the flow of heat. </p>
+<p>More insight into the meaning of R-value can be had by considering a different but equivalent definition. R-value is also the ratio of an insulations thickness over the thermal conductivity of the material from which it is made. More compactly,</p>
+<pre><code>R = L/k</code></pre>
+<p>where <code>L</code> is thickness and the thermal conductivity <code>k</code> has SI units of <code>W/(K m)</code> and Imperial units of  <code>BTU/(hr ft <sup>o</sup>F)</code>.</p>
+<p>In this form, it can be seen that the thicker the insulation, the higher its R-value and the better it is at slowing the flow of heat. Two different insulations may have different R-values even if they are made out of the same material if they have different thicknesses. For this reason, R-value, like weight, is an extrinsic property of insulation. On the other hand, insulation&#8217;s thermal conductivity is an intrinsic property of the material from which it is made. </p>
+<p>Since R-value depends only on thickness and thermal conductivity, it is additive if two or more pieces of insulation are combined. For example, if one were to sandwich two pieces of foam insulation with R-values of 5 and 8, respectively, the combination would have an R-value of 13.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/4/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/page/2/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 10/26 queries in 0.051 seconds using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 07:02:32 by W3 Total Cache -->

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<meta charset="UTF-8" />
+<title>Ubuntu DNS BIND Master Server Setup &#8211; Fiz-ix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drop Shipping 1.0.5" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Ubuntu DNS BIND Master Server Setup Comments Feed" href="http://www.fiz-ix.com/2012/12/ubuntu-dns-server-guide-bind-master-server-setup/feed/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<link rel='stylesheet' id='hybrid-one-five-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/one-five.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/gallery.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/css/font-awesome.css?ver=4.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Set Up an Ubuntu BIND DNS Caching Name Server' href='http://www.fiz-ix.com/2012/12/set-up-an-ubuntu-bind-dns-caching-name-server/' />
+<link rel='next' title='Explanation of Heat Pump SEER Rating' href='http://www.fiz-ix.com/2012/12/explanation-of-heat-pump-seer-rating/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://www.fiz-ix.com/2012/12/ubuntu-dns-server-guide-bind-master-server-setup/" />
+<link rel='shortlink' href='http://www.fiz-ix.com/?p=1245' />
+<link rel="alternate" type="application/json+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F12%2Fubuntu-dns-server-guide-bind-master-server-setup%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F12%2Fubuntu-dns-server-guide-bind-master-server-setup%2F&#038;format=xml" />
+    <style type="text/css">
+        #sidebar-primary ul li:before, a { color: #000000;}
+
+         #searchnavi input, #top-bar { background: #ffffff; }
+         h2.entry-title a:hover, #menu-primary li a:hover, li.current-menu-item > a, body.custom-header #site-title a:hover, a:hover { color: #1e73be; }
+       h2.entry-title a, #site-description, .sidebar, .credit { color: #1e73be; }
+    </style>
+    
+<style type="text/css" id="custom-header-css">body.custom-header #site-title a { color: #000000; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background: #ffffff; }</style>
+</head>
+
+<body class="wordpress ltr en en-us parent-theme y2016 m08 d09 h12 tuesday logged-out custom-background custom-header display-header-text singular singular-post singular-post-1245 post-format- layout-2c-l" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	<div id="top-bar">
+	<div id="top-container">
+		<div id="searchnavi">
+			<form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form>		</div>	
+	
+
+	<nav id="menu-secondary"></nav>
+</div>
+</div>
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+
+		<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+			
+				<div id="branding" class="site-branding">
+					<h1 id="site-title" class="site-title" itemprop="headline"><a href="http://www.fiz-ix.com" rel="home">Fiz-ix</a></h1>					<h2 id="site-description" class="site-description" itemprop="description">(Physics)</h2>				</div><!-- #branding -->
+
+			
+				<div id="header-widget"></div>
+		</header><!-- #header -->
+
+		<nav id="main-menu">
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+<nav id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text"></button>
+		</nav><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1531"><a href="http://www.fiz-ix.com">Home</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://www.fiz-ix.com/about/">About</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"><a href="http://www.fiz-ix.com/guides/">Guides</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://www.fiz-ix.com/labs/">Labs</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://www.fiz-ix.com/notebooks/">Notebooks</a></li>
+</ul></div>
+	</nav><!-- #menu-primary -->
+
+		
+		</nav>
+
+				<div id="main-containter">
+			<div id="breadcrumbs-container">
+	<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><h2 class="trail-browse">You are here:</h2><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="4" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="http://www.fiz-ix.com" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/"><span itemprop="name">2012</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/12/"><span itemprop="name">December</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">Ubuntu DNS BIND Master Server Setup</span><meta itemprop="position" content="4" /></li></ul></nav><div id="social"> 
+		
+		
+		
+		
+		
+				
+		
+	</div>
+</div>
+		<div id="main" class="main">
+
+			
+
+
+<main id="content" class="content" role="main">
+
+	
+	 
+
+	
+		
+			
+			
+		
+	<article id="post-1245" class="entry author-jeff post-1245 post type-post status-publish format-standard category-guides category-ubuntu tag-guides tag-ubuntu" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		
+		<header class="entry-header">
+
+			<time class="entry-published updated" datetime="2012-Dec-27T13:57:57-04:00" itemprop="datePublished" title="Thursday, Dec 27, 2012, 1:57 pm">December 27, 2012</time>
+			by			<span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="http://www.fiz-ix.com/author/jeff/" title="Posts by Jeff" rel="author" class="url fn n" itemprop="url"><span itemprop="name">Jeff</span></a></span>
+			<h1 class="entry-title" itemprop="headline">Ubuntu DNS BIND Master Server Setup</h1>
+			
+
+			<div class="entry-byline">
+				
+			</div><!-- .entry-byline -->
+
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="articleBody">
+			<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png" alt="" title="ubuntuLogo" width="300" height="135" class="alignleft size-medium wp-image-723" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo-300x135.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ubuntuLogo.png 540w" sizes="(max-width: 300px) 100vw, 300px" /></a>In a <a href="http://www.fiz-ix.com/2012/12/set-up-an-ubuntu-bind-dns-caching-name-server/" target="_blank">previous post</a> I walked you through the installation of BIND9 (Berkley Internet Name Daemon Version 9) on Ubuntu and configuring the installation to function as a caching name server on your local area network (LAN). Caching DNS records on a local server will hopefully boost your network&#8217;s performance. That is great, but you probably want your private DNS server to actually help manage the machines on your LAN by maintaining host records and serving those records. Here I show you how to setup a BIND master server to do just that. </p>
+<h3>Makeup of A Fictional Domain</h3>
+<p>Here we will consider the set up of a fictional domain named <code>mydomain.lan</code> on a restricted network (i.e., a LAN located behind a firewall) and the <code>192.168.1.0</code> subnet. The domain will have have 4 hosts with the following addresses, names, and roles.</p>
+<pre><code>IP Address  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hostname &nbsp;&nbsp;&nbsp; role &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alias
+192.168.1.99 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; john &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DNS/mail server
+192.168.1.50 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; paul &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; web server &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www
+192.168.1.51 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; george  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; workstation
+192.168.1.52 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ringo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; workstation</code></pre>
+<p>Note that the web server is configured with the alias (canonical name) <code>www</code> so that one can navigate to it using <code>www.mydomain.lan</code> in addition to <code>paul</code> and <code>paul.mydomain.lan</code>. Of course your domain will vary in makeup and function to the one considered here, but you should be able to modify the following code to suit your needs.</p>
+<h3>Configure Zones on BIND</h3>
+<p>Ubuntu installs BIND with a configuration file <code>/etc/bind/named.conf</code> that suits most home office and small business needs and does not need to be modified. Instead you will create your local DNS &#8220;zone&#8221; by editing <code>/etc/bind/named.conf.local</code>, which is sourced by <code>named.conf</code>. Open this file with a text editor of your choice (I use <code>vi</code> here).</p>
+<pre><code>sudo vi /etc/bind/named.conf.local</code></pre>
+<p>Ignore the commented areas and add a zone definition for your domain to this file.</p>
+<pre><code>zone "mydomain.lan" IN {
+&nbsp;&nbsp;&nbsp; type master;
+&nbsp;&nbsp;&nbsp; file "/etc/bind/zones/mydomain.lan.db";
+};</code></pre>
+<p>Add a reverse DNS zone definition as well. This will allow the server to map IP addresses to domain names.</p>
+<pre><code>zone "1.168.192.in-addr.arpa" {
+&nbsp;&nbsp;&nbsp; type master;
+&nbsp;&nbsp;&nbsp; file "/etc/bind/zones/rev.1.168.192.in-addr.arpa";
+};</code></pre>
+<h3>Create DNS Records</h3>
+<p>The zone definitions in the previous section refer to files that will contain details about our network mapping. The <code>mydomain.lan.db</code> file will contain records of the hostname-to-IP address mappings of your domain. The <code>rev.1.168.192.in-addr.arpa</code> file will contain &#8220;reverse&#8221; IP address-to-hostname records. Make a directory to hold these files and open <code>mydomain.lan.db</code>.</p>
+<pre><code>sudo mkdir /etc/bind/zones
+sudo vi /etc/bind/zones/mydomain.lan.db</code></pre>
+<p>For the fictitious domain considered here <code>mydomain.lan.db</code> is edited to look like the following.</p>
+<pre><code>; Use semicolons to add comments.
+; Host-to-IP Address DNS Pointers for mydomain.lan
+; Note: The extra "." at the end of addresses are important.
+; The following parameters set when DNS records will expire, etc.
+; Importantly, the serial number must always be iterated upward to prevent
+; undesirable consequences. A good format to use is YYYYMMDDI where
+; the I index is in case you make more that one change in the same day.
+mydomain.lan. IN SOA john.mydomain.lan. hostmaster.mydomain.lan. (
+&nbsp;&nbsp;&nbsp; 200709131 ; serial
+&nbsp;&nbsp;&nbsp; 8H ; refresh
+&nbsp;&nbsp;&nbsp; 4H ; retry
+&nbsp;&nbsp;&nbsp; 4W ; expire
+&nbsp;&nbsp;&nbsp; 1D ; minimum
+)
+; NS indicates that john is the name server on mydomain.lan
+; MX indicates that john is (also) the mail server on mydomain.lan
+mydomain.lan.    IN NS  john.mydomain.lan.
+mydomain.lan. IN MX 10 john.mydomain.lan.
+; Set an alias (canonical name) for paul
+www   IN  CNAME  paul.mydomain.lan.
+; Set the address for localhost.mydomain.lan
+localhost &nbsp;&nbsp; IN A 127.0.0.1
+; Set the hostnames in alphabetical order
+george &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN A 192.168.1.51
+john &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN A 192.168.1.99
+paul &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN A 192.168.1.50
+ringo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN A 192.168.1.52</code></pre>
+<p>After creating the reverse DNS record file</p>
+<pre><code>sudo vi /etc/bind/zones/rev.1.168.192.in-addr.arpa</code></pre>
+<p>it is edited to look like the following.</p>
+<pre><code>; IP Address-to-Host DNS Pointers for 192.168.1.0 subnet
+@ IN SOA  john.mydomain.lan. hostmaster.mydomain.lan. (
+&nbsp;&nbsp;&nbsp; 200709131 ; serial
+&nbsp;&nbsp;&nbsp; 8H ; refresh
+&nbsp;&nbsp;&nbsp; 4H ; retry
+&nbsp;&nbsp;&nbsp; 4W ; expire
+&nbsp;&nbsp;&nbsp; 1D ; minimum
+)
+; define the authoritative name server
+IN  NS   john.mydomain.lan.
+; our hosts, in numeric order
+99 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN PTR john.mydomain.lan.
+50 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN PTR paul.mydomain.lan.
+51 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN PTR george.mydomain.lan.
+52 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IN PTR ringo.mydomain.lan.</code></pre>
+<p>Of course, your DNS records will look different then those above but hopefully by using these configurations as templates you can customize the files to your domain. To initiate your authoritative DNS server restart BIND.</p>
+<pre><code>sudo /etc/init.d/bind9 restart</code></pre>
+<p>Test your DNS server by typing <code>dig mydomain.lan</code> at the command prompt. All of the hosts on your local network should appear under <code>AUTHORITY SECTION</code> in the output of this command. </p>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">				
+					
+				<br /><span class="entry-terms category" itemprop="articleSection">Categories:	 <a href="http://www.fiz-ix.com/category/guides/" rel="tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/ubuntu/" rel="tag">Ubuntu</a></span>			<br /><span class="entry-terms post_tag" itemprop="keywords">Taggs:	 <a href="http://www.fiz-ix.com/tag/guides/" rel="tag">Guides</a> <a href="http://www.fiz-ix.com/tag/ubuntu/" rel="tag">Ubuntu</a></span>		</footer><!-- .entry-footer -->
+	</article>	
+	
+	
+</article><!-- .entry -->
+
+						
+	<div class="loop-nav">
+		<div class="prev">Previous Post: <a href="http://www.fiz-ix.com/2012/12/set-up-an-ubuntu-bind-dns-caching-name-server/" rel="prev">Set Up an Ubuntu BIND DNS Caching Name Server</a></div>		<div class="next">Next Post: <a href="http://www.fiz-ix.com/2012/12/explanation-of-heat-pump-seer-rating/" rel="next">Explanation of Heat Pump SEER Rating</a></div>	</div><!-- .loop-nav -->
+
+
+			
+<section id="comments-template">
+
+	
+		<div id="comments">
+
+			<h3 id="comments-number">2 Comments</h3>
+
+			<ol class="comment-list">
+				<li id="comment-741" class="pingback even thread-even depth-1 ping">
+
+	<header class="comment-meta">
+		<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href='http://dns-internet.net/2012/12/27/ubuntu-dns-bind-master-server-setup-fiz-ix/' rel='external nofollow' class='url fn n' itemprop="url"><span itemprop="name">Ubuntu DNS BIND Master Server Setup | Fiz-ix | DNS Internet</span></a></cite><br />
+		<time class="comment-published" datetime="2012-12-27T21:07:10-04:00" title="Thursday, December 27, 2012, 9:07 pm" itemprop="datePublished">4 years ago</time>
+		<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/ubuntu-dns-server-guide-bind-master-server-setup/#comment-741" itemprop="url">Permalink</a>
+			</header><!-- .comment-meta -->
+
+</li><!-- .comment --><li id="comment-1439" class="comment odd alt thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/56d7888c8587ffd6af1cd485a32bbaf5?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/56d7888c8587ffd6af1cd485a32bbaf5?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Alee6179</cite><br />
+			<time class="comment-published" datetime="2013-05-30T16:35:19-04:00" title="Thursday, May 30, 2013, 4:35 pm" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/ubuntu-dns-server-guide-bind-master-server-setup/#comment-1439" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/ubuntu-dns-server-guide-bind-master-server-setup/?replytocom=1439#respond' onclick='return addComment.moveForm( "comment-1439", "1439", "respond", "1245" )' aria-label='Reply to Alee6179'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Is there a way to redirect request for a specific urlt (ie vc.example.com) to a local ip?  I already tried using CNAME and then have it pointed to a specific A record like below.  It still doesn&#8217;t work.</p>
+<p>vc   IN   A   10.8.8.10<br />
+vc.john.com IN CNAME  vc</p>
+<p>I want all request for that specific url (vc.john.com) to get redirected to 10.8.8.10.  Is this possible?</p>
+<p>Any assistance is appreciated.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment -->			</ol><!-- .comment-list -->
+
+			
+		</div><!-- #comments-->
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/12/ubuntu-dns-server-guide-bind-master-server-setup/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.fiz-ix.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1245' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e0c1f4015b" /></p>				</form>
+					</div><!-- #respond -->
+		
+</section><!-- #comments-template -->
+			
+		
+
+		</main><!-- #content -->
+	
+
+
+			
+
+		</div><!-- #main -->
+		
+		
+
+	<aside class="sidebar sidebar-primary" role="complementary" id="sidebar-primary" aria-label="Primary Sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+		
+			<section id="search-3" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form></section><section id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</section><section id="categories-3" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</section><section id="linkcat-6" class="widget widget_links"><h3 class="widget-title"><span>Links</span></h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</section>
+
+		
+	</aside><!-- #sidebar-primary -->
+
+		
+	</div> <!--#main-containter -->
+		
+		</div><!-- #container -->
+		<nav id="footer-navigation"> </nav>
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		
+			<p class="credit">
+				Copyright &#169; 2016 <a class="site-link" href="http://www.fiz-ix.com" rel="home">Fiz-ix</a>. Powered by <a class="wp-link" target="_blank" href="http://wordpress.org">WordPress</a> and <a class="theme-link" target="_blank" href="http://fireincome.com/drop-shipping">Drop Shipping</a>.			</p><!-- .credit -->
+
+		</footer><!-- #footer -->
+
+	
+
+	<script type='text/javascript' src='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/js/mobile-toggle.min.js?ver=20130528'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/comment-reply.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 12:44:27 by W3 Total Cache -->

@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/optimization-algorithms/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/optimization-algorithms/" rel="bookmark" title="Permanent Link to Optimization Algorithms">Optimization Algorithms</a></h2>
+					<div class="meta">Posted December 3rd, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/cartoons/" rel="category tag">Cartoons</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/12/optimization_small.jpg"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/optimization_small.jpg" alt="" title="optimization_small" width="550" height="655" class="aligncenter size-full wp-image-908" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/things-i-do-while-riding-the-dc-metro/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/things-i-do-while-riding-the-dc-metro/" rel="bookmark" title="Permanent Link to Things I Do While Riding the DC Metro">Things I Do While Riding the DC Metro</a></h2>
+					<div class="meta">Posted December 2nd, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/cartoons/" rel="category tag">Cartoons</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/12/metroZombies_small.jpg"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/metroZombies_small.jpg" alt="" title="metroZombies_small" width="550" height="720" class="aligncenter size-full wp-image-888" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/12/metroZombies_small-229x300.jpg 229w, http://www.fiz-ix.com/wp-content/uploads/2012/12/metroZombies_small.jpg 550w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/the-more-i-know-the-more-i-know-i-dont-know/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/the-more-i-know-the-more-i-know-i-dont-know/" rel="bookmark" title="Permanent Link to The More I Know, the More I Know I Don&#8217;t Know">The More I Know, the More I Know I Don&#8217;t Know</a></h2>
+					<div class="meta">Posted December 2nd, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/cartoons/" rel="category tag">Cartoons</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/12/howlittleIKnow_Small.jpg"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/12/howlittleIKnow_Small.jpg" alt="" title="howlittleIKnow_Small" width="550" height="378" class="aligncenter size-full wp-image-880" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/12/howlittleIKnow_Small-300x206.jpg 300w, http://www.fiz-ix.com/wp-content/uploads/2012/12/howlittleIKnow_Small.jpg 550w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/home-energy-audit-calculator/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/home-energy-audit-calculator/" rel="bookmark" title="Permanent Link to Home Energy Audit Calculator">Home Energy Audit Calculator</a></h2>
+					<div class="meta">Posted December 1st, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/calculators/" rel="category tag">Calculators</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<script type='text/javascript'>function energy_audit() { 
+var calc = document.getElementById('energy'); 
+ var power = calc.power.value; 
+var hours = calc.hours.value; 
+var days = calc.days.value; 
+var cost = calc.cost.value; 
+ var energy = power*hours*days/1000; 
+var totalcost = energy*cost/100; 
+calc.energy.value = energy; 
+calc.totalcost.value = totalcost; 
+ return false; 
+}</script>
+<p>Use this calculator to easily calculate how much energy and how much money an electrical appliance in your home uses each month. Simply enter the appliance&#8217;s power usage (in watts), the number of hours the appliance is used each day on average, the approximate number of days the appliance is used each month, and the amount you pay for each kilowatt hour (kWh) of electricity in cents. The calculator will determine how many kilowatt hours   of electrical energy the appliance uses each month and the corresponding cost of operation in dollars. Use this calculator to systematically do an energy audit of your entire home. Discover which appliances use the most electricity and start making a plan to save energy and money.</p>
+<form id="energy" action="#"><font color="#000000"></p>
+<table align="center" border="1">
+<tr>
+<td align="right">Appliance Power Rating (W): </td>
+<td align="left"><input type="text" name="power" size="5" /></td>
+</tr>
+<tr>
+<td align="right">Use Per Day (h): </td>
+<td align="left"><input type="text" name="hours" size="5" /></td>
+</tr>
+<tr>
+<td align="right">Use Per Month (days): </td>
+<td align="left"><input type="text" name="days" size="5" /></td>
+</tr>
+<tr>
+<td align="right">Electricity Cost (cents/kWh): </td>
+<td align="left"><input type="text" name="cost" size="5" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="button" value="Calculate" onclick="energy_audit();" /></td>
+</tr>
+<tr>
+<td align="right">Total Energy Used Per Month (kWh): </td>
+<td alig="left"><input type="text" name="energy" size="5" readonly="readonly" /></td>
+</tr>
+<tr>
+<td align="right">Total Cost of Energy Per Month (dollars): </td>
+<td alig="left"><input type="text" name="totalcost" size="5" readonly="readonly" /></td>
+</tr>
+</table>
+<p></font></form>
+<p>&nbsp;</p>
+<p>How does this calculator work? First, the power rating is divided by 1000 to convert to kilowatts. This is multiplied by the number of hours the appliance is used each day to arrive at kilowatt hours per day. Next, this result is multiplied by the number of days the appliance is used each month to calculate the total number of kilowatt hours consumed. Finally, the energy usage in kilowatt hours is multiplied by the cost per kilowatt hour in cents and divided by 100 to arrive at the total cost to run the appliance for a month in dollars.</p>
+<p>&nbsp;</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/led-current-limiting-resistor-calculator/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/led-current-limiting-resistor-calculator/" rel="bookmark" title="Permanent Link to LED Current Limiting Resistor Calculator">LED Current Limiting Resistor Calculator</a></h2>
+					<div class="meta">Posted December 1st, 2012. Filed under <a href="http://www.fiz-ix.com/category/notebooks/calculators/" rel="category tag">Calculators</a> <a href="http://www.fiz-ix.com/category/notebooks/" rel="category tag">Notebooks</a></div>
+				</div>
+				<div class="entry">
+					<script type='text/javascript'>function led_i_lim_calc() { 
+var calc = document.getElementById('ledrcalc'); 
+ var vcc = calc.vcc.value; 
+var iled = calc.iled.value; 
+var vled = calc.vled.value; 
+ var rled = 1000*vled/iled; 
+var rtot = 1000*vcc/iled; 
+var rlim = rtot-rled; 
+calc.rlim.value = rlim; 
+ return false; 
+}</script>
+<p>Use this calculator to easily find the optimal resistance value needed to limit the current flowing through an LED. Simply enter the system voltage and the LED&#8217;s recommended forward current (in milliamps, mA) and forward voltage drop as supplied by its datasheet. Then click the &#8220;Calculate&#8221; button and voila.</p>
+<form id="ledrcalc" action="#"><font color="#000000"></p>
+<table align="center" border="1">
+<tr>
+<td align="right">System Voltage (V): </td>
+<td align="left"><input type="text" name="vcc" size="5" /></td>
+</tr>
+<tr>
+<td align="right">LED Recommended Forward Current (mA): </td>
+<td align="left"><input type="text" name="iled" size="5" /></td>
+</tr>
+<tr>
+<td align="right">LED Forward Voltage Drop (V): </td>
+<td align="left"><input type="text" name="vled" size="5" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="button" value="Calculate" onclick="led_i_lim_calc();" /></td>
+</tr>
+<tr>
+<td align="right">Current Limiting Resistor (&#937;): </td>
+<td alig="left"><input type="text" name="rlim" size="5" readonly="readonly" /></td>
+</tr>
+</table>
+<p></font></form>
+<p>&nbsp;</p>
+<p>How does this calculator work? First, the total resistance required to limit the current in a wire to the LED&#8217;s recommended forward current is calculated using Ohm&#8217;s law assuming the wire is supplied with a voltage equal to the system voltage. Next, the resistance of the LED is calculated using its forward voltage drop and forward current values. Finally, the value of the current limiting resistor is calculated by subtracting the LED&#8217;s resistance from the total resistance needed to limit the LED&#8217;s current calculated above.</p>
+<p>&nbsp;</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/11/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/page/9/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 2/28 queries in 0.036 seconds using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-20 06:36:07 by W3 Total Cache -->

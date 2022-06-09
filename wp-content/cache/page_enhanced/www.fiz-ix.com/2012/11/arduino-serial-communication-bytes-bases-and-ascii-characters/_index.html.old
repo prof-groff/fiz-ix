@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<meta charset="UTF-8" />
+<title>Arduino Serial Communication, Bytes, Bases, and ASCII Characters &#8211; Fiz-ix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drop Shipping 1.0.5" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Arduino Serial Communication, Bytes, Bases, and ASCII Characters Comments Feed" href="http://www.fiz-ix.com/2012/11/arduino-serial-communication-bytes-bases-and-ascii-characters/feed/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<link rel='stylesheet' id='hybrid-one-five-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/one-five.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/gallery.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/css/font-awesome.css?ver=4.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Installing Media Codecs for MP3, WMV, WMA, ACC (MP4, M4A), DVD, Quicktime (MOV) and Flash in Ubuntu' href='http://www.fiz-ix.com/2012/11/installing-media-codecs-for-mp3-wmv-wma-acc-mp4-m4a-dvd-quicktime-mov-and-flash-in-ubuntu/' />
+<link rel='next' title='LED Current Limiting Resistor Calculator' href='http://www.fiz-ix.com/2012/12/led-current-limiting-resistor-calculator/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://www.fiz-ix.com/2012/11/arduino-serial-communication-bytes-bases-and-ascii-characters/" />
+<link rel='shortlink' href='http://www.fiz-ix.com/?p=784' />
+<link rel="alternate" type="application/json+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F11%2Farduino-serial-communication-bytes-bases-and-ascii-characters%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F11%2Farduino-serial-communication-bytes-bases-and-ascii-characters%2F&#038;format=xml" />
+    <style type="text/css">
+        #sidebar-primary ul li:before, a { color: #000000;}
+
+         #searchnavi input, #top-bar { background: #ffffff; }
+         h2.entry-title a:hover, #menu-primary li a:hover, li.current-menu-item > a, body.custom-header #site-title a:hover, a:hover { color: #1e73be; }
+       h2.entry-title a, #site-description, .sidebar, .credit { color: #1e73be; }
+    </style>
+    
+<style type="text/css" id="custom-header-css">body.custom-header #site-title a { color: #000000; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background: #ffffff; }</style>
+</head>
+
+<body class="wordpress ltr en en-us parent-theme y2016 m08 d09 h12 tuesday logged-out custom-background custom-header display-header-text singular singular-post singular-post-784 post-format- layout-2c-l" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	<div id="top-bar">
+	<div id="top-container">
+		<div id="searchnavi">
+			<form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form>		</div>	
+	
+
+	<nav id="menu-secondary"></nav>
+</div>
+</div>
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+
+		<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+			
+				<div id="branding" class="site-branding">
+					<h1 id="site-title" class="site-title" itemprop="headline"><a href="http://www.fiz-ix.com" rel="home">Fiz-ix</a></h1>					<h2 id="site-description" class="site-description" itemprop="description">(Physics)</h2>				</div><!-- #branding -->
+
+			
+				<div id="header-widget"></div>
+		</header><!-- #header -->
+
+		<nav id="main-menu">
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+<nav id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text"></button>
+		</nav><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1531"><a href="http://www.fiz-ix.com">Home</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://www.fiz-ix.com/about/">About</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"><a href="http://www.fiz-ix.com/guides/">Guides</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://www.fiz-ix.com/labs/">Labs</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://www.fiz-ix.com/notebooks/">Notebooks</a></li>
+</ul></div>
+	</nav><!-- #menu-primary -->
+
+		
+		</nav>
+
+				<div id="main-containter">
+			<div id="breadcrumbs-container">
+	<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><h2 class="trail-browse">You are here:</h2><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="4" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="http://www.fiz-ix.com" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/"><span itemprop="name">2012</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/11/"><span itemprop="name">November</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">Arduino Serial Communication, Bytes, Bases, and ASCII Characters</span><meta itemprop="position" content="4" /></li></ul></nav><div id="social"> 
+		
+		
+		
+		
+		
+				
+		
+	</div>
+</div>
+		<div id="main" class="main">
+
+			
+
+
+<main id="content" class="content" role="main">
+
+	
+	 
+
+	
+		
+			
+			
+		
+	<article id="post-784" class="entry author-jeff post-784 post type-post status-publish format-standard category-labs category-physical-computing tag-labs tag-physical-computing" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		
+		<header class="entry-header">
+
+			<time class="entry-published updated" datetime="2012-Nov-30T13:17:24-04:00" itemprop="datePublished" title="Friday, Nov 30, 2012, 1:17 pm">November 30, 2012</time>
+			by			<span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="http://www.fiz-ix.com/author/jeff/" title="Posts by Jeff" rel="author" class="url fn n" itemprop="url"><span itemprop="name">Jeff</span></a></span>
+			<h1 class="entry-title" itemprop="headline">Arduino Serial Communication, Bytes, Bases, and ASCII Characters</h1>
+			
+
+			<div class="entry-byline">
+				
+			</div><!-- .entry-byline -->
+
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="articleBody">
+			<p>Understanding data types is especially important if you wish to use serial communication to send data to your Arduino and have the ATmega328 act on this data. Serial data is read from the serial buffer using a sequence of commands like this.</p>
+<pre><code>if (Serial.available()>0) { // there are bytes in the serial buffer to read
+   while(Serial.available()>0) { // every time a byte is read it is expunged 
+   // from the serial buffer so keep reading the buffer until all the bytes 
+   // have been read.
+      myByte = Serial.read(); // read in the next byte
+   }
+}</code></pre>
+<p>It is important to know that characters typed into the serial terminal (or sent from on Arduino to another via serial) are interpreted as ASCII (American Standard Code for Information Interchange) characters and encoded with the decimal number corresponding to the character on the ASCII table. The following is the ASCII table from <a href="http://www.lookuptables.com" target=_blank>lookuptables.com</a>, a great source of all sorts of computer-related reference tables. </p>
+<p><a href="http://www.lookuptables.com"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/11/ASCII-Table.gif" alt="" title="ASCII Table" width="715" height="488" class="alignleft size-full wp-image-786" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/11/ASCII-Table.gif 715w, http://www.fiz-ix.com/wp-content/uploads/2012/11/ASCII-Table-300x204.gif 300w" sizes="(max-width: 715px) 100vw, 715px" /></a></p>
+<p>To give you an example, if you were to send the letter <code>A</code> to an Arduino via serial and saved the incoming byte as <code>myByte</code> using code like that given above, the numerical decimal value of myByte would be 65. Try the following code and enter <code>A</code> in the serial terminal and you will notice that the number 65 is returned to the terminal and output to the screen because the <code>Serial.print()</code> function by default prints the decimal value of the byte.</p>
+<pre><code>byte myByte; 
+void setup(void){
+   Serial.begin(9600); // begin serial communication
+}
+
+void loop(void) {
+   if (Serial.available()>0) { // there are bytes in the serial buffer to read
+      while(Serial.available()>0) { // every time a byte is read it is expunged 
+      // from the serial buffer so keep reading the buffer until all the bytes 
+      // have been read.
+         myByte = Serial.read(); // read in the next byte
+      }
+      Serial.println(myByte); // print byte to screen
+      delay(100); // a short delay
+   }
+   
+}</code></pre>
+<p>If you want to instead print the ASCII character corresponding to myByte, use the <code>Serial.write()</code> function instead. You can also use an additional argument to tell the <code>Serial.print()</code> function to display the byte using the decimal, hexadecimal, octadecimal, or binary base numeral systems. The following code will take a byte read in from the serial terminal and print it to the terminal using these various bases.</p>
+<pre><code>byte myByte; 
+void setup(void){
+   Serial.begin(9600); // begin serial communication
+}
+
+void loop(void) {
+   if (Serial.available()>0) { // there are bytes in the serial buffer to read
+      while(Serial.available()>0) { // every time a byte is read it is expunged 
+      // from the serial buffer so keep reading the buffer until all the bytes 
+      // have been read.
+         myByte = Serial.read(); // read in the next byte
+      }
+      Serial.println(myByte, DEC); // base 10, this is the default
+      Serial.println(myByte, HEX); // base 16
+      Serial.println(myByte, OCT); // base 8
+      Serial.println(myByte, BIN); // base 2
+      Serial.write(myByte); // ASCII character
+      Serial.println(); // carriage return
+      delay(100); // a short delay
+   }
+   
+}</code></pre>
+<h3>Assignment</h3>
+<p>Use the <code>String</code> class (you can think of this as a data type called a string) to modify the code above to read in a sequence of characters and save these characters as a string then print this string to the terminal. To help you out, know that strings are defined as follows and are surrounded by quotation marks.</p>
+<pre><code>String myString = "One or more words";</code></pre>
+<p>A character can be concatenated to the end of a string using the following command.</p>
+<pre><code> myString.concat(' or numbers') // now myString is "One or more words
+// or numbers"</code></pre>
+<p>To ensure that a byte read in from the serial buffer is interpreted as a character, precede a call to this character with the <code>(char)</code> command, which converts a number to the corresponding ASCII character.</p>
+<p>Good luck.</p>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">				
+					
+				<br /><span class="entry-terms category" itemprop="articleSection">Categories:	 <a href="http://www.fiz-ix.com/category/labs/" rel="tag">Labs</a> <a href="http://www.fiz-ix.com/category/labs/physical-computing/" rel="tag">Physical Computing</a></span>			<br /><span class="entry-terms post_tag" itemprop="keywords">Taggs:	 <a href="http://www.fiz-ix.com/tag/labs/" rel="tag">Labs</a> <a href="http://www.fiz-ix.com/tag/physical-computing/" rel="tag">Physical Computing</a></span>		</footer><!-- .entry-footer -->
+	</article>	
+	
+	
+</article><!-- .entry -->
+
+						
+	<div class="loop-nav">
+		<div class="prev">Previous Post: <a href="http://www.fiz-ix.com/2012/11/installing-media-codecs-for-mp3-wmv-wma-acc-mp4-m4a-dvd-quicktime-mov-and-flash-in-ubuntu/" rel="prev">Installing Media Codecs for MP3, WMV, WMA, ACC (MP4, M4A), DVD, Quicktime (MOV) and Flash in Ubuntu</a></div>		<div class="next">Next Post: <a href="http://www.fiz-ix.com/2012/12/led-current-limiting-resistor-calculator/" rel="next">LED Current Limiting Resistor Calculator</a></div>	</div><!-- .loop-nav -->
+
+
+			
+<section id="comments-template">
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/11/arduino-serial-communication-bytes-bases-and-ascii-characters/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.fiz-ix.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='784' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="df2afe9bf1" /></p>				</form>
+					</div><!-- #respond -->
+		
+</section><!-- #comments-template -->
+			
+		
+
+		</main><!-- #content -->
+	
+
+
+			
+
+		</div><!-- #main -->
+		
+		
+
+	<aside class="sidebar sidebar-primary" role="complementary" id="sidebar-primary" aria-label="Primary Sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+		
+			<section id="search-3" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form></section><section id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</section><section id="categories-3" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</section><section id="linkcat-6" class="widget widget_links"><h3 class="widget-title"><span>Links</span></h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</section>
+
+		
+	</aside><!-- #sidebar-primary -->
+
+		
+	</div> <!--#main-containter -->
+		
+		</div><!-- #container -->
+		<nav id="footer-navigation"> </nav>
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		
+			<p class="credit">
+				Copyright &#169; 2016 <a class="site-link" href="http://www.fiz-ix.com" rel="home">Fiz-ix</a>. Powered by <a class="wp-link" target="_blank" href="http://wordpress.org">WordPress</a> and <a class="theme-link" target="_blank" href="http://fireincome.com/drop-shipping">Drop Shipping</a>.			</p><!-- .credit -->
+
+		</footer><!-- #footer -->
+
+	
+
+	<script type='text/javascript' src='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/js/mobile-toggle.min.js?ver=20130528'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/comment-reply.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 12:19:01 by W3 Total Cache -->

@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+						Fiz-ix&nbsp;|&nbsp;Author Archives													</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Posts by Jeff Feed" href="http://www.fiz-ix.com/author/jeff/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li ><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comments">23</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/" rel="bookmark" title="Permanent Link to How to Configure Arduino Timer 2 Registers to Drive an Ultrasonic Transducer with a Square Wave">How to Configure Arduino Timer 2 Registers to Drive an Ultrasonic Transducer with a Square Wave</a></h2>
+					<div class="meta">Posted January 22nd, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>The Arduino IDE has many built-in commands to produce PWM outputs but directly setting the timer registers gives you much more flexibility and power. Below I show how to configure the 8-bit Timer/Counter2 on the ATmega328 (Ardunio UNO) to generate a 40 kHz square wave on Arduino digital pin 11. Why 40 kHz? I want to use it to drive a 40 kHz ultrasonic transducer for a project I am working on. First I will show you the code then explain what each line does. At the end I will discuss how you could set the clock prescaler to slow the frequency to as little as about 31 Hz.</p>
+<pre><code>void startTransducer()
+{
+  TCCR2A = _BV(COM2A0) | _BV(WGM21) | _BV(WGM20);
+  TCCR2B = _BV(WGM22) | _BV(CS20);
+  OCR2A = B11000111; // 199, so timer2 counts from 0 to 199 (200 cycles at 16 MHz)
+}
+
+void setup()
+{
+pinMode(11, OUTPUT);
+startTransducer();
+}
+
+void loop()
+{
+}
+</code></pre>
+<p>The <code>_BV(XXX)</code> function sets the <code>XXX</code> bit of whatever register you are working with to one. It is defined by the following C macro buried somewhere in the libraries used by the compiler:</p>
+<pre><code>#define _BV(bit) (1 << (bit)) 
+</code></pre>
+<p>So, using bit-wise "or" operations, the first two lines in my <code>startTransducer()</code> function sets the TCCR2A register (Timer/Counter Control Register A for Timer/Counter 2) and the TCCR2B register (Timer/Counter Control Register B for Timer/Counter 2) to the following 8-bit binary numbers:</p>
+<pre><code>TCCR2A = B01000011;
+TCCR2B = B00001001;
+</code></pre>
+<p>The TCCR2A and TCCR2B 8-bit registers have the following structures:</p>
+<p>TCCR2A - [COM2A1, COM2A0, COM2B1, COM2B0, reserved, reserved, WGM21, WGM20]<br />
+TCCR2B - [FOC2A, FOC2B, reserved, reserved, WGM22, CS22, CS21, CS20]</p>
+<p>Now for the explanation. Setting the <code>COM2Ax</code> bits (Compare Output Mode bits) to 01 sets timer/counter2 to toggle <code>OC2A</code> (i.e., Arduino digital pin 11) from high to low when the counter matches the 8-bit value stored in <code>OCR2A</code>  (Output Compare Register A on Counter/Timer 2). Setting the <code>CS2x</code> bits to <code>001</code> allows the counter to increment every clock cycle. Setting these bits to other values slows the counter rate using the prescaler (see below). Setting the <code>WGM2x</code> bits (Waveform Generation Mode bits) to <code>111</code> sets the timer/counter to Fast PWM mode with <code>OCR2A</code> setting the top value. More explicitly, this makes the timer count from zero to whatever value is stored in the <code>OCR2A</code> register. When this top value is reached, the timer resets to zero. Of course, since the timer is 8-bit, the counter can count from zero to a maximum of 11111111 or decimal 255. </p>
+<p>The last line of the function sets the value of <code>OCR2A</code> to decimal 199 so the timer will count from 0 to 199 and toggle the output on pin 11 every 200 clock cycles. Since the clock is running at 16 MHz on the Arduino Uno, a quick calculation shows that the output toggles every 200/16,000,000 = 0.0000125 s. Thus a complete cycle of the output (from high to low and back to high) takes 0.000025 s creating a square wave output with a frequency of 40,000 Hz.</p>
+<h3>Reducing the Counter Rate using the Clock Prescaler</h3>
+<p>If you want the counter to count slower (e.g., if you want lower frequency square waves) then you can set the <code>CS2x</code> bits to use the microcontroller's prescaler so the counter doesn't update every clock cycle but ever 8 cycles (set the bits to 010), 32 cycles (011), 64 cycles (100), 128 cycles (101), 256 cycles (110), or every 1024 cycles (111).</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/making-html-color-ascii-art-with-matlab/#comments">1</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/making-html-color-ascii-art-with-matlab/" rel="bookmark" title="Permanent Link to Making HTML Color ASCII Art with MATLAB">Making HTML Color ASCII Art with MATLAB</a></h2>
+					<div class="meta">Posted January 22nd, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/matlab/" rel="category tag">MATLAB</a></div>
+				</div>
+				<div class="entry">
+					<p>On one warm spring afternoon during grad school when I should have been outside enjoying nature, I stayed in the lab and wrote the following MATLAB script. It will take any 8-bit RGB image and convert it to colored HTML text; any text. As an example of its application I have emblazoned my favorite positronic life form with his ode to his cat.</p>
+<pre><code>% MATLAB script for converting an image into html color ascii art 
+clear;
+close all;
+home;
+iname = 'dataandspot.jpg'; % name of original image
+[I,map] = imread(iname);
+R = I(:,:,1); G = I(:,:,2); B = I(:,:,3);
+I = uint8(I); A = 'string';
+word = 'FELIS CATUS IS YOUR TAXONOMIC NOMENCLATURE, AN ENDOTHERMIC QUADRUPED CARNIVOUROUS BY NATURE; YOUR VISUAL, OLFACTORY, AND AUDITORY SENSES, CONTRIBUTE TO YOUR HUNTING SKILLS AND NATURAL DEFENSES. I FIND MYSELF INTRIGUED BY YOUR SUBVOCAL OSCILLATIONS, A SINGULAR DEVELOPMENT OF CAT COMMUNICATIONS, THAT OBVIATES YOUR BASIC HEDONISTIC PREDILECTION, FOR A RHYTHMIC STROKING OF YOUR FUR TO DEMONSTRATE AFFECTION. A TAIL IS QUITE ESSENTIAL FOR YOUR ACROBATIC TALENTS; YOU WOULD NOT BE SO AGILE IF YOU LACKED ITS COUNTERBALANCE. AND WHEN NOT BEING UTILIZED TO AIDE IN LOCAMOTION, IT OFTEN SERVES TO ILLUSTRATE THE STATE OF YOUR EMOTION. O SPOT, THE COMPLEX LEVELS OF BEHAVIOUR YOU DISPLAY, CONNOTE A FAIRLY WELL-DEVELOPED COGNITIVE ARRAY. AND THOUGH YOU ARE NOT SENTIENT, SPOT, AND DO NOT COMPREHEND, I NONETHELESS CONSIDER YOU A TRUE AND VALUED FRIEND. ';
+wlen = length(word);
+% colors are read in as RGB and must be converted to hexadecimal for use in
+% html R G B
+% hex characters are 0 1 2 3 4 5 6 7 8 9 A B C D E F (base 16) - 0-255 to 
+% 00-FF maxascii = 200;
+% maximum number of ascii characters to use in width direction
+[r,c,dummy] = size(I);
+% image is black and white so these numbers will be between 1 and 255
+maxdim = max(r,c); % size of ascii output
+heightcompfactor = 1.25;
+% height contraction
+heightcompfactor = 1.1;
+% font size 10
+if c &gt; maxascii
+factor = c./maxascii;
+else factor = 1.12;
+end
+nr = floor(r/(heightcompfactor*factor));
+nrstar = floor(nr/wlen)*wlen+1;
+nc = floor(c/factor);
+hexColor = {};
+for i = 1:nc
+for j = 1:nr
+Rmean = round(mean(mean(R(round((j-1)*factor*heightcompfactor+1):round(j*factor*heightcompfactor),round((i-1)*factor+1):round(i*factor)))));
+Gmean = round(mean(mean(G(round((j-1)*factor*heightcompfactor+1):round(j*factor*heightcompfactor),round((i-1)*factor+1):round(i*factor)))));
+Bmean = round(mean(mean(B(round((j-1)*factor*heightcompfactor+1):round(j*factor*heightcompfactor),round((i-1)*factor+1):round(i*factor)))));
+hexColor{j,i,1}=dec2hex(Rmean,2);
+hexColor{j,i,2}=dec2hex(Gmean,2);
+hexColor{j,i,3}=dec2hex(Bmean,2);
+end
+end
+% write HTML encoding of image to a file
+fid = fopen('asciicolor.html','a');
+fprintf(fid,'%s\n','&lt;html&gt;');
+fprintf(fid,'%s\n','&lt;body bgcolor=#FFFFFF&gt;&lt;head&gt;&lt;style&gt;');
+fprintf(fid,'%s\n','pre{font-size:8pt;font-family:monospace;line-height:7pt}');
+fprintf(fid,'%s\n','&lt;/style&gt;&lt;/head&gt;');
+fprintf(fid,'%s\n','&lt;pre&gt;&lt;b&gt;');
+kk = 0;
+for j = 1:size(hexColor,1); % for all rows
+for i=1:size(hexColor,2); % for all columns
+kk = kk+1;
+curletter = word(mod(kk-1,wlen)+1);
+fprintf(fid,'%s',['&lt;font color=#' hexColor{j,i,1} hexColor{j,i,2} hexColor{j,i,3} '&gt;' curletter '&lt;/font&gt;']);
+end
+fprintf(fid,'%s\n','');
+end
+fprintf(fid,'%s\n','&lt;/span&gt;&lt;/b&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;');</code></pre>
+<p>&nbsp;</p>
+<h3>Original Image</h3>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/01/dataandspot.jpg"><img class="aligncenter size-full wp-image-287" title="dataandspot" src="http://www.fiz-ix.com/wp-content/uploads/2012/01/dataandspot.jpg" alt="" width="490" height="388" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/01/dataandspot-300x237.jpg 300w, http://www.fiz-ix.com/wp-content/uploads/2012/01/dataandspot.jpg 490w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<h3>Final Product</h3>
+<p><a title="Ode To Spot" href="http://www.fiz-ix.com/wp-content/uploads/2012/01/asciicolor.html" target="_blank">Ode To Spot</a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/the-oh-my-god-particle/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/the-oh-my-god-particle/" rel="bookmark" title="Permanent Link to The Oh-My-God Particle">The Oh-My-God Particle</a></h2>
+					<div class="meta">Posted January 20th, 2012. Filed under <a href="http://www.fiz-ix.com/category/everyday-physics/" rel="category tag">Everyday Physics</a></div>
+				</div>
+				<div class="entry">
+					<p>Need a little Friday afternoon light physics reading. This article by John Walker about a high-energy proton that struck our atmosphere in 1991 will blow &#8230;. your &#8230;. mind. Follow <a href="http://www.fourmilab.ch/documents/ohmygodpart.html/" target="_blank">this link to the article</a>.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/generating-exponentially-distributed-random-numbers-in-matlab/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/generating-exponentially-distributed-random-numbers-in-matlab/" rel="bookmark" title="Permanent Link to Generating Exponentially Distributed Random Numbers in MATLAB">Generating Exponentially Distributed Random Numbers in MATLAB</a></h2>
+					<div class="meta">Posted January 19th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/matlab/" rel="category tag">MATLAB</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>For a recent project one of my research students needed to generate exponentially distributed random numbers in MATLAB. The Statistics Toolbox has a built-in function to do this, but I don&#8217;t have a license for this toolbox. Below is the code we wrote. It performs a log transformation to convert a uniformly distributed random number between zero and one (<code>rand(1)</code>) to an exponentially distributed random number (<code>tau</code>) drawn from an exponential distribution with mean <code>1/lambda</code>. Note that in MATLAB, the <code>log</code> function is the natural logarithm. Simple!</p>
+<p><code><br />
+tau = -log(rand(1))/lambda;<br />
+</code></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/making-latex-figures-with-custom-cell-borders/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/making-latex-figures-with-custom-cell-borders/" rel="bookmark" title="Permanent Link to Making LaTeX Figures with Custom Cell Borders">Making LaTeX Figures with Custom Cell Borders</a></h2>
+					<div class="meta">Posted January 18th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/latex/" rel="category tag">LaTeX</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>It is possible, and only slightly awkward, to make LaTex tables with borders around some of the cells and no borders or only partial borders around other cells. Below are two snippets of code showing you how. Each is followed by an image of the table it produces. This code uses two LaTex packages, multirow and rotating, so the following needs to be before your <code>\begin{document}</code> line. These packages are part of the MacTeX distribution.</p>
+<p><code><br />
+\usepackage{multirow}<br />
+\usepackage{rotating}<br />
+</code></p>
+<p>In the following code, <code>\multicolumn{x}{y}{z}</code> is used to merge <code>{x}</code> columns into one. Notice that the new column resulting from the merge has its own alignment and borders specified by <code>{y}</code> and the text or math equation to be displayed is specified by <code>{z}</code>. Creatively specifying <code>{y}</code> and <code>{z}</code> results in blank white space on the table produced. </p>
+<p><code><br />
+\begin{table}<br />
+\begin{center}<br />
+\begin{tabular}{|c|c|c|c|}<br />
+\cline{2-4}<br />
+\multicolumn{1}{c|}{} &amp; 1 &amp; 2 &amp; 3 \\<br />
+\hline<br />
+A &amp; A1 &amp; A2 &amp; A3 \\<br />
+\hline<br />
+B &amp; B1 &amp; B2 &amp; B3 \\<br />
+\hline<br />
+C &amp; C1 &amp; C2 &amp; C3 \\<br />
+\hline<br />
+\end{tabular}<br />
+\end{center}<br />
+\caption{Table caption.}<br />
+\label{Table1}<br />
+\end{table}<br />
+</code></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/01/LatexTable1.png"><img class="aligncenter" title="LatexTable1" src="http://www.fiz-ix.com/wp-content/uploads/2012/01/LatexTable1.png" alt="" /></a></p>
+<p>Here is a more advanced example. In the code below, <code>\multirow{x}{y}{z}</code> is used to merge <code>{x}</code> rows into one. Notice that this requires leaving space for the merged rows in subsequent lines of code. This is why each subsequent line begins with an ampersand. The * makes the text in the merged row fit best and use of the <code>sideways</code> environment makes the text in the merged row vertical. The extra tilde after &#8220;letters&#8221; was used to force some spacing to make the text look good.</p>
+<p><code><br />
+\begin{table}<br />
+\begin{center}<br />
+\begin{tabular}{|c|c|c|c|c|}<br />
+\cline{3-5}<br />
+\multicolumn{2}{c|}{} &amp; \multicolumn{3}{c|}{numbers} \\<br />
+\cline{3-5}<br />
+\multicolumn{2}{c|}{} &amp; 1 &amp; 2 &amp; 3 \\<br />
+\hline<br />
+\multirow{3}{*}{\begin{sideways} letters~ \end{sideways}} &amp; A &amp; A1 &amp; A2 &amp; A3 \\<br />
+\cline{2-5}<br />
+&amp; B &amp; B1 &amp; B2 &amp; B3 \\<br />
+\cline{2-5}<br />
+&amp; C &amp; C1 &amp; C2 &amp; C3 \\<br />
+\hline<br />
+\end{tabular}<br />
+\end{center}<br />
+\caption{Table caption.}<br />
+\label{Table2}<br />
+\end{table}<br />
+</code></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/01/LatexTable2.png"><img class="aligncenter" title="LatexTable2" src="http://www.fiz-ix.com/wp-content/uploads/2012/01/LatexTable2.png" alt="" /></a></p>
+<p>Hopefully these examples can be adapted to accomplish your wildest LaTex table-making dreams. Enjoy!</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/author/jeff/page/19/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/author/jeff/page/17/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-19 17:55:58 by W3 Total Cache -->

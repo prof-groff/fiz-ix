@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<meta charset="UTF-8" />
+<title>Introduction to PN-Junction Semiconductor Diodes and AC to DC Conversion &#8211; Fiz-ix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drop Shipping 1.0.5" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Introduction to PN-Junction Semiconductor Diodes and AC to DC Conversion Comments Feed" href="http://www.fiz-ix.com/2012/06/semiconductor-diodes-and-ac-to-dc-conversion/feed/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<link rel='stylesheet' id='hybrid-one-five-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/one-five.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/gallery.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/css/font-awesome.css?ver=4.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Introduction to 7400 Series Digital Logic Devices' href='http://www.fiz-ix.com/2012/05/introduction-to-7400-series-digital-logic-devices/' />
+<link rel='next' title='Enphase Microinverter-Based Solar PV System Electrical Warning Signs' href='http://www.fiz-ix.com/2012/10/solar-pv-system-electrical-warning-signs/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://www.fiz-ix.com/2012/06/semiconductor-diodes-and-ac-to-dc-conversion/" />
+<link rel='shortlink' href='http://www.fiz-ix.com/?p=475' />
+<link rel="alternate" type="application/json+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F06%2Fsemiconductor-diodes-and-ac-to-dc-conversion%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F06%2Fsemiconductor-diodes-and-ac-to-dc-conversion%2F&#038;format=xml" />
+    <style type="text/css">
+        #sidebar-primary ul li:before, a { color: #000000;}
+
+         #searchnavi input, #top-bar { background: #ffffff; }
+         h2.entry-title a:hover, #menu-primary li a:hover, li.current-menu-item > a, body.custom-header #site-title a:hover, a:hover { color: #1e73be; }
+       h2.entry-title a, #site-description, .sidebar, .credit { color: #1e73be; }
+    </style>
+    
+<style type="text/css" id="custom-header-css">body.custom-header #site-title a { color: #000000; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background: #ffffff; }</style>
+</head>
+
+<body class="wordpress ltr en en-us parent-theme y2016 m08 d09 h13 tuesday logged-out custom-background custom-header display-header-text singular singular-post singular-post-475 post-format- layout-2c-l" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	<div id="top-bar">
+	<div id="top-container">
+		<div id="searchnavi">
+			<form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form>		</div>	
+	
+
+	<nav id="menu-secondary"></nav>
+</div>
+</div>
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+
+		<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+			
+				<div id="branding" class="site-branding">
+					<h1 id="site-title" class="site-title" itemprop="headline"><a href="http://www.fiz-ix.com" rel="home">Fiz-ix</a></h1>					<h2 id="site-description" class="site-description" itemprop="description">(Physics)</h2>				</div><!-- #branding -->
+
+			
+				<div id="header-widget"></div>
+		</header><!-- #header -->
+
+		<nav id="main-menu">
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+<nav id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text"></button>
+		</nav><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1531"><a href="http://www.fiz-ix.com">Home</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://www.fiz-ix.com/about/">About</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"><a href="http://www.fiz-ix.com/guides/">Guides</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://www.fiz-ix.com/labs/">Labs</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://www.fiz-ix.com/notebooks/">Notebooks</a></li>
+</ul></div>
+	</nav><!-- #menu-primary -->
+
+		
+		</nav>
+
+				<div id="main-containter">
+			<div id="breadcrumbs-container">
+	<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><h2 class="trail-browse">You are here:</h2><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="4" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="http://www.fiz-ix.com" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/"><span itemprop="name">2012</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/06/"><span itemprop="name">June</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">Introduction to PN-Junction Semiconductor Diodes and AC to DC Conversion</span><meta itemprop="position" content="4" /></li></ul></nav><div id="social"> 
+		
+		
+		
+		
+		
+				
+		
+	</div>
+</div>
+		<div id="main" class="main">
+
+			
+
+
+<main id="content" class="content" role="main">
+
+	
+	 
+
+	
+		
+			
+			
+		
+	<article id="post-475" class="entry author-jeff post-475 post type-post status-publish format-standard category-labs category-physical-computing tag-labs tag-physical-computing" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		
+		<header class="entry-header">
+
+			<time class="entry-published updated" datetime="2012-Jun-14T14:34:59-04:00" itemprop="datePublished" title="Thursday, Jun 14, 2012, 2:34 pm">June 14, 2012</time>
+			by			<span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="http://www.fiz-ix.com/author/jeff/" title="Posts by Jeff" rel="author" class="url fn n" itemprop="url"><span itemprop="name">Jeff</span></a></span>
+			<h1 class="entry-title" itemprop="headline">Introduction to PN-Junction Semiconductor Diodes and AC to DC Conversion</h1>
+			
+
+			<div class="entry-byline">
+				
+			</div><!-- .entry-byline -->
+
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="articleBody">
+			<p>In this lab activity you will examine the properties of pn-junction diodes and use diodes to convert AC signals to DC signals.</p>
+<h3>Introduction to PN-Junction Diodes</h3>
+<p>A diode is a device that only allows current to flow in one direction. For this reason, an ideal diode has a current voltage plot that looks like this.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/Diode_I_vs_V.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/Diode_I_vs_V-300x285.gif" alt="" title="Diode_I_vs_V" width="300" height="285" class="aligncenter size-medium wp-image-477" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/Diode_I_vs_V-300x285.gif 300w, http://www.fiz-ix.com/wp-content/uploads/2012/06/Diode_I_vs_V.gif 823w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Note that by Ohm&#8217;s law, the inverse of this plots slope is the diodes resistance. So a diode has infinite resistance if the voltage applied to it is negative but has zero resistance if the voltage applied to it is positive. </p>
+<p>It is possible to construct a nearly-ideal diode by binding a piece of N-type semiconductor to a piece of P-type semiconductor together. Because of the nature of the P-type and N-type semiconductors, the junction between the two semiconductors creates a zone depleted of charge carriers. We will cover the physical details of what is going on here in class but the practical result of this depletion zone is that charge can only move in one direction through the PN-junction. Below is a schamatic symbol for a PN-junction diode. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/PN-JunctionDiode.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/PN-JunctionDiode.png" alt="" title="PN-JunctionDiode" width="173" height="111" class="aligncenter size-full wp-image-483" /></a></p>
+<p>In order for current to flow through the diode, the voltage supplied to the P-type side of the diode (the anode) must be higher then the voltage supplied to the N-type side (the cathode). Current flows through the diode in the direction of the arrow. The cathode of a diode is always labeled with a strip or negative sign. </p>
+<p>The following is a representative current voltage plot for a real PN-junction diode.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-3.14.12-PM.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-3.14.12-PM-290x300.png" alt="" title="DiodeIVCurve" width="290" height="300" class="aligncenter size-medium wp-image-486" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-3.14.12-PM-290x300.png 290w, http://www.fiz-ix.com/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-3.14.12-PM.png 446w" sizes="(max-width: 290px) 100vw, 290px" /></a></p>
+<p>Note that if the voltage is sufficiently negative current will flow through the diode in the reverse direction. This voltage is referred to as the breakdown voltage and is actual sometimes useful. A Zener diode has a reliably known reverse breakdown voltage and can be used to limit the maximum voltage in circuits. On the other hand, notice that a small positive voltage is needed to get current to flow in the forward direction. This forward bias voltage is needed to overcome the PN-junction depletion region and is about 0.5-0.7 V for diodes made from silicon and about 0.3 for diodes made of germanium. </p>
+<h3>Diode Circuits</h3>
+<p>Construct each of the following circuits using small signal silicon diodes (1N4148). For each circuit use the sine wave generator on your digital/analog trainer set to  a frequency of 1 kHz as the signal source. Attach your oscilloscope to the location(s) labeled &#8220;SCOPE&#8221; and draw the signal you see on the scope in your lab notebook. Above each drawing, also show the schematic of the circuit being tested. Sometimes you will draw two signals superposed on top of each other using channels 1 and 2. Make sure the vertical scales are the same before drawing these two-trace outputs. Explain why the signal looks the way it does below each drawing.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit1.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit1-300x159.gif" alt="" title="DiodeCircuit1" width="300" height="159" class="aligncenter size-medium wp-image-493" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit1-300x159.gif 300w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit1.gif 503w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit2.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit2-300x159.gif" alt="" title="DiodeCircuit2" width="300" height="159" class="aligncenter size-medium wp-image-494" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit2-300x159.gif 300w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit2.gif 503w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit3.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit3-300x150.gif" alt="" title="DiodeCircuit3" width="300" height="150" class="aligncenter size-medium wp-image-495" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit3-300x150.gif 300w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit3.gif 503w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit4.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit4-300x160.gif" alt="" title="DiodeCircuit4" width="300" height="160" class="aligncenter size-medium wp-image-496" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit4-300x160.gif 300w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit4.gif 503w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit5.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit5-300x160.gif" alt="" title="DiodeCircuit5" width="300" height="160" class="aligncenter size-medium wp-image-497" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit5-300x160.gif 300w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit5.gif 503w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit7.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit7.gif" alt="" title="DiodeCircuit7" width="500" class="aligncenter size-full wp-image-499" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit7.gif 1019w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit7-300x109.gif 300w" sizes="(max-width: 1019px) 100vw, 1019px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit6.gif"><img src="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit6.gif" alt="" title="DiodeCircuit6" width="500" class="aligncenter size-full wp-image-498" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit6.gif 1019w, http://www.fiz-ix.com/wp-content/uploads/2012/06/DiodeCircuit6-300x109.gif 300w" sizes="(max-width: 1019px) 100vw, 1019px" /></a></p>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">				
+					
+				<br /><span class="entry-terms category" itemprop="articleSection">Categories:	 <a href="http://www.fiz-ix.com/category/labs/" rel="tag">Labs</a> <a href="http://www.fiz-ix.com/category/labs/physical-computing/" rel="tag">Physical Computing</a></span>			<br /><span class="entry-terms post_tag" itemprop="keywords">Taggs:	 <a href="http://www.fiz-ix.com/tag/labs/" rel="tag">Labs</a> <a href="http://www.fiz-ix.com/tag/physical-computing/" rel="tag">Physical Computing</a></span>		</footer><!-- .entry-footer -->
+	</article>	
+	
+	
+</article><!-- .entry -->
+
+						
+	<div class="loop-nav">
+		<div class="prev">Previous Post: <a href="http://www.fiz-ix.com/2012/05/introduction-to-7400-series-digital-logic-devices/" rel="prev">Introduction to 7400 Series Digital Logic Devices</a></div>		<div class="next">Next Post: <a href="http://www.fiz-ix.com/2012/10/solar-pv-system-electrical-warning-signs/" rel="next">Enphase Microinverter-Based Solar PV System Electrical Warning Signs</a></div>	</div><!-- .loop-nav -->
+
+
+			
+<section id="comments-template">
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/06/semiconductor-diodes-and-ac-to-dc-conversion/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.fiz-ix.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='475' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1f5cdd0f77" /></p>				</form>
+					</div><!-- #respond -->
+		
+</section><!-- #comments-template -->
+			
+		
+
+		</main><!-- #content -->
+	
+
+
+			
+
+		</div><!-- #main -->
+		
+		
+
+	<aside class="sidebar sidebar-primary" role="complementary" id="sidebar-primary" aria-label="Primary Sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+		
+			<section id="search-3" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form></section><section id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</section><section id="categories-3" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</section><section id="linkcat-6" class="widget widget_links"><h3 class="widget-title"><span>Links</span></h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</section>
+
+		
+	</aside><!-- #sidebar-primary -->
+
+		
+	</div> <!--#main-containter -->
+		
+		</div><!-- #container -->
+		<nav id="footer-navigation"> </nav>
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		
+			<p class="credit">
+				Copyright &#169; 2016 <a class="site-link" href="http://www.fiz-ix.com" rel="home">Fiz-ix</a>. Powered by <a class="wp-link" target="_blank" href="http://wordpress.org">WordPress</a> and <a class="theme-link" target="_blank" href="http://fireincome.com/drop-shipping">Drop Shipping</a>.			</p><!-- .credit -->
+
+		</footer><!-- #footer -->
+
+	
+
+	<script type='text/javascript' src='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/js/mobile-toggle.min.js?ver=20130528'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/comment-reply.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 21/32 queries in 0.391 seconds using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 13:41:43 by W3 Total Cache -->

@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/arduino-program-flow-control-using-conditional-statements-and-loops/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/arduino-program-flow-control-using-conditional-statements-and-loops/" rel="bookmark" title="Permanent Link to Arduino Program Flow Control Using Conditional Statements and Loops">Arduino Program Flow Control Using Conditional Statements and Loops</a></h2>
+					<div class="meta">Posted December 10th, 2012. Filed under <a href="http://www.fiz-ix.com/category/labs/" rel="category tag">Labs</a> <a href="http://www.fiz-ix.com/category/labs/physical-computing/" rel="category tag">Physical Computing</a></div>
+				</div>
+				<div class="entry">
+					<p>There are a vast number of programming languages each with their own syntax but most share common features that allow a programmer to control the flow of processing. This laboratory introduces some of the most important programming structures for flow control using the Arduino programming language, which is based on C/C++;</p>
+<h3>The IF Statement</h3>
+<p>An <code>if</code> statement allows a programmer to introduce conditional branches into his or her code. A conditional branch is lines of code that are executed only if some condition is true or not true. For example, perhaps you want to turn on an LED indicator light but only if the temperature in a room exceeds 24 degrees C. An <code>if</code> statement will allow you to accomplish this. The following snippet of code demonstrates the syntax for an <code>if</code> statements in the Arduino programming language.</p>
+<pre><code>if (temp > 24) {
+// turn on the LED
+}</code></pre>
+<h3>The IF/ELSE Statement</h3>
+<p>Conditional branches can be made more complex by adding an <code>else</code> statement to an <code>if</code> statement. For example, suppose you want to turn a green LED on if the temperature is less than or equal to 24 degrees C but turn a red LED on if the temperature exceeds 24 degrees C. An <code>if else</code> statement will allow you to accomplish this. </p>
+<pre><code>if (temp <= 24) {
+// turn on the green LED
+}
+else {
+// turn on the red LED
+}</code></pre>
+<h3>The IF/ELSE IF Statement</h3>
+<p>Conditionals can be made even more functional by using <code>else if</code> branches. For example, suppose you want to turn on a blue LED if the temperature is less than or equal to 0 degrees C, a green LED if the temperature is between 0 and 24 degrees C, and a red LED otherwise. You could implement code like the following.</p>
+<pre><code>if (temp <= 0) {
+// turn on the blue LED
+}
+else if (temp > 0 && temp < 24) {
+// turn on the green LED
+}
+else {
+// turn on the red LED
+}</code></pre>
+<h3>FOR Loops</h3>
+<p>Another commonly encountered problem in programming is a task that must be repeated a certain number of time before the rest of the program can proceed. To accomplish such tasks, a programmer will use a <code>for</code> loop. For example, suppose you have more than one LED to turn on in response to the temperature changing. You could do something like the following where <code>LEDCount</code> is the number of LEDs to turn on.</p>
+<pre><code>for (int ii=1; ii<=LEDCount; ii++) {
+// turn on LED ii
+}</code></pre>
+<h3>WHILE Loops</h3>
+<p>Another commonly encountered problem in programming is a task that must be repeated until some condition is met instead of a fixed number of times. A <code>while</code> loop can be used to accomplish such a task. For example, suppose you want an LED to blink repeatedly so long as the temperature is less than 24 degrees C. You could use code like the following.</p>
+<pre><code>while (temp<24) {
+// turn LED on
+// wait some time
+// turn LED off
+// wait some time
+// check temperature and update temp
+}</code></pre>
+<h3>Final Thoughts</h3>
+<p>The structures presented here (and others not mentioned like the <code>switch case</code> structure) are incredibly powerful methods to get a computer to do what you want it to do. Remember that programming is less about learning specific syntaxes that change from language to language and more about learning to think like a computer. The structures summarized here exist in most programming languages because they allow a programmer to translate the flow of tasks as performed by a human to code that a computer can execute. </p>
+<h3>Assignments</h3>
+<p>1) EASY: Write a program that uses a for loop to add together all of the positive integers from one to some maximum value specified by the user and prints the result to the serial terminal</p>
+<p>2) HARD: Write a program that uses a while loop and if statements to calculate the stopping time for the series specified by the Collatz conjecture starting from some arbitrary user supplied positive integer.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comments">14</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/" rel="bookmark" title="Permanent Link to Arduino Uno with Multiple Software Serial Devices">Arduino Uno with Multiple Software Serial Devices</a></h2>
+					<div class="meta">Posted December 9th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>The Arduino Uno (ATmega328) has a single hardware serial connection. If more serial connections are needed, you must implement these in software. Luckily, there is a very easy to use library to implement software serial connections. It is called <code>SoftwareSerial.h</code> and is included with the latest Arduino IDE. The following code demonstrates how to use this library to implement more than one software serial channel. Importantly, no more than one software serial connection can be in use at a time so an open connection must be terminated before another can be started.</p>
+<pre><code>#include &lt;SoftwareSerial.h&gt;
+
+// define the digital pins to use as RX and TX for two
+// software serial connections
+const int RX1 = 8;
+const int TX1 = 9;
+const int RX2 = 10;
+const int TX2 = 11;
+
+// create SoftwareSerial objects
+SoftwareSerial SoftSerialOne(RX1,TX1);
+SoftwareSerial SoftSerialTwo(RX2,TX2);
+
+void setup(void) {
+// setup the software serial pins
+pinMode(RX1, INPUT);
+pinMode(RX2, INPUT);
+pinMode(TX1, OUTPUT);
+pinMode(TX2, OUTPUT);
+}
+
+void loop(void) {
+SoftSerialOne.begin(9600); // begin communication on the first 
+// software serial channel
+SoftSerialOne.print("Hello World"); // send something
+SoftSerialOne.end(); // end communication on the first software
+// serial channel
+SoftSerialTwo.begin(9600); // begin communication on the second 
+// software serial channel
+SoftSerialTwo.print("Hello World"); // send something
+SoftSerialTwo.end(); // end communication on the second software
+// serial channel
+}</code></pre>
+<p>Note that before using the second software serial connection, the first connection must be terminated using <code>SoftSerialOne.end()</code>. If this is not done your code will probably compile but will not do what you expect it to do. Also, the hardware serial connection can be open and used at the same time as a software serial connection without problems.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/using-perl-and-regular-expressions-to-find-and-replace-text/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/using-perl-and-regular-expressions-to-find-and-replace-text/" rel="bookmark" title="Permanent Link to Using Perl and Regular Expressions to Find and Replace Text">Using Perl and Regular Expressions to Find and Replace Text</a></h2>
+					<div class="meta">Posted December 9th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/perl/" rel="category tag">Perl</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>The following Perl script uses regular expressions to parse a text file called <code>myFile.txt</code> and replace any occurrence of the character sequence <code>REPLACE</code> with the string (or number) stored in <code>$NEWTEXT</code>. The modified text file is saved as <code>myNewFile.txt</code>.</p>
+<pre><code>#!/usr/bin/perl
+$NEWTEXT = "New Stuff"; # could also be a number
+
+open(INPUT, "< myFile.txt") or die ("Can't open input file.\n");
+open(OUTPUT, "> myNewFile.txt");
+
+select(OUTPUT); # print to the output file instead of the screen
+
+while(&lt;INPUT&gt;) {
+   $_ =~ s/REPLACE/$NEWTEXT/;
+   print $_; 
+}
+close(INPUT) or die ("Can't close input file.\n");
+close(OUTPUT) or die ("Can't close output file.\n");</code></pre>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/terminal-command-to-run-a-matlab-script-in-the-background/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/terminal-command-to-run-a-matlab-script-in-the-background/" rel="bookmark" title="Permanent Link to Terminal Command to Run a MATLAB Script in the Background">Terminal Command to Run a MATLAB Script in the Background</a></h2>
+					<div class="meta">Posted December 9th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/matlab/" rel="category tag">MATLAB</a></div>
+				</div>
+				<div class="entry">
+					<p>Use a terminal command like the following to runs a MATLAB script in the background under Linux, Mac OS X, etcetera.  </p>
+<pre><code> nohup matlab -nodisplay < runProgram.m > outputFile &</code></pre>
+<p>The <code>nuhup</code> command tells the OS to ignore hangups so the user who enters this command can log out and the program will still be running in the background. The <code>-nodisplay</code> option starts MATLAB without the GUI. The script to be run is called <code>runProgram.m</code> and any output generated by the script that would normally be displayed in the MATLAB command window will be written to a text file called <code>outputFile</code>. The <code>&</code> command tells the terminal to not wait for the program to finish executing before allowing the user to enter additional terminal commands.</p>
+<p>You can use this command to run scripts on a machine to which you log on remotely.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/12/how-to-configure-wake-on-lan-wol-and-broadcast-magic-packets/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/12/how-to-configure-wake-on-lan-wol-and-broadcast-magic-packets/" rel="bookmark" title="Permanent Link to How to Configure Wake on LAN (WOL) and Broadcast Magic Packets">How to Configure Wake on LAN (WOL) and Broadcast Magic Packets</a></h2>
+					<div class="meta">Posted December 8th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a> <a href="http://www.fiz-ix.com/category/guides/programming/shell/" rel="category tag">Shell</a></div>
+				</div>
+				<div class="entry">
+					<p>Most motherboards have a feature that I have been aware of for some time but have not tried until recently. It is called wake-on-LAN (WOL) and gives you the ability to wake a computer simply by sending it a &#8220;magic packet&#8221; from any other machine on the local area network (LAN). A magic packet is a data packet that contains the hexadecimal sequence <code>FF FF FF FF FF FF</code> followed by sixteen repetitions of the target computer&#8217;s MAC address. I implemented this feature on the Ubuntu LAMP server that I use at home. Now, I simply open a terminal and type a one line command to turn on my server. If you want to activate WOL on your computer I give you some pointers below.</p>
+<h3>Configure Your BIOS and Hardware for Wake-On-LAN</h3>
+<p>Although not every motherboard supports WOL, most ATX motherboards do. To determine if your machine does, enter your BIOS configuration screen. Look around for a WOL setting and enable it if you find it. My BIOS does not have such a setting. Instead I had to navigate to the power management settings and enable a feature called &#8220;awake from RING/LAN&#8221; (sometimes called &#8220;power on from MAC&#8221;). If your network interface card (NIC) is in a PCI slot you may also have to enable a power management feature called something like &#8220;wake on PCI&#8221;. I also had to connect my PCI NIC to my motherboard using a 3-pin wire. If you also have a PCI NIC it should have come with this wire and your motherboard manual should show you were the correct 3-pin interface is located. If your NIC is built in to your motherboard you don&#8217;t have to worry about this.</p>
+<h3>Determine MAC Address and Install Magic Packet Software</h3>
+<p>If you have managed to configure your BIOS correctly, the rest should be fairly easy. Determine and write down the MAC address of the NIC in the machine you wish to wake. If you are using Linux type <code>ifconfig</code> in a terminal and you should see a 12-digit alphanumeric address that looks like <code>0A:2B:3C:4D:5E:6F</code> somewhere in the output. If you are using a Mac go to System Preferences > Network > Built-In Ethernet  and click on the Ethernet tab and you will find the MAC address in a line tagged Ethernet ID. If you are using a Windows machine you have my sympathies.</p>
+<p>The final step is also the one that gives you the most choices. You must find a program that will allow you to broadcast the `so-called&#8217; magic packet to the machine you want to wake. I use a Perl script called <a href="http://gsd.di.uminho.pt/jpo/software/wakeonlan/">wakeonlan</a> by José Pedro Oliveira. I highly recommend this script if you are comfortable with terminal commands. Installation instructions are on the <a href="http://gsd.di.uminho.pt/jpo/software/wakeonlan/">download page</a>. Alternatives to wakeonlan can be found <a href="http://en.wikipedia.org/wiki/Wake-on-LAN">here</a>. Once the <code>wakeonlan</code> script is installed, use the the following command to wake your computer (of course, substitute you MAC address).</p>
+<pre><code>wakeonlan 0A:1B:2C:3D:4E:5F</code></pre>
+<h3>Troubleshooting</h3>
+<p>WOL will only work if you computer was last powered off &#8220;softly&#8221;. For example, if your machine turned off due to a power outage WOL will not work. By default <code>wakeonlan</code> will send the magic packet to your router&#8217;s broadcast address (<code>255:255:255:255</code>) on port 9. Sometimes NICs listen for magic packets on a different port. If this is the case with your NIC then type <code>wakeonlan -h</code> to get instructions on specifying a different port. You can also send the packet to a specific IP address instead of broadcasting to all machines on your LAN. If you still can&#8217;t get WOL to work then you may have to configure your router to forward port 9 to the machine you wish to wake.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/8/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/page/6/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-23 14:06:02 by W3 Total Cache -->

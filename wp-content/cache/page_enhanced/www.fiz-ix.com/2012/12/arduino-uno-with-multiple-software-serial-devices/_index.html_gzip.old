@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<meta charset="UTF-8" />
+<title>Arduino Uno with Multiple Software Serial Devices &#8211; Fiz-ix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drop Shipping 1.0.5" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Arduino Uno with Multiple Software Serial Devices Comments Feed" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/feed/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<link rel='stylesheet' id='hybrid-one-five-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/one-five.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/css/gallery.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.fiz-ix.com/wp-content/themes/drop-shipping/css/font-awesome.css?ver=4.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Using Perl and Regular Expressions to Find and Replace Text' href='http://www.fiz-ix.com/2012/12/using-perl-and-regular-expressions-to-find-and-replace-text/' />
+<link rel='next' title='Arduino Program Flow Control Using Conditional Statements and Loops' href='http://www.fiz-ix.com/2012/12/arduino-program-flow-control-using-conditional-statements-and-loops/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/" />
+<link rel='shortlink' href='http://www.fiz-ix.com/?p=1110' />
+<link rel="alternate" type="application/json+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F12%2Farduino-uno-with-multiple-software-serial-devices%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F12%2Farduino-uno-with-multiple-software-serial-devices%2F&#038;format=xml" />
+    <style type="text/css">
+        #sidebar-primary ul li:before, a { color: #000000;}
+
+         #searchnavi input, #top-bar { background: #ffffff; }
+         h2.entry-title a:hover, #menu-primary li a:hover, li.current-menu-item > a, body.custom-header #site-title a:hover, a:hover { color: #1e73be; }
+       h2.entry-title a, #site-description, .sidebar, .credit { color: #1e73be; }
+    </style>
+    
+<style type="text/css" id="custom-header-css">body.custom-header #site-title a { color: #000000; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background: #ffffff; }</style>
+</head>
+
+<body class="wordpress ltr en en-us parent-theme y2016 m08 d09 h12 tuesday logged-out custom-background custom-header display-header-text singular singular-post singular-post-1110 post-format- layout-2c-l" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	<div id="top-bar">
+	<div id="top-container">
+		<div id="searchnavi">
+			<form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form>		</div>	
+	
+
+	<nav id="menu-secondary"></nav>
+</div>
+</div>
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+
+		<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+			
+				<div id="branding" class="site-branding">
+					<h1 id="site-title" class="site-title" itemprop="headline"><a href="http://www.fiz-ix.com" rel="home">Fiz-ix</a></h1>					<h2 id="site-description" class="site-description" itemprop="description">(Physics)</h2>				</div><!-- #branding -->
+
+			
+				<div id="header-widget"></div>
+		</header><!-- #header -->
+
+		<nav id="main-menu">
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+<nav id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text"></button>
+		</nav><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1531"><a href="http://www.fiz-ix.com">Home</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://www.fiz-ix.com/about/">About</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"><a href="http://www.fiz-ix.com/guides/">Guides</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://www.fiz-ix.com/labs/">Labs</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://www.fiz-ix.com/notebooks/">Notebooks</a></li>
+</ul></div>
+	</nav><!-- #menu-primary -->
+
+		
+		</nav>
+
+				<div id="main-containter">
+			<div id="breadcrumbs-container">
+	<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><h2 class="trail-browse">You are here:</h2><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="4" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="http://www.fiz-ix.com" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/"><span itemprop="name">2012</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="http://www.fiz-ix.com/2012/12/"><span itemprop="name">December</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">Arduino Uno with Multiple Software Serial Devices</span><meta itemprop="position" content="4" /></li></ul></nav><div id="social"> 
+		
+		
+		
+		
+		
+				
+		
+	</div>
+</div>
+		<div id="main" class="main">
+
+			
+
+
+<main id="content" class="content" role="main">
+
+	
+	 
+
+	
+		
+			
+			
+		
+	<article id="post-1110" class="entry author-jeff post-1110 post type-post status-publish format-standard category-arduino category-electronics category-guides tag-arduino tag-electronics tag-guides" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		
+		<header class="entry-header">
+
+			<time class="entry-published updated" datetime="2012-Dec-09T18:08:08-04:00" itemprop="datePublished" title="Sunday, Dec 9, 2012, 6:08 pm">December 9, 2012</time>
+			by			<span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="http://www.fiz-ix.com/author/jeff/" title="Posts by Jeff" rel="author" class="url fn n" itemprop="url"><span itemprop="name">Jeff</span></a></span>
+			<h1 class="entry-title" itemprop="headline">Arduino Uno with Multiple Software Serial Devices</h1>
+			
+
+			<div class="entry-byline">
+				
+			</div><!-- .entry-byline -->
+
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="articleBody">
+			<p>The Arduino Uno (ATmega328) has a single hardware serial connection. If more serial connections are needed, you must implement these in software. Luckily, there is a very easy to use library to implement software serial connections. It is called <code>SoftwareSerial.h</code> and is included with the latest Arduino IDE. The following code demonstrates how to use this library to implement more than one software serial channel. Importantly, no more than one software serial connection can be in use at a time so an open connection must be terminated before another can be started.</p>
+<pre><code>#include &lt;SoftwareSerial.h&gt;
+
+// define the digital pins to use as RX and TX for two
+// software serial connections
+const int RX1 = 8;
+const int TX1 = 9;
+const int RX2 = 10;
+const int TX2 = 11;
+
+// create SoftwareSerial objects
+SoftwareSerial SoftSerialOne(RX1,TX1);
+SoftwareSerial SoftSerialTwo(RX2,TX2);
+
+void setup(void) {
+// setup the software serial pins
+pinMode(RX1, INPUT);
+pinMode(RX2, INPUT);
+pinMode(TX1, OUTPUT);
+pinMode(TX2, OUTPUT);
+}
+
+void loop(void) {
+SoftSerialOne.begin(9600); // begin communication on the first 
+// software serial channel
+SoftSerialOne.print("Hello World"); // send something
+SoftSerialOne.end(); // end communication on the first software
+// serial channel
+SoftSerialTwo.begin(9600); // begin communication on the second 
+// software serial channel
+SoftSerialTwo.print("Hello World"); // send something
+SoftSerialTwo.end(); // end communication on the second software
+// serial channel
+}</code></pre>
+<p>Note that before using the second software serial connection, the first connection must be terminated using <code>SoftSerialOne.end()</code>. If this is not done your code will probably compile but will not do what you expect it to do. Also, the hardware serial connection can be open and used at the same time as a software serial connection without problems.</p>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">				
+					
+				<br /><span class="entry-terms category" itemprop="articleSection">Categories:	 <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="tag">Guides</a></span>			<br /><span class="entry-terms post_tag" itemprop="keywords">Taggs:	 <a href="http://www.fiz-ix.com/tag/arduino/" rel="tag">Arduino</a> <a href="http://www.fiz-ix.com/tag/electronics/" rel="tag">Electronics</a> <a href="http://www.fiz-ix.com/tag/guides/" rel="tag">Guides</a></span>		</footer><!-- .entry-footer -->
+	</article>	
+	
+	
+</article><!-- .entry -->
+
+						
+	<div class="loop-nav">
+		<div class="prev">Previous Post: <a href="http://www.fiz-ix.com/2012/12/using-perl-and-regular-expressions-to-find-and-replace-text/" rel="prev">Using Perl and Regular Expressions to Find and Replace Text</a></div>		<div class="next">Next Post: <a href="http://www.fiz-ix.com/2012/12/arduino-program-flow-control-using-conditional-statements-and-loops/" rel="next">Arduino Program Flow Control Using Conditional Statements and Loops</a></div>	</div><!-- .loop-nav -->
+
+
+			
+<section id="comments-template">
+
+	
+		<div id="comments">
+
+			<h3 id="comments-number">14 Comments</h3>
+
+			<ol class="comment-list">
+				<li id="comment-1458" class="comment even thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/ccef9bdf45a1213d38945b58c59a9b60?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/ccef9bdf45a1213d38945b58c59a9b60?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Cloudy</cite><br />
+			<time class="comment-published" datetime="2013-07-22T02:30:52-04:00" title="Monday, July 22, 2013, 2:30 am" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1458" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1458#respond' onclick='return addComment.moveForm( "comment-1458", "1458", "respond", "1110" )' aria-label='Reply to Cloudy'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi,<br />
+Has Arduino uno multiple hardware serial ports?<br />
+Because I am doing Arduino connect to other module. But how to send &#8216;z&#8217; to other module from Arduino uno?<br />
+Thanks</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1464" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2013-07-30T17:04:41-04:00" title="Tuesday, July 30, 2013, 5:04 pm" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1464" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1464#respond' onclick='return addComment.moveForm( "comment-1464", "1464", "respond", "1110" )' aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>The Uno uses the ATmega328 which has a single UART (hardware serial channel). You can always use the SoftwareSerial library to simulate more. That is what I am talking about in this post.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1502" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/4b20e6134a9dbf2f9552b60c80395319?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4b20e6134a9dbf2f9552b60c80395319?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Shifa</cite><br />
+			<time class="comment-published" datetime="2014-02-03T10:41:50-04:00" title="Monday, February 3, 2014, 10:41 am" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1502" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1502#respond' onclick='return addComment.moveForm( "comment-1502", "1502", "respond", "1110" )' aria-label='Reply to Shifa'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hey,<br />
+Thanks for the post. Cleared up a lot of doubts. I wanted to know the maximum number of serial software ports that can be created on Arduino Uno (atmega328) practically. I need to connect three/four modules, all using serial UART. The above mentioned code lets me use 3 devices right? One using hardware serial, and the other two using software serial?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1503" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2014-02-03T13:20:21-04:00" title="Monday, February 3, 2014, 1:20 pm" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1503" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1503#respond' onclick='return addComment.moveForm( "comment-1503", "1503", "respond", "1110" )' aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Each software serial connection requires two digital input/output pins so there are enough pins on the Uno to do four software serial connections. Just make sure to stop one software serial connection before starting another.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1658" class="comment even depth-3" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/e2c0eda08eb84d95f894a934b4fa4000?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/e2c0eda08eb84d95f894a934b4fa4000?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">sriker dekonda</cite><br />
+			<time class="comment-published" datetime="2015-05-12T12:34:59-04:00" title="Tuesday, May 12, 2015, 12:34 pm" itemprop="datePublished">1 year ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1658" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1658#respond' onclick='return addComment.moveForm( "comment-1658", "1658", "respond", "1110" )' aria-label='Reply to sriker dekonda'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>why can&#8217;t the two(or)more software serial ports be open parallely</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1512" class="comment odd alt thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/12a952b3b64d611ccb024983aa3bb846?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/12a952b3b64d611ccb024983aa3bb846?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">rom</cite><br />
+			<time class="comment-published" datetime="2014-02-17T07:25:50-04:00" title="Monday, February 17, 2014, 7:25 am" itemprop="datePublished">2 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1512" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1512#respond' onclick='return addComment.moveForm( "comment-1512", "1512", "respond", "1110" )' aria-label='Reply to rom'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>if i have arduino having 2 h/w serial, and i want to use only 1 software serial so 3 serial interface in total, can i still obtain a simultaneous reading of data from 3 uart-devices?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1513" class="comment byuser comment-author-jeff bypostauthor even depth-2 role-administrator" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2014-02-17T08:08:27-04:00" title="Monday, February 17, 2014, 8:08 am" itemprop="datePublished">2 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1513" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1513#respond' onclick='return addComment.moveForm( "comment-1513", "1513", "respond", "1110" )' aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Do you mean the mega? Yes, you should be able to have all three simultaneously turned on if two are hardware UARTs and the other is software serial.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1683" class="comment odd alt depth-3" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/1c639aa86f72bad98a989e7dd3266cd3?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1c639aa86f72bad98a989e7dd3266cd3?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Bassant</cite><br />
+			<time class="comment-published" datetime="2016-01-28T02:57:17-04:00" title="Thursday, January 28, 2016, 2:57 am" itemprop="datePublished">6 months ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1683" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1683#respond' onclick='return addComment.moveForm( "comment-1683", "1683", "respond", "1110" )' aria-label='Reply to Bassant'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Can i send and receive at the same time ?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1638" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/61e58aa7e03d093d81ee21a82e6aa93f?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/61e58aa7e03d093d81ee21a82e6aa93f?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Balavinoth</cite><br />
+			<time class="comment-published" datetime="2015-01-06T03:19:45-04:00" title="Tuesday, January 6, 2015, 3:19 am" itemprop="datePublished">2 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1638" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1638#respond' onclick='return addComment.moveForm( "comment-1638", "1638", "respond", "1110" )' aria-label='Reply to Balavinoth'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I am trying to receive two uart in softwareserial but it  is not getting into the while loop mentioned below<br />
+ while (portOne.available()) {<br />
+    Serial.println(&#8220;Data from port one:&#8221;);<br />
+    inByte[count++] = portOne.read();<br />
+    if(count==8)break;<br />
+     Serial.write(inByte,count);<br />
+     clearBufferArray();                         // call clearBufferArray function to clear the storaged data from the array<br />
+      count = 0;                                  // set counter of while loop to zero</p>
+<p>  }</p>
+<p>my full code is<br />
+/*<br />
+  Software serial multple serial test</p>
+<p> Receives from the two software serial ports,<br />
+ sends to the hardware serial port.</p>
+<p> In order to listen on a software port, you call port.listen().<br />
+ When using two software serial ports, you have to switch ports<br />
+ by listen()ing on each one in turn. Pick a logical time to switch<br />
+ ports, like the end of an expected transmission, or when the<br />
+ buffer is empty. This example switches ports when there is nothing<br />
+ more to read from a port</p>
+<p> The circuit:<br />
+ Two devices which communicate serially are needed.<br />
+ * First serial device&#8217;s TX attached to digital pin 2, RX to pin 3<br />
+ * Second serial device&#8217;s TX attached to digital pin 4, RX to pin 5</p>
+<p> Note:<br />
+ Not all pins on the Mega and Mega 2560 support change interrupts,<br />
+ so only the following can be used for RX:<br />
+ 10, 11, 12, 13, 50, 51, 52, 53, 62, 63, 64, 65, 66, 67, 68, 69</p>
+<p> Not all pins on the Leonardo support change interrupts,<br />
+ so only the following can be used for RX:<br />
+ 8, 9, 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI).</p>
+<p> created 18 Apr. 2011<br />
+ modified 25 May 2012<br />
+ by Tom Igoe<br />
+ based on Mikal Hart&#8217;s twoPortRXExample</p>
+<p> This example code is in the public domain.</p>
+<p> */</p>
+<p>#include<br />
+// software serial #1: TX = digital pin 10, RX = digital pin 11<br />
+SoftwareSerial portOne(10, 11);</p>
+<p>// software serial #2: TX = digital pin 8, RX = digital pin 9<br />
+// on the Mega, use other pins instead, since 8 and 9 don&#8217;t work on the Mega<br />
+SoftwareSerial portTwo(8, 9);<br />
+unsigned char inByte[64];<br />
+int count=0;</p>
+<p>void setup()<br />
+{<br />
+  // Open serial communications and wait for port to open:<br />
+  Serial.begin(9600);<br />
+  while (!Serial) {<br />
+    ; // wait for serial port to connect. Needed for Leonardo only<br />
+  }</p>
+<p>  // Start each software serial port<br />
+  portOne.begin(9600);<br />
+  portTwo.begin(9600);<br />
+}</p>
+<p>void loop()<br />
+{<br />
+  // By default, the last intialized port is listening.<br />
+  // when you want to listen on a port, explicitly select it:<br />
+  portOne.listen();<br />
+//Serial.println(&#8220;Data from port one:&#8221;);<br />
+  // while there is data coming in, read it<br />
+  // and send to the hardware serial port:<br />
+  while (portOne.available()) {<br />
+    Serial.println(&#8220;Data from port one:&#8221;);<br />
+    inByte[count++] = portOne.read();<br />
+    if(count==8)break;<br />
+     Serial.write(inByte,count);<br />
+     clearBufferArray();                         // call clearBufferArray function to clear the storaged data from the array<br />
+      count = 0;                                  // set counter of while loop to zero</p>
+<p>  }</p>
+<p>  // blank line to separate data from the two ports:<br />
+//  Serial.println();</p>
+<p>  // Now listen on the second port<br />
+  portTwo.listen();<br />
+  // while there is data coming in, read it<br />
+  // and send to the hardware serial port:<br />
+ // Serial.println(&#8220;Data from port two:&#8221;);<br />
+  while (portTwo.available() &gt; 0) {<br />
+    char inByte = portTwo.read();<br />
+    Serial.write(inByte);<br />
+  }</p>
+<p>  // blank line to separate data from the two ports:<br />
+//  Serial.println();<br />
+}<br />
+void clearBufferArray()                     // function to clear buffer array<br />
+{<br />
+    for (int i=0; i&lt;count;i++)<br />
+    { inByte[i]=NULL;}                      // clear all index of array with command NULL<br />
+}</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1643" class="comment odd alt thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/ba063a5944db398abbb056da1d1507f2?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ba063a5944db398abbb056da1d1507f2?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">prt</cite><br />
+			<time class="comment-published" datetime="2015-01-27T13:04:40-04:00" title="Tuesday, January 27, 2015, 1:04 pm" itemprop="datePublished">2 years ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1643" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1643#respond' onclick='return addComment.moveForm( "comment-1643", "1643", "respond", "1110" )' aria-label='Reply to prt'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>My project consist xbee and rfid both uses serial comm, how to connect the hardare pls let me know</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1647" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/d919ac54ba0df193b775da0f3df562fa?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d919ac54ba0df193b775da0f3df562fa?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">saint</cite><br />
+			<time class="comment-published" datetime="2015-04-20T07:45:09-04:00" title="Monday, April 20, 2015, 7:45 am" itemprop="datePublished">1 year ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1647" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1647#respond' onclick='return addComment.moveForm( "comment-1647", "1647", "respond", "1110" )' aria-label='Reply to saint'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>now how do i select which port to use?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1649" class="comment odd alt thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/7c45ae919de256759c9789b18e1eb34e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7c45ae919de256759c9789b18e1eb34e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Herick</cite><br />
+			<time class="comment-published" datetime="2015-04-29T09:06:39-04:00" title="Wednesday, April 29, 2015, 9:06 am" itemprop="datePublished">1 year ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1649" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1649#respond' onclick='return addComment.moveForm( "comment-1649", "1649", "respond", "1110" )' aria-label='Reply to Herick'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>hi, i really need your help<br />
+I have a project that uses 2 RFID ID-12LA with Arduino UNO. Is it possible to use two serial port in it?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1684" class="comment even thread-odd thread-alt depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/1c639aa86f72bad98a989e7dd3266cd3?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1c639aa86f72bad98a989e7dd3266cd3?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Bassant</cite><br />
+			<time class="comment-published" datetime="2016-01-28T04:53:51-04:00" title="Thursday, January 28, 2016, 4:53 am" itemprop="datePublished">6 months ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1684" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1684#respond' onclick='return addComment.moveForm( "comment-1684", "1684", "respond", "1110" )' aria-label='Reply to Bassant'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>How to solve the problem of being used at same time plz ?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1686" class="comment odd alt thread-even depth-1" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/304307476dea2c6a18e58998290a2529?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/304307476dea2c6a18e58998290a2529?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href='http://prasanndutt.com' rel='external nofollow' class='url fn n' itemprop="url"><span itemprop="name">Prasan</span></a></cite><br />
+			<time class="comment-published" datetime="2016-02-19T02:20:29-04:00" title="Friday, February 19, 2016, 2:20 am" itemprop="datePublished">6 months ago</time>
+			<a class="comment-permalink" href="http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/#comment-1686" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/?replytocom=1686#respond' onclick='return addComment.moveForm( "comment-1686", "1686", "respond", "1110" )' aria-label='Reply to Prasan'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Thanks for clear description of working with two software serial. I was working with GSM and GPS both instantiated as serial objects. But nothing was appearing on Serial monitor. It works now.</p>
+<p>Still I need to know how software serial exactly works. If it is same as UART connection then how any digital/analog pin can be assigned as RX/TX ??</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment -->			</ol><!-- .comment-list -->
+
+			
+		</div><!-- #comments-->
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/12/arduino-uno-with-multiple-software-serial-devices/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.fiz-ix.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1110' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="400cc9ba7f" /></p>				</form>
+					</div><!-- #respond -->
+		
+</section><!-- #comments-template -->
+			
+		
+
+		</main><!-- #content -->
+	
+
+
+			
+
+		</div><!-- #main -->
+		
+		
+
+	<aside class="sidebar sidebar-primary" role="complementary" id="sidebar-primary" aria-label="Primary Sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+		
+			<section id="search-3" class="widget widget_search"><h3 class="widget-title"><span>Search</span></h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form></section><section id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</section><section id="categories-3" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</section><section id="linkcat-6" class="widget widget_links"><h3 class="widget-title"><span>Links</span></h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</section>
+
+		
+	</aside><!-- #sidebar-primary -->
+
+		
+	</div> <!--#main-containter -->
+		
+		</div><!-- #container -->
+		<nav id="footer-navigation"> </nav>
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		
+			<p class="credit">
+				Copyright &#169; 2016 <a class="site-link" href="http://www.fiz-ix.com" rel="home">Fiz-ix</a>. Powered by <a class="wp-link" target="_blank" href="http://wordpress.org">WordPress</a> and <a class="theme-link" target="_blank" href="http://fireincome.com/drop-shipping">Drop Shipping</a>.			</p><!-- .credit -->
+
+		</footer><!-- #footer -->
+
+	
+
+	<script type='text/javascript' src='http://www.fiz-ix.com/wp-content/themes/drop-shipping/library/js/mobile-toggle.min.js?ver=20130528'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/comment-reply.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 21/36 queries in 0.090 seconds using disk
+
+ Served from: www.fiz-ix.com @ 2016-08-09 12:38:17 by W3 Total Cache -->

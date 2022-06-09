@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+		Fiz-ix&nbsp;|&nbsp;(Physics)																	</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li class="current_page_item"><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/04/ir-photodiode-circuit-schematic/#comments">1</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/04/ir-photodiode-circuit-schematic/" rel="bookmark" title="Permanent Link to IR Photodiode Circuit Schematic">IR Photodiode Circuit Schematic</a></h2>
+					<div class="meta">Posted April 4th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/basics/" rel="category tag">Basics</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>The following schematic demonstrates a simple infrared (IR) photodiode circuit using a analog-to-digital converter (ADC) to monitor the photodiode. An analog pin on an Arduino used with the analogRead() function will do the job. Photodiodes are two-pin analog devices. This makes them relatively easy to use and makes their output graded. Some of my students are using one in a project along with an IR LED as an IR absorption meter. On the other hand, their output is relatively weak so they can&#8217;t detect extremely small or distant IR signals. Notice that the photodiode is reverse biased. Thus, when no light is present, no current flows through the diode and the 1 megaohm pull-up resistor ensures that the ADC monitoring the photodiode reads 5 V. When light, in this case IR light, strikes the photodiode, electron-hole pairs are created in the semiconductor which creates a small current causing the voltage at the ADC pin to drop. So the lower the voltage read by the ADC, the more IR light is being received. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/04/IRPhotodiode.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/04/IRPhotodiode.png" alt="" title="IRPhotodiode" width="390" height="319" class="aligncenter size-full wp-image-1459" srcset="http://www.fiz-ix.com/wp-content/uploads/2013/04/IRPhotodiode-300x245.png 300w, http://www.fiz-ix.com/wp-content/uploads/2013/04/IRPhotodiode.png 390w" sizes="(max-width: 390px) 100vw, 390px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/02/direct-control-of-arduino-uno-digital-inputoutput-pins-using-port-registers/#comments">5</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/02/direct-control-of-arduino-uno-digital-inputoutput-pins-using-port-registers/" rel="bookmark" title="Permanent Link to Direct Control of Arduino Uno Digital Input/Output Pins Using Port Registers">Direct Control of Arduino Uno Digital Input/Output Pins Using Port Registers</a></h2>
+					<div class="meta">Posted February 14th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>The ATmega328 has a total of three input/output ports, port B, port C, and port D. Two of these ports, namely port B and port D, are associated with the 14 digital input/output pins on the Arduino Uno. Port C is associated with the analog input pins which can also be used as digital input/output pins if needed. The following table summarizes the mapping between the Arduino Uno digital pins and the ATmega328 port pins.</p>
+<p><center></p>
+<table border="1" bordercolor="#000000" style="background-color:#FFFFFF" width="200" cellpadding="2" cellspacing="0">
+<tr>
+<td>Arduino Digital Pin</td>
+<td>Port Pin</td>
+</tr>
+<tr>
+<td>0</td>
+<td>PD0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>PD1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>PD2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>PD3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>PD4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>PD5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>PD6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>PD7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>PB0</td>
+</tr>
+<tr>
+<td>9</td>
+<td>PB1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>PB2</td>
+</tr>
+<tr>
+<td>11</td>
+<td>PB3</td>
+</tr>
+<tr>
+<td>12</td>
+<td>PB4</td>
+</tr>
+<tr>
+<td>13</td>
+<td>PB5</td>
+</tr>
+</table>
+<p></center><br />
+&nbsp;</p>
+<p>To turn on or off a Arduino digital pin, its mode is first set using <code>pinMode()</code> and then its state is set using <code>digitalWrite()</code>. For example, to turn on digital pin 5 for one second then turn if off for one second repeatedly, the following code could be used.</p>
+<pre><code>
+int myPin = 5;
+void setup() {
+   pinMode(myPin,OUTPUT);
+}
+void loop() {
+   digitalWrite(myPin,HIGH);
+   delay(1000);
+   digitalWrite(myPin,LOW);
+   delay(1000);
+}</code></pre>
+<p>It is also possible to control the digital pins by accessing the port registers directly. For example, the following achieves the same result as the above code. It is explained below.</p>
+<pre><code>
+void setup() {
+   DDRD = DDRD | B00100000; 
+}
+void loop() {
+   PORTD = PORTD | B00100000;
+   delay(1000);
+   PORTD = PORTD & B11011111;
+   delay(1000);
+}</code></pre>
+<p>Each port has a one byte register defining the direction of the associated pins. This register is called DDRD for port D and DDRB for port B. From zero to seven, each bit in this register corresponds to the comparably numbered pin of that port. For example, the fifth bit of DDRD controls port pin D5 or Arduino digital pin 5. If this bit is set to zero, the pin is an input. If this bit is set to one, the pin is an output pin. Thus, the line of code in the setup function above sets Arduino digital pin 5 to an output pin using a bitwise or operator. Each port also has a one byte register defining the state of the associated pins. This register is called PORTD for port D and PORTB for port B. Just like the DDRx registers, each bit in these registers from zero to seven corresponds to the comparably numbered pin of that port. For example, the fifth bit of PORTD controls the state of pin D5 or Arduino digital pin 5. If this bit is set to zero, the pin is set to 0 V. If this bit is set to one, the pin is set to 5 V (on the Arduino Uno). Thus the lines of code in the loop function above first turns on Arduino digital pin 5 using a bitwise or and then turns this pin off using a bitwise and.</p>
+<p>Controlling digital i/o pins at the register level is incredibly powerful. For example, you could turn all 8 pins of port D using a single line of code if you wanted to. However, with great power comes great responsibility. Manipulating registers can be tricky and may yield unexpected results. For example, buried in the ATmega328 data sheet is a warning that one can not change a pin from the high impedance input off state to the output on state in one step. You must first go to an intermediate state of output low or input high before going to output high. </p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/02/introduction-to-arduino-serial-communication/#comments">3</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/02/introduction-to-arduino-serial-communication/" rel="bookmark" title="Permanent Link to Introduction to Arduino Serial Communication">Introduction to Arduino Serial Communication</a></h2>
+					<div class="meta">Posted February 12th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>Serial communication is a method for two computers or microcontrollers (or one computer and a microcontroller) to talk to one another. Arduino uses the transistor-transistor logic (TTL) serial protocol. This protocol sends bits using voltages of zero (for a zero bit) and five (for a one bit). Another popular serial protocol is RS-232 which uses +13 V to represent zeros and -13 V to represent ones. In both cases, serial communication involves sending bytes one bit at a time starting with the least significant bit (LSB). Each bit is preceded by a start bit (0 V for TTL serial communication) and immediately followed by a stop bit (5 V for TTL serial communication). Therefore, the figure below shows the signals that would be generated if the bytes 11011001 (top) and 00010010 (bottom) where sent via a serial channel. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/02/SerialCommunication.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/02/SerialCommunication-300x164.png" alt="" title="SerialCommunication" width="300" height="164" class="aligncenter size-medium wp-image-1428" /></a><br />
+<strong>The figure above incorrectly shows the stop bit as 0V (low). It should be 5V (high).</strong></p>
+<p>In order for two devices to communicate via a serial signal, both must be configured with the same baud rate or bits per second (bps) rate. This tells both machines the interval of time between individual bits so they can synchronize. The most common baud rate for Arduino is 9600. In fact, this is the default baud rate when a new serial monitor is opened from the Arduino IDE. Other baud rates are sometimes necessary. For example, communication with GPS modules often uses a baud rate of 4800.</p>
+<p>The following sketch demonstrates serial communication between an Arduino Uno and a the serial monitor on a computer. When a character is sent to the Arduino from the serial monitor on a computer, the Arduino reads this byte and immediately will send it back. The <code>Serial.begin()</code>, <code>Serial.available()</code>, <code>Serial.read()</code>, <code>Serial.print()</code>, and <code>Serial.write()</code> commands are used to start serial communication, test to see if any bytes are available in the serial buffer, read in the next byte in the serial buffer, print a decimal number to the serial monitor, and print the ASCII character corresponding to this decimal number, respectively. The comments in the code should help you figure out what each component does.</p>
+<pre><code>// Program Name: Serial Echo
+
+// note: serial bytes are read as ASCII 
+// (American Standard Code for Information Interchange) 
+// characters
+
+byte myByte; // a variable to store a byte read from the serial 
+// buffer
+
+void setup() {
+  Serial.begin(9600); // begin serial communications at 9600 bps
+}
+
+void loop() {
+ if (Serial.available()&gt;0) {
+  while(Serial.available()&gt;0){ // while bytes remain in the serial 
+  // buffer
+  myByte = Serial.read(); // read in the current byte
+  // = is ASCII character 61
+  // 0-9 are ASCII characters 48 to 57
+  // - is ASCII character 45
+  // + is ASCII character 43
+  }
+  Serial.print("ASCII Character Value of Byte Read: \n");
+  Serial.write(myByte);
+  Serial.print('\n');
+  Serial.print("ASCII Decimal Value of Byte Read: \n");
+  Serial.print(myByte); // prints ASCII character corresponding 
+  // to myByte
+  Serial.print('\n');
+ }
+}</code></pre>
+<p>One important concept to understand is that serial information is sent out of and read into the Arduino one byte at a time. Moreover, each byte that is read into memory corresponds to the decimal ASCII encoding for the ASCII character being received. So, if the character <code>A</code> is sent, the value stored in <code>myByte</code> would be <code>65</code> since this is the decimal code for the ASCII character <code>A</code>. For more on ASCII characters and serial communications see <a href="http://www.fiz-ix.com/2012/11/arduino-serial-communication-bytes-bases-and-ascii-characters/" target="_blank">this post</a>.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/02/controlling-common-cathode-rgb-leds-with-arduino/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/02/controlling-common-cathode-rgb-leds-with-arduino/" rel="bookmark" title="Permanent Link to Controlling Common-Cathode RGB LEDs with Arduino">Controlling Common-Cathode RGB LEDs with Arduino</a></h2>
+					<div class="meta">Posted February 8th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>A common-cathode RGB LED has a total of four pins. One of the pins is the cathode which must be connected to ground and the others each control a color. The pinout shown below is for a typical RGB LED. Notice that each of the pins is a slightly different length; the cathode is the longest. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-08-at-9.53.07-AM.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-08-at-9.53.07-AM-300x252.png" alt="" title="RGBLED" width="300" height="252" class="aligncenter size-medium wp-image-1417" srcset="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-08-at-9.53.07-AM-300x252.png 300w, http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-08-at-9.53.07-AM.png 765w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Since there are three colors, controlling a common-cathode RGB LED with an Arduino requires three digital output pins (and three <a href="http://www.fiz-ix.com/2012/05/the-voltage-divider-circuit-and-led-current-limiting/" target="_blank">current limiting resistors</a>). You could turn these pins off and on one at a time using <code>digitalWrite()</code> commands. You could also use a byte (of which one bit controls each of the colors so five bits would be unused) and a bit-mask. See <a href="http://www.fiz-ix.com/2013/02/using-bytes-and-bitmasks-to-control-multiple-arduino-digital-outputs/" target="_blank">this post</a> for more details. This would result in more compact code. </p>
+<p>When lights of different colors are combined, new colors result. But unlike pigment mixing, which is subtractive color mixing, light mixing results in additive color mixing. Red and green makes yellow, red and blue makes magenta, and green and blue makes cyan. If red, green, and blue are simultaneously turned on, white light is produced. In order to obtain more fine grained control over the color produced by an RGB LED, you can use PWM and <code>analogWrite()</code> (see <a href="http://www.fiz-ix.com/2012/11/using-pulse-width-modification-to-simulate-analog-outputs-with-digital-signals/" target="_blank">this post</a> for more details).</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2013/02/using-a-mechanical-relay-to-switch-large-ac-or-dc-currents-with-a-small-dc-current/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2013/02/using-a-mechanical-relay-to-switch-large-ac-or-dc-currents-with-a-small-dc-current/" rel="bookmark" title="Permanent Link to Using A Mechanical Relay to Switch Large AC or DC Currents with a Small DC Current">Using A Mechanical Relay to Switch Large AC or DC Currents with a Small DC Current</a></h2>
+					<div class="meta">Posted February 7th, 2013. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/basics/" rel="category tag">Basics</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>Let&#8217;s say you are working on a project that requires you to turn on an appliance plugged into a household main (115-ish V AC) using an Arduino (3.3-5 V DC). What would you use as a switch. For some applications you can use a bipolar junction transistor as a switch (see <a href="http://www.fiz-ix.com/2012/11/how-to-use-an-npn-transistor-as-a-switch/" title="NPNSwitch" target="_blank">this post</a>). However, such applications require that both the circuit controlling the switch and the circuit being switch have the same common ground. When the circuit doing the switching and the circuit being switched are at vastly different voltages and will carry vastly different currents a better solution is a mechanical relay. Relays have a small electromagnet that when supplied with a small DC current closes a switch through which a much larger DC or AC current can flow. The switch closing is accompanied by a satisfying clicking noise. The picture below is a typical relay. This one is manufactured by OMRON and has 5 pins. The pinout is also shown. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.32-PM.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.32-PM-300x224.png" alt="" title="Screen shot 2013-02-07 at 1.45.32 PM" width="300" height="224" class="aligncenter size-medium wp-image-1408" srcset="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.32-PM-300x224.png 300w, http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.32-PM.png 439w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.46-PM.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.46-PM-296x300.png" alt="" title="Screen shot 2013-02-07 at 1.45.46 PM" width="296" height="300" class="aligncenter size-medium wp-image-1409" srcset="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.46-PM-296x300.png 296w, http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.46-PM.png 318w" sizes="(max-width: 296px) 100vw, 296px" /></a></p>
+<p>This particular relay is a single pole, double throw (SPDT) switch. If you were controlling a switch like this with an Arduino you would hook an Arduino digital pin up to pin 2 (or pin 5) then hook pin 5 (or pin 2) up to ground. Then setting the Arduino digital pin high will throw the switch. The device being switched should be hooked up across pins 1 and 3. Notice that a SPDT switch connects pins 1 and 4 when no current is supplied across pins 2 and 5. A single pole, single throw (SPST) switch like the one shown below (also made by OMRON) lacks this alternative path. An SPST switch will be specified to be normally open (NO) or normally closed (NC). This particular relay is normally open. </p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.56-PM.png"><img src="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.56-PM-284x300.png" alt="" title="Screen shot 2013-02-07 at 1.45.56 PM" width="284" height="300" class="aligncenter size-medium wp-image-1410" srcset="http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.56-PM-284x300.png 284w, http://www.fiz-ix.com/wp-content/uploads/2013/02/Screen-shot-2013-02-07-at-1.45.56-PM.png 320w" sizes="(max-width: 284px) 100vw, 284px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/page/3/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 12/29 queries in 0.118 seconds using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-17 03:30:07 by W3 Total Cache -->

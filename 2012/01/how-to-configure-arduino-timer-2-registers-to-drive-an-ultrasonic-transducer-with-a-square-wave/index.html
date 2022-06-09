@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<meta charset="UTF-8" />
+<title>How to Configure Arduino Timer 2 Registers to Drive an Ultrasonic Transducer with a Square Wave &#8211; Fiz-ix</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drop Shipping 1.0.5" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Feed" href="https://fiz-ix.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Comments Feed" href="https://fiz-ix.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; How to Configure Arduino Timer 2 Registers to Drive an Ultrasonic Transducer with a Square Wave Comments Feed" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/feed/" />
+<link rel="pingback" href="https://fiz-ix.com/xmlrpc.php" />
+<link rel='stylesheet' id='hybrid-one-five-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping/library/css/one-five.min.css?ver=6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping/library/css/gallery.min.css?ver=6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-parent-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping-child/style.css?ver=6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping/css/font-awesome.css?ver=6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://fiz-ix.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='parent-style-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping/style.css?ver=6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://fiz-ix.com/wp-content/themes/drop-shipping-child/style.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://fiz-ix.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://fiz-ix.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://fiz-ix.com/wp-json/" /><link rel="alternate" type="application/json" href="https://fiz-ix.com/wp-json/wp/v2/posts/304" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fiz-ix.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.0" />
+<link rel="canonical" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/" />
+<link rel='shortlink' href='https://fiz-ix.com/?p=304' />
+<link rel="alternate" type="application/json+oembed" href="https://fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F01%2Fhow-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://fiz-ix.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fiz-ix.com%2F2012%2F01%2Fhow-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave%2F&#038;format=xml" />
+    <style type="text/css">
+        #sidebar-primary ul li:before, a { color: #1e73be;}
+
+         #searchnavi input, #top-bar { background: ; }
+         h2.entry-title a:hover, #menu-primary li a:hover, li.current-menu-item > a, body.custom-header #site-title a:hover, a:hover { color: #81d742; }
+       h2.entry-title a, #site-description, .sidebar, .credit { color: #1e73be; }
+    </style>
+    
+<style type="text/css" id="custom-header-css">body.custom-header #site-title a { color: #000000; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background: #ffffff; }</style>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6753741789275748",
+    enable_page_level_ads: true
+  });
+</script>
+
+</head>
+
+<body class="wordpress ltr en en-us child-theme y2022 m06 d08 h17 wednesday logged-out custom-background custom-header display-header-text singular singular-post singular-post-304 post-format- layout-2c-l" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	<div id="top-bar">
+	<div id="top-container">
+		<div id="searchnavi">
+			<form role="search" method="get" id="searchform" class="searchform" action="https://fiz-ix.com/">
+				<input type="text" placeholder="Search" value="" name="s" id="s" />
+			
+			</form>		</div>	
+	
+
+	<nav id="menu-secondary"></nav>
+</div>
+</div>
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+
+		<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+			
+				<div id="branding" class="site-branding">
+					<h1 id="site-title" class="site-title" itemprop="headline"><a href="https://fiz-ix.com" rel="home">Fiz-ix</a></h1>					<h2 id="site-description" class="site-description" itemprop="description">(Physics)</h2>				</div><!-- #branding -->
+
+			
+				<div id="header-widget">
+
+
+		<section id="text-12" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="8594677734"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+&nbsp;</div>
+		</section>
+
+
+</div>
+		</header><!-- #header -->
+
+		<nav id="main-menu">
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+<nav id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text"></button>
+		</nav><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1531"><a href="https://fiz-ix.com">Home</a></li>
+<li id="menu-item-1541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1541"><a href="#">Courses</a>
+<ul class="sub-menu">
+	<li id="menu-item-1540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1540"><a href="https://fiz-ix.com/into-physics-algebra-based/">Introductory Physics (Algebra-Based)</a></li>
+	<li id="menu-item-1544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1544"><a href="https://fiz-ix.com/intro-physics-calculus-based/">Introductory Physics (Calculus-Based)</a></li>
+</ul>
+</li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="https://fiz-ix.com/about/">About</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"><a href="https://fiz-ix.com/guides/">Guides</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="https://fiz-ix.com/labs/">Labs</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="https://fiz-ix.com/notebooks/">Notebooks</a></li>
+</ul></div>
+	</nav><!-- #menu-primary -->
+
+		
+		</nav>
+
+				<div id="main-containter">
+			<div id="breadcrumbs-container">
+	<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><h2 class="trail-browse">You are here:</h2><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="4" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="https://fiz-ix.com" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="https://fiz-ix.com/2012/"><span itemprop="name">2012</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item"><a href="https://fiz-ix.com/2012/01/"><span itemprop="name">January</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">How to Configure Arduino Timer 2 Registers to Drive an Ultrasonic Transducer with a Square Wave</span><meta itemprop="position" content="4" /></li></ul></nav><div id="social"> 
+		
+		
+		
+		
+		
+				
+		
+	</div>
+</div>
+		<div id="main" class="main">
+
+			
+
+
+<main id="content" class="content" role="main">
+
+	
+	 
+
+	
+		
+			
+			
+		
+	<article id="post-304" class="entry author-jeff post-304 post type-post status-publish format-standard category-arduino category-electronics category-guides tag-arduino tag-electronics tag-guides" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		
+		<header class="entry-header">
+
+			<time class="entry-published updated" datetime="2012-Jan-22T20:03:34-05:00" itemprop="datePublished" title="Sunday, Jan 22, 2012, 8:03 pm">January 22, 2012</time>
+			by			<span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="https://fiz-ix.com/author/jeff/" title="Posts by Jeff" rel="author" class="url fn n" itemprop="url"><span itemprop="name">Jeff</span></a></span>
+			<h1 class="entry-title" itemprop="headline">How to Configure Arduino Timer 2 Registers to Drive an Ultrasonic Transducer with a Square Wave</h1>
+			
+
+			<div class="entry-byline">
+				
+			</div><!-- .entry-byline -->
+
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="articleBody">
+			<p>The Arduino IDE has many built-in commands to produce PWM outputs but directly setting the timer registers gives you much more flexibility and power. Below I show how to configure the 8-bit Timer/Counter2 on the ATmega328 (Ardunio UNO) to generate a 40 kHz square wave on Arduino digital pin 11. Why 40 kHz? I want to use it to drive a 40 kHz ultrasonic transducer for a project I am working on. First I will show you the code then explain what each line does. At the end I will discuss how you could set the clock prescaler to slow the frequency to as little as about 31 Hz.</p>
+<pre><code>void startTransducer()
+{
+  TCCR2A = _BV(COM2A0) | _BV(WGM21) | _BV(WGM20);
+  TCCR2B = _BV(WGM22) | _BV(CS20);
+  OCR2A = B11000111; // 199, so timer2 counts from 0 to 199 (200 cycles at 16 MHz)
+}
+
+void setup()
+{
+pinMode(11, OUTPUT);
+startTransducer();
+}
+
+void loop()
+{
+}
+</code></pre>
+<p>The <code>_BV(XXX)</code> function sets the <code>XXX</code> bit of whatever register you are working with to one. It is defined by the following C macro buried somewhere in the libraries used by the compiler:</p>
+<pre><code>#define _BV(bit) (1 << (bit)) 
+</code></pre>
+<p>So, using bit-wise "or" operations, the first two lines in my <code>startTransducer()</code> function sets the TCCR2A register (Timer/Counter Control Register A for Timer/Counter 2) and the TCCR2B register (Timer/Counter Control Register B for Timer/Counter 2) to the following 8-bit binary numbers:</p>
+<pre><code>TCCR2A = B01000011;
+TCCR2B = B00001001;
+</code></pre>
+<p>The TCCR2A and TCCR2B 8-bit registers have the following structures:</p>
+<p>TCCR2A - [COM2A1, COM2A0, COM2B1, COM2B0, reserved, reserved, WGM21, WGM20]<br />
+TCCR2B - [FOC2A, FOC2B, reserved, reserved, WGM22, CS22, CS21, CS20]</p>
+<p>Now for the explanation. Setting the <code>COM2Ax</code> bits (Compare Output Mode bits) to 01 sets timer/counter2 to toggle <code>OC2A</code> (i.e., Arduino digital pin 11) from high to low when the counter matches the 8-bit value stored in <code>OCR2A</code>  (Output Compare Register A on Counter/Timer 2). Setting the <code>CS2x</code> bits to <code>001</code> allows the counter to increment every clock cycle. Setting these bits to other values slows the counter rate using the prescaler (see below). Setting the <code>WGM2x</code> bits (Waveform Generation Mode bits) to <code>111</code> sets the timer/counter to Fast PWM mode with <code>OCR2A</code> setting the top value. More explicitly, this makes the timer count from zero to whatever value is stored in the <code>OCR2A</code> register. When this top value is reached, the timer resets to zero. Of course, since the timer is 8-bit, the counter can count from zero to a maximum of 11111111 or decimal 255. </p>
+<p>The last line of the function sets the value of <code>OCR2A</code> to decimal 199 so the timer will count from 0 to 199 and toggle the output on pin 11 every 200 clock cycles. Since the clock is running at 16 MHz on the Arduino Uno, a quick calculation shows that the output toggles every 200/16,000,000 = 0.0000125 s. Thus a complete cycle of the output (from high to low and back to high) takes 0.000025 s creating a square wave output with a frequency of 40,000 Hz.</p>
+<h3>Reducing the Counter Rate using the Clock Prescaler</h3>
+<p>If you want the counter to count slower (e.g., if you want lower frequency square waves) then you can set the <code>CS2x</code> bits to use the microcontroller's prescaler so the counter doesn't update every clock cycle but ever 8 cycles (set the bits to 010), 32 cycles (011), 64 cycles (100), 128 cycles (101), 256 cycles (110), or every 1024 cycles (111).</p>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">				
+					
+				<br /><span class="entry-terms category" itemprop="articleSection">Categories:	 <a href="https://fiz-ix.com/category/guides/electronics/arduino/" rel="tag">Arduino</a> <a href="https://fiz-ix.com/category/guides/electronics/" rel="tag">Electronics</a> <a href="https://fiz-ix.com/category/guides/" rel="tag">Guides</a></span>			<br /><span class="entry-terms post_tag" itemprop="keywords">Taggs:	 <a href="https://fiz-ix.com/tag/arduino/" rel="tag">Arduino</a> <a href="https://fiz-ix.com/tag/electronics/" rel="tag">Electronics</a> <a href="https://fiz-ix.com/tag/guides/" rel="tag">Guides</a></span>		</footer><!-- .entry-footer -->
+	</article>	
+	
+	
+</article><!-- .entry -->
+
+						
+	<div class="loop-nav">
+		<div class="prev">Previous Post: <a href="https://fiz-ix.com/2012/01/making-html-color-ascii-art-with-matlab/" rel="prev">Making HTML Color ASCII Art with MATLAB</a></div>		<div class="next">Next Post: <a href="https://fiz-ix.com/2012/01/introduction-to-arduino-interrupts-and-the-atmega328-analog-comparator/" rel="next">Introduction to Arduino Interrupts and the ATmega328 Analog Comparator</a></div>	</div><!-- .loop-nav -->
+
+
+			
+<section id="comments-template">
+
+	
+		<div id="comments">
+
+			<h3 id="comments-number">27 Comments</h3>
+
+			<ol class="comment-list">
+				<li id="comment-73" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/acc4a183c447759567baf69f6edaa61b?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/acc4a183c447759567baf69f6edaa61b?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Sou</cite><br />
+			<time class="comment-published" datetime="2012-04-18T12:32:50-04:00" title="Wednesday, April 18, 2012, 12:32 pm" itemprop="datePublished">10 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-73" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=73#respond' data-commentid="73" data-postid="304" data-belowelement="comment-73" data-respondelement="respond" data-replyto="Reply to Sou" aria-label='Reply to Sou'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi,<br />
+i am an engineering student and i am working on a smilar project using Arduino.<br />
+I wonder if you could show me how to make the signal stop after a period of time, because i need to send it for limited periods of time.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-74" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2012-04-18T16:57:52-04:00" title="Wednesday, April 18, 2012, 4:57 pm" itemprop="datePublished">10 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-74" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=74#respond' data-commentid="74" data-postid="304" data-belowelement="comment-74" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I use the built-in Arduino delayMicroseconds() or delay() functions in order to control the duration of a signal. For example, I will have a function called startTransducer to initiate the signal and stopTransducer to stop the signal then I will calculate how long I want the signal to be generated and put something like the following in my loop.</p>
+<p><code><br />
+startTransducer();<br />
+delayMicroseconds(400); // wait for 400 microseconds<br />
+stopTransducer();<br />
+</code></p>
+<p>By default, Arduino uses Timer0 for these built in timing functions so you can&#8217;t also be using Timer0 to generate your signal. I hope this helps. It doesn&#8217;t give you incredibly fine control over the signal duration but it has worked well for me.</p>
+<p>By the way, all you have to do to stop a timer is write zeros to the appropriate timer/counter control register. For example, my stopTransducer function looks like this.</p>
+<p><code><br />
+void stopTransducer()<br />
+{<br />
+TCCR2A = 0;<br />
+TCCR2B = 0; // I think this is all that is needed since setting the CS bits to zero stops the timer.<br />
+}<br />
+</code></p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-76" class="comment even thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/7ea3c91f550031317ed0c171f1d81ab1?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ea3c91f550031317ed0c171f1d81ab1?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Johannes Kiefer</cite><br />
+			<time class="comment-published" datetime="2012-05-20T19:15:27-04:00" title="Sunday, May 20, 2012, 7:15 pm" itemprop="datePublished">10 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-76" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=76#respond' data-commentid="76" data-postid="304" data-belowelement="comment-76" data-respondelement="respond" data-replyto="Reply to Johannes Kiefer" aria-label='Reply to Johannes Kiefer'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hey, so i am a student who works with ultrasonic sound measurement systems and build some sound generator with an atmel.</p>
+<p>There is an old chip named ne 555 wich could help to reduce the need for Timer 2. The chip is just a simple oszillator with an control input to turn it on or off or to use pwm control on a fixed frequency.</p>
+<p>Very simple to set up, just 3 resistor and 1 capacitor is needed.</p>
+<p>maybe this is helpfull</p>
+<p>Johannes</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-79" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2012-05-21T08:05:52-04:00" title="Monday, May 21, 2012, 8:05 am" itemprop="datePublished">10 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-79" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=79#respond' data-commentid="79" data-postid="304" data-belowelement="comment-79" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Thanks for the tip. I am familiar with the 555 and may give this a try. One benefit of using the MCU is that it gives your very precise control over the signal frequency which may not be obtainable using the 555 since the tolerances of the resistors and capacitors that control the duty cycle are often larger than 1%. I think another drawback of the 555 is that it is hard to obtain a duty cycle close to 50% unless one of the resistors is much much much smaller then the other one.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-143" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/db8e483ad62b9a0331d10100fb0f850c?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/db8e483ad62b9a0331d10100fb0f850c?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">samt</cite><br />
+			<time class="comment-published" datetime="2012-06-16T17:44:57-04:00" title="Saturday, June 16, 2012, 5:44 pm" itemprop="datePublished">10 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-143" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=143#respond' data-commentid="143" data-postid="304" data-belowelement="comment-143" data-respondelement="respond" data-replyto="Reply to samt" aria-label='Reply to samt'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi,<br />
+First of all, thanks for great article!</p>
+<p>I am starting a project using 40kHz transducer. with Arduino. But I&#8217;m only a hobbyist. Here is my question:<br />
+I wonder if I could use two or three receivers to read signal from one transmitter? So I could track the position of the transmitter by calculating the distance between each of the receivers and transmitter by measuring the time it takes for sound to be received by each of the sensors(receivers).</p>
+<p>Thanks for your kindness in advance.<br />
+Sam</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-149" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2012-06-28T13:45:30-04:00" title="Thursday, June 28, 2012, 1:45 pm" itemprop="datePublished">10 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-149" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=149#respond' data-commentid="149" data-postid="304" data-belowelement="comment-149" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Sam,</p>
+<p>You can do what you are suggesting but the Arduino probably isn&#8217;t powerful enough to do it. You would need one timer to generate the ultrasonic pulse and two 16 bit timers (probably) for the other two transducers to record the arrival time of the pulse. You would also need two comparators to detect the arrival time via threshold crossing. The ATmega328 has only one 16 bit timer and one comparator onboard. You probably would need a more feature-rich MCU. I don&#8217;t know anything about the more beefed up Arduino models based on the ATmega2560 but I know the ATmega2560 has more onboard timers. I hope this helps</p>
+<p>Jeff</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-577" class="comment even thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/619c9c0e6a82de4cb7513b4eeb203402?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/619c9c0e6a82de4cb7513b4eeb203402?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Redemption</cite><br />
+			<time class="comment-published" datetime="2012-12-20T14:59:16-05:00" title="Thursday, December 20, 2012, 2:59 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-577" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=577#respond' data-commentid="577" data-postid="304" data-belowelement="comment-577" data-respondelement="respond" data-replyto="Reply to Redemption" aria-label='Reply to Redemption'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi I want to get 40khz frequency signal from the pwm pin. Is this possible? Thanks</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-579" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2012-12-20T15:52:53-05:00" title="Thursday, December 20, 2012, 3:52 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-579" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=579#respond' data-commentid="579" data-postid="304" data-belowelement="comment-579" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I translated your comment as best I could into English. Using analogWrite(127) will give you a square wave output with a 50% duty cycle but the frequency will be 31,250 Hz if using Arduino Uno pins 3, 9, 10, or 11 and 62,500 Hz if using pins 5 or 6. The only way to get more control over the frequency of outputs is the use a library that allows you to change the PWM frequencies. Truly fine control is only achievable by setting the timer registers.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1329" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/27f0fae31e9055d74c27d8936ac29225?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/27f0fae31e9055d74c27d8936ac29225?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">sang</cite><br />
+			<time class="comment-published" datetime="2013-02-21T14:28:44-05:00" title="Thursday, February 21, 2013, 2:28 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1329" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1329#respond' data-commentid="1329" data-postid="304" data-belowelement="comment-1329" data-respondelement="respond" data-replyto="Reply to sang" aria-label='Reply to sang'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I would like to generate 22khz frequency but I calculated that it will need output at 363.6363 clock cycle. Is that even doable? Also, does delayMicrosconds take half(.5ms) value?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1330" class="comment odd alt depth-2 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/27f0fae31e9055d74c27d8936ac29225?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/27f0fae31e9055d74c27d8936ac29225?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">sang</cite><br />
+			<time class="comment-published" datetime="2013-02-21T14:40:11-05:00" title="Thursday, February 21, 2013, 2:40 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1330" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1330#respond' data-commentid="1330" data-postid="304" data-belowelement="comment-1330" data-respondelement="respond" data-replyto="Reply to sang" aria-label='Reply to sang'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I think I found the answer, need to use CS2x bit. But what is the value that I will need to set for CS2x and the clock cycle? Also, does .5ms delay possible?</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1371" class="comment byuser comment-author-jeff bypostauthor even depth-3 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2013-04-02T19:35:26-04:00" title="Tuesday, April 2, 2013, 7:35 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1371" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1371#respond' data-commentid="1371" data-postid="304" data-belowelement="comment-1371" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Yes, you would have to set the CS2X bits to further divide the counter with different prescalers since timer 2 is only 8-bits. Sorry, I forgot about this when I responded to your first question. I was thinking about timer 1 which is a 16-bit timer. I am sorry for the long delay getting back to you. As a professor, this is a super busy time of year.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1370" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2013-04-02T19:32:11-04:00" title="Tuesday, April 2, 2013, 7:32 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1370" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1370#respond' data-commentid="1370" data-postid="304" data-belowelement="comment-1370" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Yes, you would have to change OCR2A to a value corresponding to the number of clock cycles (at 16MHz) equal to a time of one-half of 1/22.2kHz. I calculate a value of 360 but check my work. See the part of the post quoted bellow for more details.</p>
+<blockquote><p>The last line of the function sets the value of OCR2A to decimal 199 so the timer will count from 0 to 199 and toggle the output on pin 11 every 200 clock cycles. Since the clock is running at 16 MHz on the Arduino Uno, a quick calculation shows that the output toggles every 200/16,000,000 = 0.0000125 s. Thus a complete cycle of the output (from high to low and back to high) takes 0.000025 s creating a square wave output with a frequency of 40,000 Hz.</p></blockquote>
+<p>Also, delayMicroseconds only takes integers as an argument.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1442" class="comment even thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/4f33ad9b90bf6a34ace5a207c78ef0d1?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4f33ad9b90bf6a34ace5a207c78ef0d1?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">marlon</cite><br />
+			<time class="comment-published" datetime="2013-06-04T20:33:40-04:00" title="Tuesday, June 4, 2013, 8:33 pm" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1442" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1442#respond' data-commentid="1442" data-postid="304" data-belowelement="comment-1442" data-respondelement="respond" data-replyto="Reply to marlon" aria-label='Reply to marlon'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi, im doing a project that uses an ultrasonic transducer to receive a high frequency sound for example a bat, and i was wondering if you had any advice in how i can build a circuit to detect high frequency sounds using the arduino.<br />
+Thanks</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1448" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2013-06-06T09:12:33-04:00" title="Thursday, June 6, 2013, 9:12 am" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1448" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1448#respond' data-commentid="1448" data-postid="304" data-belowelement="comment-1448" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>That is cool. You should be able to detect bat calls using one of the 40kHz ultrasonic transducers I used in this guide. I believe bats emit sounds from about 10 kHz (still audible) to about 100 kHz (not audible). I have no idea what frequency they use most often or which frequency they emit with the most power. I suppose the idea would be to match the frequency of the ultrasonic transducer used to the frequency the bats emit with the most energy (power). Either way you will probably have to pass the received signal through several stages of amplification (and probably band pass filters) before it is usable. This is an awesome idea. If you are successful please come back and post a follow up and a link to your finished project if available. Good luck.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1484" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/f047ced38a471e5a280b459cc057ae18?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f047ced38a471e5a280b459cc057ae18?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Brian</cite><br />
+			<time class="comment-published" datetime="2013-11-10T11:48:14-05:00" title="Sunday, November 10, 2013, 11:48 am" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1484" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1484#respond' data-commentid="1484" data-postid="304" data-belowelement="comment-1484" data-respondelement="respond" data-replyto="Reply to Brian" aria-label='Reply to Brian'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi, I just found this post and thank you for the concise explanation of the timer functions. I have a 40khz project to measure wind speed using sealed transducers. I am planning on using a bridged MAX232 to pump up the signal and drive the transducer using 2 pins (1 hi/ 1 low). Is it possible to drive 2 pins using the timer and split the output such that we drive one pin hi for 12.5us and then 12.5us low?<br />
+Thank you in advance for any help you can provide.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1505" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2014-02-03T13:26:37-05:00" title="Monday, February 3, 2014, 1:26 pm" itemprop="datePublished">8 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1505" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1505#respond' data-commentid="1505" data-postid="304" data-belowelement="comment-1505" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>How about using an external comparator that takes the timer&#8217;s output as the inverting input and the non-inverting input is about 2.5V. Then when the timer is high the comparator&#8217;s output will be low and vice versa.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1495" class="comment even thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/c7f8337aee56c1e6a580a01c0163bb23?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c7f8337aee56c1e6a580a01c0163bb23?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Rob</cite><br />
+			<time class="comment-published" datetime="2013-12-07T02:57:34-05:00" title="Saturday, December 7, 2013, 2:57 am" itemprop="datePublished">9 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1495" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1495#respond' data-commentid="1495" data-postid="304" data-belowelement="comment-1495" data-respondelement="respond" data-replyto="Reply to Rob" aria-label='Reply to Rob'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Will this code work for the arduino Mega</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+<ol class="children">
+<li id="comment-1504" class="comment byuser comment-author-jeff bypostauthor odd alt depth-2 role-administrator has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a71e0e0bb81699c0238b73736b2b970e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jeff</cite><br />
+			<time class="comment-published" datetime="2014-02-03T13:23:38-05:00" title="Monday, February 3, 2014, 1:23 pm" itemprop="datePublished">8 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1504" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1504#respond' data-commentid="1504" data-postid="304" data-belowelement="comment-1504" data-respondelement="respond" data-replyto="Reply to Jeff" aria-label='Reply to Jeff'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Yeah, but it may need some tweaks to work with the special function registers for one of the Mega&#8217;s 16-bit timers. Check the data sheet.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --></ol><!-- .children -->
+</li><!-- .comment --><li id="comment-1507" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/b2361600f052af26a6c9ac2ba571581d?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b2361600f052af26a6c9ac2ba571581d?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Peirik</cite><br />
+			<time class="comment-published" datetime="2014-02-03T15:16:56-05:00" title="Monday, February 3, 2014, 3:16 pm" itemprop="datePublished">8 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1507" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1507#respond' data-commentid="1507" data-postid="304" data-belowelement="comment-1507" data-respondelement="respond" data-replyto="Reply to Peirik" aria-label='Reply to Peirik'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hi, and thanks for the information.</p>
+<p>I am also doing a arduino / ultrasonic project, and i need to create a 40.5kHz signal. The signal can be created with your code by changing 199 to 196ish, or just use the arduino tone library.</p>
+<p>However, this does not work for me. I think there might be something wrong with my circuit. Could you share your sketch of how you run the ultrasonic transducer transmitter circuit ?</p>
+<p>Thanks</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1646" class="comment odd alt thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/dbdca281dfe2a994c6a9f81c4a8e08c0?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/dbdca281dfe2a994c6a9f81c4a8e08c0?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">vk</cite><br />
+			<time class="comment-published" datetime="2015-04-01T17:09:01-04:00" title="Wednesday, April 1, 2015, 5:09 pm" itemprop="datePublished">7 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1646" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1646#respond' data-commentid="1646" data-postid="304" data-belowelement="comment-1646" data-respondelement="respond" data-replyto="Reply to vk" aria-label='Reply to vk'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Can you help me on how to vary PWM duty cycle.</p>
+<p>Thanks.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1664" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/d0c02d2d613fa9b3469c9141b4edf39c?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d0c02d2d613fa9b3469c9141b4edf39c?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href='http://www.torosoleil.com' rel='external nofollow ugc' class='url fn n' itemprop="url"><span itemprop="name">Rob Turnbull</span></a></cite><br />
+			<time class="comment-published" datetime="2015-06-30T09:57:34-04:00" title="Tuesday, June 30, 2015, 9:57 am" itemprop="datePublished">7 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1664" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1664#respond' data-commentid="1664" data-postid="304" data-belowelement="comment-1664" data-respondelement="respond" data-replyto="Reply to Rob Turnbull" aria-label='Reply to Rob Turnbull'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Hello, I am trying to measure the speed of sound across a fixed gap with the 40khz transducer and a receiver. You mentioned above that the UNO has 1 16 bit timer. Would I be able to achieve this and if so where do I begin? Thanks.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1673" class="comment odd alt thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/e032762d907ea232a3512f222ae82a7b?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/e032762d907ea232a3512f222ae82a7b?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Vipin</cite><br />
+			<time class="comment-published" datetime="2015-08-04T09:47:34-04:00" title="Tuesday, August 4, 2015, 9:47 am" itemprop="datePublished">7 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1673" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1673#respond' data-commentid="1673" data-postid="304" data-belowelement="comment-1673" data-respondelement="respond" data-replyto="Reply to Vipin" aria-label='Reply to Vipin'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Very nice article Jeff. Do u have any circuit for testing ultrasonic transducers with arduino? Please help</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1674" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://1.gravatar.com/avatar/7c37a6dc0ced27bfd74f4eabba958595?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7c37a6dc0ced27bfd74f4eabba958595?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Jim</cite><br />
+			<time class="comment-published" datetime="2015-08-05T15:31:44-04:00" title="Wednesday, August 5, 2015, 3:31 pm" itemprop="datePublished">7 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1674" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1674#respond' data-commentid="1674" data-postid="304" data-belowelement="comment-1674" data-respondelement="respond" data-replyto="Reply to Jim" aria-label='Reply to Jim'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>I want to make a device to measure water velocity using ultrasonic transducers, so how do I determine the best resonant frequency transduce for the job?</p>
+<p>Thank you in advance</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-1688" class="comment odd alt thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/2393b038f42da448757928b6f91cb2f4?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2393b038f42da448757928b6f91cb2f4?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">ahmed amine</cite><br />
+			<time class="comment-published" datetime="2016-03-01T07:14:22-05:00" title="Tuesday, March 1, 2016, 7:14 am" itemprop="datePublished">6 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-1688" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=1688#respond' data-commentid="1688" data-postid="304" data-belowelement="comment-1688" data-respondelement="respond" data-replyto="Reply to ahmed amine" aria-label='Reply to ahmed amine'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>hello<br />
+how did u use the analogWrite commande on the Arduino code<br />
+i&#8217;m doing the same project and i did just what u said to change the frequency to 40kHz but nothing happened</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-2473" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://2.gravatar.com/avatar/8925acbf3f0cf3d4bb123d90664c85aa?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/8925acbf3f0cf3d4bb123d90664c85aa?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">David</cite><br />
+			<time class="comment-published" datetime="2016-09-09T22:52:01-04:00" title="Friday, September 9, 2016, 10:52 pm" itemprop="datePublished">6 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-2473" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=2473#respond' data-commentid="2473" data-postid="304" data-belowelement="comment-2473" data-respondelement="respond" data-replyto="Reply to David" aria-label='Reply to David'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Simply fantastic tutorial:  short, to the point, easy to understand.  And the discussion questions also contribute to the learning experience.  Thank you so much.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-5922" class="comment odd alt thread-odd thread-alt depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/99938e2e395438d754afdfa400052d08?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/99938e2e395438d754afdfa400052d08?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">d li</cite><br />
+			<time class="comment-published" datetime="2017-03-24T15:06:44-04:00" title="Friday, March 24, 2017, 3:06 pm" itemprop="datePublished">5 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-5922" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=5922#respond' data-commentid="5922" data-postid="304" data-belowelement="comment-5922" data-respondelement="respond" data-replyto="Reply to d li" aria-label='Reply to d li'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Great tutorial! I am working a similar project. In my case, I would like to drive multiple transducers with different phase-shifted PWM signals. To make sure we have accurate timing sync, I use Timer 1 and try to add delay to shift the phase. The results so far are not very good.</p>
+<p>Do you have any suggestions on this? Thanks!</p>
+<p>-d</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment --><li id="comment-35643" class="comment even thread-even depth-1 has-avatar" itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment">
+
+	<article>
+
+		<header class="comment-meta">
+			<img alt='' src='http://0.gravatar.com/avatar/c3e83fa81b91d20110b3267d26141701?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c3e83fa81b91d20110b3267d26141701?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy'itemprop="image" />			<cite class="comment-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">marion</cite><br />
+			<time class="comment-published" datetime="2019-09-27T05:05:18-04:00" title="Friday, September 27, 2019, 5:05 am" itemprop="datePublished">3 years ago</time>
+			<a class="comment-permalink" href="https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#comment-35643" itemprop="url">Permalink</a>
+			 // <a itemprop="replyToUrl" rel='nofollow' class='comment-reply-link' href='https://fiz-ix.com/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/?replytocom=35643#respond' data-commentid="35643" data-postid="304" data-belowelement="comment-35643" data-respondelement="respond" data-replyto="Reply to marion" aria-label='Reply to marion'>Reply</a>		</header><!-- .comment-meta -->
+
+		<div class="comment-content" itemprop="text">
+			<p>Any advice on how to apply different phases to the square wave so one can create an ultrasonic phased array of transducers.</p>
+		</div><!-- .comment-content -->
+
+		
+	</article>
+
+</li><!-- .comment -->			</ol><!-- .comment-list -->
+
+			
+		</div><!-- #comments-->
+
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/01/how-to-configure-arduino-timer-2-registers-to-drive-an-ultrasonic-transducer-with-a-square-wave/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://fiz-ix.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message" aria-hidden="true">Required fields are marked <span class="required" aria-hidden="true">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required" aria-hidden="true">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required" aria-hidden="true">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required" aria-hidden="true">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='304' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7f76f3390e" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="48"/></p></form>	</div><!-- #respond -->
+	
+</section><!-- #comments-template -->
+			
+		
+
+		</main><!-- #content -->
+	
+
+
+			
+
+		</div><!-- #main -->
+		
+		
+
+	<aside class="sidebar sidebar-primary" role="complementary" id="sidebar-primary" aria-label="Primary Sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+		
+			<section id="text-4" class="widget widget_text">			<div class="textwidget">&nbsp;
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="8594677734"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+&nbsp;</div>
+		</section><section id="categories-3" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>
+			<ul>
+					<li class="cat-item cat-item-22"><a href="https://fiz-ix.com/category/guides/electronics/arduino/">Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="https://fiz-ix.com/category/notebooks/art/">Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="https://fiz-ix.com/category/guides/electronics/basics/">Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://fiz-ix.com/category/books/">Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="https://fiz-ix.com/category/notebooks/calculators/">Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="https://fiz-ix.com/category/notebooks/cartoons/">Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://fiz-ix.com/category/guides/diy/">DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://fiz-ix.com/category/guides/physics/dynamics/">Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://fiz-ix.com/category/guides/physics/electricity-and-magnetism/">Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="https://fiz-ix.com/category/guides/electronics/">Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="https://fiz-ix.com/category/notebooks/energy/">Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://fiz-ix.com/category/everyday-physics/">Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="https://fiz-ix.com/category/fun/">Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://fiz-ix.com/category/games/">Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://fiz-ix.com/category/guides/">Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://fiz-ix.com/category/infographics/">Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="https://fiz-ix.com/category/guides/programming/javascript/">Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://fiz-ix.com/category/guides/physics/kinematics/">Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://fiz-ix.com/category/labs/">Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://fiz-ix.com/category/guides/programming/latex/">LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://fiz-ix.com/category/guides/programming/matlab/">MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://fiz-ix.com/category/guides/physics/mcat-preparation/">MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="https://fiz-ix.com/category/guides/microsoft-office/">Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="https://fiz-ix.com/category/notebooks/">Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="https://fiz-ix.com/category/guides/programming/perl/">Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://fiz-ix.com/category/personal/">Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="https://fiz-ix.com/category/guides/diy/photovoltaics/">Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="https://fiz-ix.com/category/labs/physical-computing/">Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://fiz-ix.com/category/guides/physics/">Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://fiz-ix.com/category/notebooks/physics-concepts/">Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="https://fiz-ix.com/category/labs/physics-labs/">Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://fiz-ix.com/category/guides/physics/physics-tips/">Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://fiz-ix.com/category/guides/programming/processing/">Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="https://fiz-ix.com/category/guides/programming/">Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="https://fiz-ix.com/category/notebooks/reviews/">Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="https://fiz-ix.com/category/guides/programming/shell/">Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://fiz-ix.com/category/simulations/">Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="https://fiz-ix.com/category/guides/ubuntu/">Ubuntu</a>
+</li>
+			</ul>
+
+			</section><section id="linkcat-6" class="widget widget_links"><h3 class="widget-title"><span>Links</span></h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" rel="noopener" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" rel="noopener" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" rel="noopener" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</section>
+
+		
+	</aside><!-- #sidebar-primary -->
+
+		
+	</div> <!--#main-containter -->
+		
+		</div><!-- #container -->
+		<nav id="footer-navigation"> </nav>
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		
+			<p class="credit">
+				Copyright &#169; 2022 <a class="site-link" href="https://fiz-ix.com" rel="home">Fiz-ix</a>. Powered by <a class="wp-link" target="_blank" href="http://wordpress.org">WordPress</a> and <a class="theme-link" target="_blank" href="http://fireincome.com/drop-shipping">Drop Shipping</a>.			</p><!-- .credit -->
+
+		</footer><!-- #footer -->
+
+	
+
+	<script type='text/javascript' src='https://fiz-ix.com/wp-content/themes/drop-shipping/library/js/mobile-toggle.min.js?ver=20130528' id='hybrid-mobile-toggle-js'></script>
+<script async="async" type='text/javascript' src='https://fiz-ix.com/wp-content/plugins/akismet/_inc/form.js?ver=4.0.1' id='akismet-form-js'></script>
+
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2398397-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

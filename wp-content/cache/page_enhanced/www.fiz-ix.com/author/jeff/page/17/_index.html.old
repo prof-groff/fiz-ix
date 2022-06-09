@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>
+						Fiz-ix&nbsp;|&nbsp;Author Archives													</title>
+<link rel="shortcut icon" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/favicon.ico" title="Favicon" />
+<link rel="stylesheet" href="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Feed" href="http://www.fiz-ix.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Fiz-ix Atom Feed" href="http://www.fiz-ix.com/feed/atom/" />
+<link rel="pingback" href="http://www.fiz-ix.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.fiz-ix.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.fiz-ix.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.fiz-ix.com/feed/atom/" />
+    <link rel="alternate" type="application/rss+xml" title="Fiz-ix RSS Comments Feed" href="http://www.fiz-ix.com/comments/feed/" />
+	
+	<!--[if IE 6]>
+		<script src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/js/DD_belatedPNG.js"></script>
+		<script>
+		  /* EXAMPLE */
+		  DD_belatedPNG.fix('*');
+		</script>
+    <![endif]-->
+	
+
+<link rel="alternate" type="application/rss+xml" title="Fiz-ix &raquo; Posts by Jeff Feed" href="http://www.fiz-ix.com/author/jeff/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.fiz-ix.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.fiz-ix.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fiz-ix.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fiz-ix.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo"><a href="http://www.fiz-ix.com/"><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/logo.png" alt="Fiz-ix" /></a></div>
+		<div id="nav">
+			<ul class="pages">
+
+				<li ><a href="http://www.fiz-ix.com"><span>Home</span></a></li>
+				<li class="page_item page-item-891"><a href="http://www.fiz-ix.com/about/"><span>About</span></a></li>
+<li class="page_item page-item-73"><a href="http://www.fiz-ix.com/guides/"><span>Guides</span></a></li>
+<li class="page_item page-item-381"><a href="http://www.fiz-ix.com/labs/"><span>Labs</span></a></li>
+<li class="page_item page-item-655"><a href="http://www.fiz-ix.com/notebooks/"><span>Notebooks</span></a></li>
+<li class="page_item page-item-1249"><a href="http://www.fiz-ix.com/store/"><span>Store</span></a></li>
+				<li><a href ="http://feeds2.feedburner.com/fiz-ix/Axjj"><span><img src="http://www.fiz-ix.com/wp-content/themes/SimpleBlog/images/feed-icon.png" /></span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+
+	<div id="content">
+
+					
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/05/eps-figures-latex/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/05/eps-figures-latex/" rel="bookmark" title="Permanent Link to How to Typeset EPS Figures in LaTeX">How to Typeset EPS Figures in LaTeX</a></h2>
+					<div class="meta">Posted May 1st, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/latex/" rel="category tag">LaTeX</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>The extension EPS stands for Encapsulated PostScript and is my favorite filetype for graphics and figures I produce using applications like Illustrator, Inkscape, and MATLAB. Here is how to insert EPS figures into a LaTex document. First you have to use the <code>graphicx</code> package so insert the following after the <code>\documentclass</code> tag and before the <code>\begin{document}</code> tag.</p>
+<pre><code>\usepackage{graphicx}</code></pre>
+<p>Next save your EPS graphic to a known location in the folder or subfolder where your <code>.tex</code> file resides. Then, insert the following code where you want your figure to appear in your compiled document.</p>
+<pre><code>\begin{figure}[thbp]
+\begin{center}
+\includegraphics[angle=0,width=5in]{pathToFigure/figureName.eps}
+\end{center}
+\caption{insert a figure caption here}
+\label{figureReferenceLabel}
+\end{figure}</code></pre>
+<p>In the above code the <code>[thbp]</code> arguments specify your order of preference for where you want the figure to be displayed, top of the page (<code>t</code>), in between the text where the code above was inserted (<code>h</code>, which stands for here), at the bottom of the page (<code>b</code>), or where ever it is possible (<code>p</code>). The angle argument can be used to rotate the figure (<code>angle=90</code> would rotate the figure 90 degrees counterclockwise while <code>angle=-90</code> would rotate the figure 90 degrees clockwise). The rest of the code should be self explanatory.</p>
+<p>Thats it; just make sure you compile using TeX and Ghostscript (if you are using TexShop on Mac OS X) instead of Pdftex because Pdftex does not handle EPS graphics. You would have to first convert your EPS to a PDF or JPG in order to compile using Pdftex. This is relatively easy to do using Preview on Mac OS X.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/04/physics-math-skills/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/04/physics-math-skills/" rel="bookmark" title="Permanent Link to What Math Skills are Necessary For Success in Conceptual Physics?">What Math Skills are Necessary For Success in Conceptual Physics?</a></h2>
+					<div class="meta">Posted April 30th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/physics/" rel="category tag">Physics</a> <a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" rel="category tag">Physics Tips</a></div>
+				</div>
+				<div class="entry">
+					<p>As a physics professor, I&#8217;ve discovered that there is one thing more than any other that prevents students from finding success in my conceptual physics course, proficiency in algebra. My conceptual physics course include a significant amount of problem solving and students who start the course without sufficient mastery of algebra are like students starting a English literature course without being able to read. If you are unsure of how prepared you are for conceptual physics, take the short algebra quiz below. If you score less than 4/5, you may want to think about taking a course in algebra to polish your skills before plunging into physics. The answers can be revealed by highlighting the white space below the last problem</p>
+<p>Solve for x.</p>
+<p><code>2x+5x=84</code></p>
+<p>7(x+2)=6x</p>
+<p>5 = 35/x</p>
+<p>12 = 10/x<sup>2</sup></p>
+<p>9x/2 = 1/x</p>
+<p><span style="color: #ffffff;"><code>12, -14, 7, 0.913, 0.471</code></span></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/mouse-trap-chain-reaction/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/mouse-trap-chain-reaction/" rel="bookmark" title="Permanent Link to Mouse Trap Chain Reaction">Mouse Trap Chain Reaction</a></h2>
+					<div class="meta">Posted January 27th, 2012. Filed under <a href="http://www.fiz-ix.com/category/everyday-physics/" rel="category tag">Everyday Physics</a></div>
+				</div>
+				<div class="entry">
+					<p><iframe width="480" height="360" src="http://www.youtube.com/embed/Pmy5fivI_4U" frameborder="0" allowfullscreen></iframe></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/making-typesetting-matrices-in-latex/#respond">0</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/making-typesetting-matrices-in-latex/" rel="bookmark" title="Permanent Link to Making (Typesetting) Matrices in LaTeX">Making (Typesetting) Matrices in LaTeX</a></h2>
+					<div class="meta">Posted January 26th, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a> <a href="http://www.fiz-ix.com/category/guides/programming/latex/" rel="category tag">LaTeX</a> <a href="http://www.fiz-ix.com/category/guides/programming/" rel="category tag">Programming</a></div>
+				</div>
+				<div class="entry">
+					<p>Below is code demonstrating how to typeset matrices in LaTeX using the array environment.</p>
+<pre><code>\begin{displaymath} Q = \left( \begin{array}{ccc} q_{11} &amp; q_{12} &amp; q_{13} \\
+q_{21} &amp; q_{22} &amp; q_{23} \\
+q_{31} &amp; q_{32} &amp; q_{33} \\
+\end{array} \right) \end{displaymath}</code></pre>
+<p>The code generates a three column matrix with the contents of each column centered (<code>{ccc}</code>). Using the <code>\left(</code> and <code>\right)</code> commands produce pretty parentheses that are the correct size to enclose the entire matrix. Of course, if you want a numbered equation in your document, replace <code>displaymath</code> with <code>equation</code>. Here is the typeset output of this code. Enjoy modifying it to fit your needs.</p>
+<p><a href="http://www.fiz-ix.com/wp-content/uploads/2012/01/latex_matrix.png"><img class="aligncenter size-full wp-image-335" title="latex_matrix" src="http://www.fiz-ix.com/wp-content/uploads/2012/01/latex_matrix.png" alt="" width="371" height="196" srcset="http://www.fiz-ix.com/wp-content/uploads/2012/01/latex_matrix-300x158.png 300w, http://www.fiz-ix.com/wp-content/uploads/2012/01/latex_matrix.png 371w" sizes="(max-width: 371px) 100vw, 371px" /></a></p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+				
+		<!-- Added by JGroff 7/31/11 to exclude some categories (7 and 23) from frontpage -->
+				<!-- end of addition here, more below -->
+		
+			<div class="post">
+				<div class="commentcount"><a href="http://www.fiz-ix.com/2012/01/introduction-to-arduino-interrupts-and-the-atmega328-analog-comparator/#comments">5</a></div>
+				<div class="title">
+					<h2><a href="http://www.fiz-ix.com/2012/01/introduction-to-arduino-interrupts-and-the-atmega328-analog-comparator/" rel="bookmark" title="Permanent Link to Introduction to Arduino Interrupts and the ATmega328 Analog Comparator">Introduction to Arduino Interrupts and the ATmega328 Analog Comparator</a></h2>
+					<div class="meta">Posted January 22nd, 2012. Filed under <a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" rel="category tag">Arduino</a> <a href="http://www.fiz-ix.com/category/guides/electronics/" rel="category tag">Electronics</a> <a href="http://www.fiz-ix.com/category/guides/" rel="category tag">Guides</a></div>
+				</div>
+				<div class="entry">
+					<p>Interrupts are exactly what they sound like. They are events that cause a microcontroller&#8217;s CPU to stop executing a main program in order to execute a snippet of code on the side. As an example, here I discuss how the analog comparator on the ATmega328 (Arduino Uno) can be configured to generate an interrupt. Let me first show you the code then I will tell you what it does.</p>
+<pre><code>void setup()
+{
+pinMode(7,INPUT);
+Serial.begin(9600);
+ACSR = B01011010; // comparator interrupt enabled and tripped on falling edge.
+}
+
+void loop()
+{
+}
+
+ISR(ANALOG_COMP_vect)
+{
+Serial.println("Interrupt Executed!")
+}
+</code></pre>
+<p>Now for the explanation. The 8-bit <code>ACSR</code> register (Analog Comparator Control and Status Register) has the following bit structure. </p>
+<p>ACSR &#8211; [ACD, ACBG, ACO, ACI, ACIE, ACIC, ACIS1, ACIS0]</p>
+<p>I won&#8217;t explain what all of these bits do, only the ones I am setting in the code. First, seting the ACBG (Analog Comparator Bandgap Select) bit to one tells the ATmega328 to apply its own internal bandgap voltage (about 1.1V) to the positive input of the comparator. The negative input is analog pin 7 on the Arduino. I set the ACI (Analog Comparator Interrupt Flag) bit to one (this clears the interrupt flag) because I am changing other settings and I don&#8217;t want these changes to accidently trigger an interrupt. The ACIE (Analog Comparator Interrupt Enable) bit is set so when the analog comparator output changes as specified by the ACISx bits, an interrupt is executed. Setting the <code>ACISx</code> bits to 10 triggers the interrupt on a falling edge occurring at the comparator output. Setting these bits differently will trigger the interrupt on any change of the comparator output (00), or on a rising edge (11). </p>
+<p>An aside about how the analog comparator works: The analog comparator output is high if the voltage applied to the positive input is greater then the voltage applied to the negative input. The output is low if the voltage applied to the positive input is less then that applied to the negative input. So, my setup will result in the comparator output going low when the voltage applied to Arduino pin 7 rises above 1.1 V (the bandgap reference voltage applied to the positive input). The falling edge occurring when this happens triggers the interrupt. This allows me to detect analog inputs above 1.1 V on pin 7 and do something when the input is detected. Now back to the explanation of the code above. </p>
+<p>When the interrupt is executed, the code contained in the <code>ISR(ANALOG_COMP_vect)</code> function is executed before the CPU returns to the main program. ISR stands for interrupt service request. Here, whenever the interrupt occurs, I am simply printing a message to the serial monitor.</p>
+				</div>
+			</div>
+		
+			<!-- More added by JGroff 7/31/11 to exclude some categories from frontpage -->
+						<!-- end of addition -->
+			
+						<div class="navigation">
+			<div class="alignleft"><a href="http://www.fiz-ix.com/author/jeff/page/18/" >&laquo; Older Entries</a></div>
+			<div class="alignright"><a href="http://www.fiz-ix.com/author/jeff/page/16/" >Newer Entries &raquo;</a></div>
+		</div>
+		
+	
+	</div>
+
+
+	<div id="sidebar">
+		<div id="search-3" class="widget widget_search"><h4 class="widgettitle">Search</h4>			<form method="get" id="sidebarsearch" action="http://www.fiz-ix.com" >
+				<label class="hidden" for="s">Search for:</label>
+				<div>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" /> 
+				</div>
+			</form>	
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Fiz-ix Image Ads - 250x250, created 1/16/08 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6753741789275748"
+     data-ad-slot="3702854422"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-22"><a href="http://www.fiz-ix.com/category/guides/electronics/arduino/" >Arduino</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.fiz-ix.com/category/notebooks/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.fiz-ix.com/category/guides/electronics/basics/" >Basics</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.fiz-ix.com/category/books/" >Books</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.fiz-ix.com/category/notebooks/calculators/" >Calculators</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.fiz-ix.com/category/notebooks/cartoons/" >Cartoons</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.fiz-ix.com/category/guides/diy/" >DIY</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.fiz-ix.com/category/guides/physics/dynamics/" >Dynamics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.fiz-ix.com/category/guides/physics/electricity-and-magnetism/" >Electricity and Magnetism</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.fiz-ix.com/category/guides/electronics/" >Electronics</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.fiz-ix.com/category/notebooks/energy/" >Energy</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.fiz-ix.com/category/everyday-physics/" >Everyday Physics</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.fiz-ix.com/category/fun/" >Fun</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.fiz-ix.com/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.fiz-ix.com/category/guides/" >Guides</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.fiz-ix.com/category/infographics/" >Infographics</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.fiz-ix.com/category/guides/programming/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.fiz-ix.com/category/guides/physics/kinematics/" >Kinematics</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.fiz-ix.com/category/labs/" >Labs</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.fiz-ix.com/category/guides/programming/latex/" >LaTeX</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.fiz-ix.com/category/guides/programming/matlab/" >MATLAB</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.fiz-ix.com/category/guides/physics/mcat-preparation/" >MCAT Preparation</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.fiz-ix.com/category/guides/microsoft-office/" >Microsoft Office</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.fiz-ix.com/category/notebooks/" >Notebooks</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.fiz-ix.com/category/guides/programming/perl/" >Perl</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.fiz-ix.com/category/personal/" >Personal</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://www.fiz-ix.com/category/guides/diy/photovoltaics/" >Photovoltaics</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.fiz-ix.com/category/labs/physical-computing/" >Physical Computing</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.fiz-ix.com/category/guides/physics/" >Physics</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.fiz-ix.com/category/notebooks/physics-concepts/" >Physics Concepts</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.fiz-ix.com/category/labs/physics-labs/" >Physics Labs</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.fiz-ix.com/category/guides/physics/physics-tips/" >Physics Tips</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.fiz-ix.com/category/guides/programming/processing/" >Processing</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.fiz-ix.com/category/guides/programming/" >Programming</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://www.fiz-ix.com/category/notebooks/reviews/" >Reviews</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.fiz-ix.com/category/guides/programming/shell/" >Shell</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.fiz-ix.com/category/simulations/" >Simulations</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://www.fiz-ix.com/category/guides/ubuntu/" >Ubuntu</a>
+</li>
+		</ul>
+</div><div id="linkcat-6" class="widget widget_links"><h4 class="widgettitle">Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.makezine.com" title="A Publication for Tinkerers" target="_blank">MAKE Magazine</a></li>
+<li><a href="http://www.sparkfun.com" title="Online Electronics Retail Store" target="_blank">SparkFun</a></li>
+<li><a href="http://www.tindie.com">tindie</a></li>
+<li><a href="http://www.xkcd.com" title="A Math and Science Webcomic" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+	</div>
+
+	</div>
+	<div id="footer">
+		<div class="left">&copy; 2011-2012 Fiz-ix. All rights reserved.</div>
+		<div class="right">Powered by <a href="http://www.wordpress.org">WordPress</a>. Theme by <a href="http://www.slimmity.com">Slimmity</a></div>
+	</div>
+</div>
+
+		<script type='text/javascript' src='http://www.fiz-ix.com/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+		
+<!-- Added by JGroff on 7/29/11 for Google Analytics Tracking -->
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2398397-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End of addition by JGroff 7/29/11 -->
+
+<!-- Added by JGroff on 8/5/11 for Google Adsense Google Analytics Integration -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-2398397-5";
+</script>
+		
+<!-- End of addition by JGroff 8/5/11 -->		
+		
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: www.fiz-ix.com @ 2016-07-13 16:46:24 by W3 Total Cache -->
